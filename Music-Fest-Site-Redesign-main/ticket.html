@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>www.islandmusicfest.com</title>
-    <link rel="stylesheet" href="involved-style.css" />
+    <link rel="stylesheet" href="ticket-style.css" />
     <link rel="stylesheet" href="base-style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="wrapper-width">
         <nav>
           <div class="header-links">
             <a href="homepage.html">home</a>
@@ -63,61 +63,126 @@
       </div>
     </header>
     <main>
-      <section class="get-involved">
+      <section class="hero">
         <div class="wrapper-width">
-          <h2>get involved</h2>
-          <img
-            src="images/get-involved/music-fest-water-crew.jpeg"
-            alt="music-fest water-crew with purple shirts denoating water crew"
-          />
-          <p>
-            each year is brought to live by pepole just like you. musicfest runs
-            each year thanks to an amazing team of volunteers, vendors and
-            sponsers, and we'd be thrilled to have you join us.
-          </p>
-          <section class="get-involved-volunteer">
-            <h3>volunteer at musicfest</h3>
-            <p>
-              over 1773 pepole volunteer at musicfest each year doing everything
-              from site construction to box office. it's a ton of fun and there
-              are great perks! find out more about volunteering at musicfest
-              below
-            </p>
-            <a
-              class="hyper-link-bold"
-              href="https://www.islandmusicfest.com/volunteer/"
-              >Volunteer applicants click here</a
-            >
-          </section>
-          <section class="get-involved-vendor">
-            <h3>be a musicfest vendor</h3>
-            <p>
-              have you got a cool local business that you think festers need to
-              know abbout? our vendor program gets you great exposure and
-              connects you to some great potential customers. find out more
-              about becoming a vendor below
-            </p>
-            <a class="hyper-link-bold" href="#"
-              >vendor applications are now closed</a
-            >
-          </section>
-          <section class="get-involved-sponser">
-            <h3>become a musicfest sponser</h3>
-            <p>
-              we chouldn't put on such a great show without the support of our
-              wonderful sponsors. All sorts of sponsorship opportunites exist
-              for organizations of any size. learn about how your oganization
-              can be a musicfest sponser.
-            </p>
-            <a href="sponsors.html">here</a>
-            <a class="hyper-link-bold">applicants click here</a>
-          </section>
+          <!--<h1><strong>Warning! This site is an student mock-up, and this ticket section is intended 
+                  for educational purposes, as a way for the student to learn html. do not put any 
+                  sensitive information in the form, if you do it will be deleted by the student
+                  and you will be notifed of it's deletion, however
+                  the information may be succeptiable to outside forces, such as phising./strong></h1>-->
+          <h2>vancouver island musicfest 2024 weekend passes</h2>
+          <p>comox valley exhibition grounds july 12, 2024 - july 14, 2024</p>
+          <a href="#music-fest-information">details</a>
         </div>
       </section>
+      <div class="ticket-form">
+        <div class="wrapper-width">
+          <img
+            src="images/tickets/tickets_price.png"
+            alt="ticket prices for musicfest."
+          />
+          <!--<h3>This is test to email an short test message to whoever inputs inside this form, please 
+              use an throwAway email, or an email generator when submitting with this form.</h3> -->
+          <p>ticket prices:</p>
+          <form method="post" action="ticket-form.php">
+            <label for="pepoleammo"
+              >ammount your'e expecting to bring for (campsite.)</label
+            >
+            <input
+              type="text"
+              id="pepoleammo"
+              name="pepoleammount"
+              placeholder="Ex: 1-6"
+            />
+
+            <label for="pepolename"
+              >what are the name of the pepole your bringing? (seperated by
+              commas)</label
+            >
+            <input
+              type="text"
+              id="pepolename"
+              name="pepoleName"
+              placeholder="Ex: Mike smith, Allsia Bryce etc."
+            />
+
+            <label for="email"
+              >Email<span class="label-required"></span>* (required)</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ex: Kolin@hotmail.com"
+              required
+            />
+            <fieldset>
+              <legend>choose your weekend pass:</legend>
+              <input
+                type="radio"
+                id="adult-weekend-pass"
+                name="weekendpass"
+                value="adult weekend pass"
+              />
+              <label for="adult-weekend-pass"
+                >$215.00 Adult Weekend Pass: </label
+              ><br />
+              <input
+                type="radio"
+                id="senior-weekend-pass"
+                name="weekendpass"
+                value="senior weekend pass"
+              />
+              <label for="senior-weekend-pass"
+                >(65+) $205.00 Senior Weekend Pass: </label
+              ><br />
+              <input
+                type="radio"
+                id="youth-weekend-pass"
+                name="weekendpass"
+                value="youth weekend pass"
+              />
+              <label for="youth-weekend-pass"
+                >(13-18) $125.00 Youth Weekend Pass: </label
+              ><br />
+              <input
+                type="radio"
+                id="child-weekend-pass"
+                name="weekendpass"
+                value="child weekend pass"
+              />
+              <label for="child-weekend-pass"
+                >(0-12) $0.00 Child Weekend Pass: </label
+              ><br />
+            </fieldset>
+            <label for="message"
+              >accommodations<span class="label-optional"
+                >* (optional)</span
+              ></label
+            >
+            <textarea
+              id="message"
+              name="message"
+              placeholder="please tell us your pottential accommodations"
+            >
+            </textarea>
+            <p>
+              July 12,13 & 14th<br />COMOX VALLEY EXHIBITION GROUNDS<br />4839
+              Headquarters Rd, Courtenay BC<br />
+              NO REFUNDS OR EXCHANGES<br />GATES BEGIN: FRIDAY JULY 12th 3:00 pm
+              GATES CLOSE AT 11:00pm NIGHTLY
+            </p>
+            <div class="wrapper-button">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="wrapper-width">
-        <div class="footer-logo's">
+        <div class="footer-logo">
           <a href="https://www.facebook.com/vimusicfest/"></a>
           <img
             src="images/Footer/606432_facebook_2048x2048.png"

@@ -1,13 +1,27 @@
-html {
-    font-size: 62.5%;
+/* STYLES ----------------------------------
+1. Global settings (resets such as border-box)
+2. Typography (headings, paragraphs, lists, buttons)
+3. Layout structure (body, header, footer, sidebar)
+4. Content blocks (cards, tables, forms, calls-to-action block)
+5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
+6. Page-specific (styles specific to individual locations)
+-----------------------------------------------------*/
+
+/* ===============
+    GLOBAL SETTINGS
+   =============== */
+
+   * {
+    box-sizing: border-box;
 }
 
+/* ===============
+    TYPOGRAPHY
+     =============== */
+
 body {
+    font-size: 0.8rem;
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.6rem;
-    background-color: #010626;
-    color: #8B9DFD;
-    margin: 0;
 }
 
 a {
@@ -15,35 +29,154 @@ a {
     text-decoration: none;
 }
 
-
-
-/* Class Selectors */
-
-.bold {
-    font-weight: bold;
+h2 {
+    font-size: 1.6rem;
+    color: #7EEAFB;
 }
 
-.underline {
-    text-decoration: underline;
+p {
+    font-size: 1.0rem;
+    color: #8B9DFD;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
+ul li::before {
+    color: #7EEAFB;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+    /* ===============
+    STRUCTURE
+     =============== */
+
+
+html {
+    font-size: 62.5%;
 }
 
 .wrapper-width {
     width: 100%;
+    margin: auto;
     overflow: auto;
+
 }
+
+
+
+body {
+    font-size: 1.6rem;
+    background-color: #010626;
+    color: #8B9DFD;
+    margin: 0;
+}
+
+/* this is primarly used for testing purposes and should be deleted/removed after editing header/footer selectors or
+ the [name]-style inputs. */ 
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+    /* ===============
+        HEADER
+     =============== */
+
+header .wrapper-width {
+    width: 100%;
+}
+
+nav {
+    margin: auto;
+    width: 90%;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dropdown {
+    margin-left: 0.6em;
+}
+
+
+
+    /* ===========
+        DROPDOWN 
+    ============== */
+
+/* Most code snippets are taken from:
+https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
+  */
+.show {
+    display: block;
+}
+
+#nav-items {
+    display: none;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4C4CE1;
+    min-width: 140px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
+}
+
+.dropdown a:hover {
+    background-color: #4F9EF3;
+}
+
+    
+.dropdown-options a {
+    display: block;
+    text-decoration: none;
+    
+}
+    
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+/* ===============
+    FOOTER
+    =============== */
 
 .footer-logo a {
     width: 6em;
     height: 6em;
 }
+
 .footer-logo img {
     width: 6em;
     height: 6em;
 }
+
+footer {
+    overflow: auto;
+}
+
+/* Class Selectors */
+
 /* footer and header sections */
 
 header .wrapper-width {
-    width: 85%;
+    width: 100%;
     
 }
 nav {
@@ -52,7 +185,6 @@ nav {
 
 .header-links {
     position: relative;
-    /* width: 3em; */
 }
 
 .dropdown-options {
