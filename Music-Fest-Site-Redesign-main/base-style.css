@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.6rem;
+    background-color: #010626;
+    color: #8B9DFD;
+    margin: 0;
+}
+
+a {
+    color: #7EEAFB;
+    text-decoration: none;
+}
+
+
+
+/* Class Selectors */
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.wrapper-width {
+    width: 100%;
+    overflow: auto;
+}
+
+.footer-logo a {
+    width: 6em;
+    height: 6em;
+}
+.footer-logo img {
+    width: 6em;
+    height: 6em;
+}
+/* footer and header sections */
+
+header .wrapper-width {
+    width: 85%;
+    
+}
+nav {
+    margin: auto;
+}
+
+.header-links {
+    position: relative;
+    /* width: 3em; */
+}
+
+.dropdown-options {
+    background-color: #010626;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-options a {
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+footer {
+    overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
