@@ -15,9 +15,15 @@
     box-sizing: border-box;
 }
 
+
+
 /* ===============
     TYPOGRAPHY
      =============== */
+
+p, h1, h2, h3, h4, h5, a {
+    text-transform: capitalize;
+}
 
 body {
     font-size: 0.8rem;
@@ -34,14 +40,28 @@ h2 {
     color: #7EEAFB;
 }
 
+i {
+    padding: 10% 50% 10% 50%;
+    display: block;
+    text-align: center;
+    transform: scale(2.00);
+}
+
+
 p {
     font-size: 1.0rem;
     color: #8B9DFD;
 }
 
-ul {
+ul a {
     list-style-type: none;
+    font-size: 8.5rem;
 }
+
+
+
+
+
 
 /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
 ul li::before {
@@ -77,13 +97,26 @@ body {
     margin: 0;
 }
 
+/* =============
+    CONTENT BLOCKS
+    ============ */
+
+iframe {
+    width: 10%;
+    height: 25%;
+}
+
 /* this is primarly used for testing purposes and should be deleted/removed after editing header/footer selectors or
  the [name]-style inputs. */ 
 
 img {
+    display: block;
+    margin: auto;
     height: 200px;
     width: 200px;
 }
+
+
 
     /* ===============
         HEADER
@@ -100,14 +133,15 @@ nav {
 
 .header-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 
-.dropdown {
-    margin-left: 0.6em;
+header img {
+    /* width: 1.5em; */
+    /* height: 0.6em; */
+    padding: 10px;
 }
-
 
 
     /* ===========
@@ -117,6 +151,11 @@ nav {
 /* Most code snippets are taken from:
 https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
   */
+
+.dropdown {
+    margin-left: 0.6em;
+}
+
 .show {
     display: block;
 }
@@ -212,6 +251,10 @@ footer {
 }
 
 @media only screen and (max-width: 1200px) {
+.wrapper-width {
+    max-width: 1170px;
+
+}
 
 }
 
