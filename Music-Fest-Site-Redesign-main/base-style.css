@@ -55,10 +55,18 @@ p {
 
 ul a {
     list-style-type: none;
-    font-size: 8.5rem;
+    font-size: 2.5rem;
 }
 
+li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
 
+.dropdown-options li a {
+    font-size: 1.6rem;
+}
 
 
 
@@ -89,7 +97,6 @@ html {
 }
 
 
-
 body {
     font-size: 1.6rem;
     background-color: #010626;
@@ -105,6 +112,7 @@ iframe {
     width: 10%;
     height: 25%;
 }
+
 
 /* this is primarly used for testing purposes and should be deleted/removed after editing header/footer selectors or
  the [name]-style inputs. */ 
@@ -140,7 +148,19 @@ nav {
 header img {
     /* width: 1.5em; */
     /* height: 0.6em; */
-    padding: 10px;
+    padding: 45px 0 45px 0;
+    width: 15em;
+    height: 15em;
+}
+
+.header-links i {
+    position: absolute;
+    margin-left: -16em;
+    margin-top: -2.5em
+}
+
+.header-links li{
+    padding-top: 40px;
 }
 
 
