@@ -53,21 +53,6 @@ p {
     color: #8B9DFD;
 }
 
-ul a {
-    list-style-type: none;
-    font-size: 2.5rem;
-}
-
-li {
-    list-style-type: none;
-    font-size: 0.8rem;
-    padding-top: 10px;
-}
-
-.dropdown-options li a {
-    font-size: 1.6rem;
-}
-
 
 
 
@@ -107,11 +92,6 @@ body {
 /* =============
     CONTENT BLOCKS
     ============ */
-
-iframe {
-    width: 10%;
-    height: 25%;
-}
 
 
 /* this is primarly used for testing purposes and should be deleted/removed after editing header/footer selectors or
@@ -161,6 +141,21 @@ header img {
 
 .header-links li{
     padding-top: 40px;
+}
+
+.header-links a {
+    list-style-type: none;
+    font-size: 2.5rem;
+}
+
+header .wrapper-width ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+.dropdown-options li a {
+    font-size: 1.6rem;
 }
 
 
@@ -229,6 +224,108 @@ https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=
 footer {
     overflow: auto;
 }
+
+footer img {
+    
+    width: 45%;
+    height: 45%;
+    padding-top: 15px;
+}
+
+footer ul {
+    font-size: 3.8rem;
+    list-style-type: none;
+}
+
+footer h4 {
+    color: #4F9EF3;
+    font-size: 2.5rem;
+    list-style-type: none;
+}
+
+footer li a {
+    font-size: 2.1rem;
+    color: #7EEAFB;
+
+}
+
+.footer-logo img {
+    position: relative;
+    width: 3.5em;
+    height: 3.5em;
+    top: -2em;
+    left: -1.7em;
+
+}
+
+.information, .contact {
+    margin: 0 1em 0 0;
+}
+
+footer .wrapper-width {
+    background-color: #4C4CE1;
+}
+
+.footer-logo {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer-funders-sponsers {
+    margin-top: -1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-funders-sponsers a {
+    font-size: 1.6rem;
+    margin: auto;
+    padding: 3em 0 2em 0;
+
+}
+
+.footer-hyperlinks-and-location {
+    text-align: center;
+}
+.footer-funders-sponsers h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 2em 0 2em;
+}
+
+.footer-hyperlinks-and-location ul, .footer-hyperlinks-and-location li {
+    text-decoration-style: none;
+}
+
+.foooter-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 3em 0;
+}
+
+.foooter-footer a {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.foooter-footer h2 {
+    align-self: flex-end;
+    font-size: 1.8rem;
+    text-align: center;
+    position: relative;
+    right: 2.5em;
+    top: 1.5em;
+
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+
 
 /* Class Selectors */
 
