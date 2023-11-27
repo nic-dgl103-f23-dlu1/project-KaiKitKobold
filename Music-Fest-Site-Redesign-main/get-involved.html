@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="base-style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/fontawesome.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Oxygen:wght@400;700&display=swap"
       rel="stylesheet"
@@ -16,51 +17,64 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="wrapper-width">
         <nav>
-          <div class="header-links">
-            <a href="homepage.html">home</a>
-            <button type="button">performers</button>
-            <div class="dropdown-options">
-              <a href="2023-performers.html">2023 performers</a>
-              <a href="apply-to-peform.html">apply to perform</a>
-              <a href="past-performances.html">past performances</a>
-            </div>
-            <button type="button">information</button>
-            <div class="dropdown-options">
-              <a href="about-us.html">about us</a>
-              <a href="audience-information.html">audience information</a>
-              <a href="camping.html">camping</a>
-              <a href="comox-valley-folk-society.html"
-                >comox valley folk socitey</a
-              >
-              <a href="contact-us.html">contact us</a>
-              <a href="faq.html">FAQ</a>
-              <a href="important-fire-information.html"
-                >important fire information</a
-              >
-              <a href="the-stages-at-musicfest.html">the stages at musicfest</a>
-            </div>
-            <button type="button">get involved</button>
-            <div class="dropdown-options">
-              <a href="become-a-sponser.html">become a sponser</a>
-              <a href="vendors.html">vendors</a>
-              <a href="volunteer.html">volunteer</a>
-            </div>
-            <a href="sponsers.html">sponsers</a>
-            <a href="festival-acess.html">festival acess</a>
-            <a href="schedules.html">schedules</a>
-            <a href="musicfest-playlist"></a>
+          <i onclick="showHide()" class="fa-solid fa-bars"></i>
+          <div id="nav-items">
+            <ul class="header-links">
+              <li><a href="homepage.html">home</a></li>
+              <li class="dropdown">
+                <a href="2023-performers.html">performers</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownPerformers()" class="dropdown-options">
+                  <li id="dropdown1" class="dropdown-content">
+                    <li><a href="apply-to-peform.html">apply to perform</a></li>
+                    <li><a href="past-performances.html">past performances</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="audience-information.html">audience information</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownAudience()" class="dropdown-options">
+                  <li id="dropdown2" class="dropdown-content">
+                    <li><a href="about-us.html">about us</a></li>
+                    <li><a href="camping.html">camping</a></li>
+                    <li><a href="comox-valley-folk-society.html">comox valley folk society</a></li>
+                    <li><a href="contact-us.html">contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="important-fire-information.html">important fire information</a></li>
+                    <li><a href="the-stages-at-musicfest.html">the stages at musicfest</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="get-involved.html">get involved</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownInvolved()" class="dropdown-options">
+                  <li id="dropdown3" class="dropdown-content">
+                    <li><a href="become-a-sponser.html">become a sponser</a></li>
+                    <li><a href="vendors.html">vendors</a></li>
+                    <li><a href="volunteer.html">volunteer</a></li>
+                    <li><a href="sponsers.html">sponsers</a></li>
+                    <li><a href="festival-acess.html">festival acess</a></li>
+                    <li><a href="schedules.html">schedules</a></li>
+                    <li><a href="musicfest-playlist">music fest playlist</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="ticket.html">tickets</a></li>
+            </ul>
           </div>
+        </nav>
           <div class="header-logo">
             <a href="homepage.html"></a>
             <img
               src="images/Header/vancouver-island-music-fest-logo.png"
               alt="vancouver island's music fest logo"
-            />
+              />
           </div>
-        </nav>
-      </div>
+        </div> 
     </header>
     <main>
       <section class="get-involved">
@@ -117,7 +131,7 @@
     </main>
     <footer>
       <div class="wrapper-width">
-        <div class="footer-logo's">
+        <div class="footer-logo">
           <a href="https://www.facebook.com/vimusicfest/"></a>
           <img
             src="images/Footer/606432_facebook_2048x2048.png"
@@ -138,9 +152,9 @@
           <a href="https://musicfest.tickit.ca/musicfestdonation#"></a>
           <img src="images/Footer/donation-icon.png" alt="donation icon" />
         </div>
-        <section class="footer-funders-@-sponsers">
+        <section class="footer-funders-sponsers">
           <h3>
-            vancouver island musicfest thanks out kind funders and sponsers
+            vancouver island musicfest thanks our kind funders and sponsers
           </h3>
           <a href="https://www2.gov.bc.ca/gov/content/home"></a>
           <img
@@ -161,40 +175,38 @@
           <a href="sponsers.html">our sponsers</a>
         </section>
         <section class="footer-hyperlinks-and-location">
-          <section class="information">
-            <h4>information:</h4>
-            <!--Since it is not applicable it needs to be stirked though.-->
-            <a class="inactive-toggle" href="#">tickets</a>
-            <a href="2023-performers">performers</a>
-            <a href="https://oldchurchtheatreshows.com">old church theatre</a>
-            <a href="audience-information.html">audience information</a>
-          </section>
-          <section class="contact">
-            <a href="contact-us.html">contact-us</a>
-            <a href="comox-valley-folk-society">comox valley folk socitey</a>
-            <a href="FAQ.html">FAQ</a>
-          </section>
+          <ul class="information">
+            <li><h4>information:</h4></li>
+            <li><a href="ticket.html">- tickets</a></li>
+            <li><a href="2023-performers">- performers</a></li>
+            <li><a href="https://oldchurchtheatreshows.com">- old church theatre</a></li>
+            <li><a href="audience-information.html">- audience information</a></li>
+            </ul>
+          <ul class="contact">
+            <li><h4>contact:</h4></li>
+            <li><a href="contact-us.html">- contact-us</a></li>
+            <li><a href="comox-valley-folk-society">- comox valley folk socitey</a></li>
+            <li><a href="FAQ.html">- FAQ</a></li>
+          </ul>
           <div class="location">
-            <a
-              href="https://www.google.com/maps/place/Comox+Valley+Exhibition+Grounds/@49.7072355,-125.0082295,17z/data=!3m1!4b1!4m6!3m5!1s0x548813fc7b34fdf1:0xc9bb4f963185a3a5!8m2!3d49.7072355!4d-125.0056546!16s%2Fg%2F1vhkk7dl?entry=ttu"
-              >Comox Valley Exhibition Grounds 4839 Headquarters Rd, Courtenay,
-              BC V9J 1P2</a
-            >
+            <h4>location:</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.8714930758824!2d-125.00822668875898!3d49.70683548067526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813fc7b34fdf1%3A0xc9bb4f963185a3a5!2sComox%20Valley%20Exhibition%20Grounds!5e0!3m2!1sen!2sca!4v1700927184366!5m2!1sen!2sca"
+            style="border:0;" width="95%" height="250em" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <section class="foooter-footer">
-            <a href="https://www.islandmusicfest.com/privacy-policy/"
-              >privacy policy</a
-            >
+            <a href="https://www.islandmusicfest.com/privacy-policy/">privacy policy</a>
             <h2>2023 Vancouver Island MusicFest</h2>
-            <p>
-              This is a fictional website that was designed and coded as an
-              educational exercise. It is not intended to be seen outside of the
-              class environment. None of the content and images were approved by
-              the business owner.
-            </p>
           </section>
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner.
+              </p>
         </section>
       </div>
     </footer>
+    <script src="global-javascript.js">
+    </script>
   </body>
 </html>

@@ -1,8 +1,24 @@
+/* STYLES ----------------------------------
+1. Global settings (resets such as border-box)
+2. Typography (headings, paragraphs, lists, buttons)
+3. Layout structure (body, header, footer, sidebar)
+4. Content blocks (cards, tables, forms, calls-to-action block)
+5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
+6. Page-specific (styles specific to individual locations)
+-----------------------------------------------------*/
 
 
-/* == HERO == */
+
+/*
+    ===========
+        HERO
+    =========== */
+    
+
+
 .hero {
     overflow: auto;
+    padding-bottom: 3em;
 }
 
 
@@ -20,12 +36,73 @@
     opacity: 0.6;
 }
 
-/* == ABOUT US == */ 
-.about-us {
-    overflow: auto;
+.hero h2 {
+    text-align: center;
+    padding: 2em 0em 2em 0em;
 }
 
+.hero a {
+    border: 0.3em solid #2A72F7; 
+    background-color: #000C5A;
+    border-radius: 4em;
+    padding: 15px;
+    width: 55%;
+    display: block;
+    margin:auto;
+    text-align:center
+}
 
+.hero video {
+    padding: 3em 0 3em 0;
+}
+
+/* == ABOUT US == */ 
+
+.about-us {
+    margin: 2em 0 2em 0;
+    padding-top: 3em;
+    overflow: auto;
+    width: 85%;
+    background-color: #000C5A;
+    border-radius: 3em;
+    margin: auto;
+    display: block;
+}
+
+.about-us .wrapper-width {
+    margin: auto;
+    padding: 5em 0 0 0;
+}
+
+.about-us h2, .about-us p, .about-us a {
+    position: relative;
+    top: -5.8em;
+    text-align: center;
+    display: block;
+}
+
+.about-us h2 {
+    margin-top: 35px;
+    font-size: 2.0rem;
+}
+
+.about-us p {
+    margin: 1.5em 0 0 0;
+    font-size: 1em;
+}
+
+.about-us a {
+    position: relative;
+    top: -2em;
+    color: #7EEAFB;
+    background-color: #000C5A;
+    border: 0.25em solid #7EEAFB;
+    border-radius: 2em;
+    padding: 0.50em;
+    display: block;
+    margin: auto;
+    width: 45%;
+}
 /* == CALL TO ACTION == */ 
 
 
@@ -33,14 +110,153 @@
     overflow: auto;
 }
 
+.call-to-article {
+    width: 95%;
+    border-radius: 1em;
+    margin: auto;
+    padding: 3em 0 3em 0;
+    background-color: #7EEAFB;
 
-/* == PERFORMERS AND PERFORMANCE == */
+}
 
-/* == GET INVOLVED == */ 
+.call-to-action .call-to-article {
+    padding-bottom: 3.5em;
+    margin-top: 1em;
+}
+
+.call-to-article img {
+    position: relative;
+    top: -15px;
+    border-radius: 1em;
+}
+.call-to-article h3 {
+    position: relative;
+    text-align: center;
+    top: -1em;
+    font-size: 2.3rem;
+    color: #2A72F7;
+}
+
+.call-to-article a {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    border: 0.55em solid #000C5A;
+    border-radius: 1.2em;
+    background-color: #2A72F7;
+    padding: 1em 0 1em 0;
+    color: #000C5A;
+    display: block;
+}
+
+.call-to-action p {
+    font-size: 1.3rem;
+    padding: 1em 2em 0 0;
+    margin: 1em 1em 1em 1em;
+    text-align: center;
+    color: #2A72F7;
+}
+
+/* == GET INVOLVED == */
+
+
+.get-involved .wrapper-width{
+    padding-top: 30px;
+}
+
+.get-involved .wrapper-width{
+    background-color: #2A72F7;
+    width: 95%;
+    border-radius: 0.8em;
+}
+
+.get-involved h3 {
+    font-size: 1.5rem;
+    margin: 1.0em 1.5em 2.0em 1.5em;
+    text-align: center;
+    color: #8B9DFD;
+    padding: 10px;
+}
+
+.get-involved h4 {
+    text-align: center;
+    padding: 3em;
+    margin: 2em 2em 0 0;
+    font-size: 1.3rem;
+    color: #000C5A;
+    border-radius: 0.5em;
+}
+
+.get-involved p {
+    color: #000C5A;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.get-involved a {
+    background-color: #000C5A;
+    width: 50%;
+    padding: 1em 0 1em;
+    font-size: 1.3rem;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: 0.4em solid #000C5A;
+    border-radius: 0.5em;
+}
+
+.get-involved-content {
+    background-color: #2A72F7;
+    border: 0.5em solid #000C5A;
+    border-radius: 1em;
+}
+
+.get-involved h3 {
+    background-color: #000C5A;
+    color: #2A72F7;
+    border-radius: 1em;
+}
+
+.get-involved-content h4 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin:  -5px;
+}
+
+.get-involved-content p {
+    margin: -20px 0 0 0;
+    padding: 0 0 60px 0;
+    font-size: 1.4rem;
+}
+
+.get-involved-content a {
+    margin: 0px 200px 30px 85px;
+    
+}
+
+.komosos-section {
+    padding: 2em 0 2em 0;
+}
+
+.komosos-section img {
+    margin: 1.5em 5.0em 1.5em 5.9em;
+}
+
+.komosos-section h5 {
+    text-align: center;
+}
+
+.komosos-section a {
+    background-color: #000C5A; 
+    border: 0.4em solid #2A72F7;
+    border-radius: 3em;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
 
 /* == KOMOSOS SECTION == */
-
-
 
 
 
