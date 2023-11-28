@@ -50,6 +50,62 @@
 
 @media only screen and (max-width: 768px) {
 
+/* STYLES ----------------------------------
+1. Global settings (resets such as border-box)
+2. Typography (headings, paragraphs, lists, buttons)
+3. Layout structure (body, header, footer, sidebar)
+4. Content blocks (cards, tables, forms, calls-to-action block)
+5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
+6. Page-specific (styles specific to individual locations)
+-----------------------------------------------------*/
+
+.get-involved {
+    width: 33.3%;
+    padding: 1.3em;
+    margin: 1.3em;
+    float: left;
+}
+
+.get-involved h2 {
+    background-color: #2A72F7; 
+    width: 75%;
+    margin: auto;
+    padding: 0.9em;
+    text-align: center;
+}
+
+.get-involved img {
+    width: 100%;
+    margin: 1.8em -1.8em 0 -1.8em;
+    height: 29.1em;
+}
+
+
+.get-involved p {
+    color: #2A72F7;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.get-involved h3 {
+    text-align: center;
+    padding: 1.5em;
+}
+
+.get-involved a {
+    background-color: #000C5A;
+    width: 75%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.3rem;
+    border-radius: 3em;
+    border: 0.3em solid #2A72F7;
+}
+
+
+
 }
 
 @media only screen and (max-width: 1200px) {
