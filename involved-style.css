@@ -8,7 +8,7 @@
 -----------------------------------------------------*/
 
 .get-involved {
-    padding: 1.5em 0 4em
+    padding: 1.5em 0 4em 0;
 }
 
 .get-involved h2 {
@@ -59,11 +59,42 @@
 6. Page-specific (styles specific to individual locations)
 -----------------------------------------------------*/
 
-.get-involved {
-    width: 33.3%;
-    padding: 1.3em;
+
+.involved h2 {
+    font-size: 2.8rem;
+    text-align: center;
     margin: 1.3em;
+}
+
+.involved p {
+    margin: 2.8em 1.3em 1.1em 1.3em;
+    text-align: center;
+    font-size: 1.85rem;
+}
+
+.involved img {
+    margin: auto;
+    width: 85%;
+    height: 32.3em
+}
+
+
+.get-involved { 
+    transform: scale(0.8);
+    border: 0.2em solid #2A72F7;
     float: left;
+    width: calc(33.3% - 1.0em);
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.get-involved h3 {
+    margin: auto;
+    width: 85%;
+    border-radius: 3.8rem;
+    border: 0.3em solid #7EEAFB;
+    font-size: 1.9rem;
+    color: #7EEAFB;
 }
 
 .get-involved h2 {
@@ -99,11 +130,16 @@
     display: block;
     text-align: center;
     padding: 1em 0;
-    font-size: 1.3rem;
-    border-radius: 3em;
+    font-size: 1.9rem;
+    border-radius: 1em;
     border: 0.3em solid #2A72F7;
 }
 
+.volunteer, .vendor, .sponser {
+    position: relative;
+    top: 0.6em;
+    height: 61.9em;
+}
 
 
 }
