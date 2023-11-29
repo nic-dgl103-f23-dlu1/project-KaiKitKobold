@@ -417,7 +417,7 @@ footer {
     overflow: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     /* STYLES ----------------------------------
 1. Global settings (resets such as border-box)
 2. Typography (headings, paragraphs, lists, buttons)
@@ -530,7 +530,7 @@ img {
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 .wrapper-width {
     max-width: 1170px;
     margin: auto;
