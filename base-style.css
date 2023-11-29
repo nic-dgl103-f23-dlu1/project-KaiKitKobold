@@ -104,6 +104,60 @@ img {
     width: 200px;
 }
 
+/*  ===============
+        TABLES 
+    =============== */
+
+    thead, tbody {
+        text-transform: capitalize;
+    }
+    
+    
+    caption {
+        /* width: 100%; */
+        margin: 1.3em 0 0.85em 0;
+        border: 0.35em solid #7EEAFB;
+        padding: 0.35em;
+        color: #7EEAFB;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+    }
+    
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #3BABFD;
+        color: white;
+    }
+    
+    .gate-times tr:nth-child(even) {
+        background-color: #000C5A;
+        color: #7EEAFB;
+    }
+    
+    tr:nth-child(odd) {
+        color: #3BABFD;
+        background-color: #0B409E;
+    }
+    
+    tbody tr:hover {
+        background-color: #060e47;
+    }
+    
+    td.merge {
+        text-align: center;
+        font-style: italic;
+    }
+    
+    tfoot {
+        font-size: 0.8em;
+        font-style: italic;
+        text-align: center;
+        background-color: #c5c5c5;
+    }
+    
+
 
 
     /* ===============

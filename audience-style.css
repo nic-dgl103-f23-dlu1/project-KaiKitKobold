@@ -19,60 +19,6 @@ ul, li {
 }
 
 
-/*  =================
-        CONTENT
-    ================= */
-
-.thead, tbody {
-    text-transform: capitalize;
-}
-
-
-caption {
-    /* width: 100%; */
-    margin: 1.3em 0 0.85em 0;
-    border: 0.35em solid #7EEAFB;
-    padding: 0.35em;
-    color: #7EEAFB;
-    font-size: 1.8rem;
-    text-transform: capitalize;
-}
-
-th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #3BABFD;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #000C5A;
-}
-
-tr:nth-child(odd) {
-    background-color: #0B409E;
-}
-
-tbody tr:hover {
-    background-color: #060e47;
-}
-
-td.merge {
-    text-align: center;
-    font-style: italic;
-}
-
-tfoot {
-    font-size: 0.8em;
-    font-style: italic;
-    text-align: center;
-}
-
-tfoot td {
-    background-color: #060e47;
-}
-
 /*  ============
         HERO    
     ============ */
@@ -218,6 +164,10 @@ h3, h4, p {
     top: -1.2em;
     left: 10em;
 }
+
+/*  ==================================
+        BUS FEES AND VANIER PARKING 
+    ================================== */
 
 .bus-fee-and-vanier-parking {
     background-color: #060e47;
@@ -383,11 +333,439 @@ h3, h4, p {
     color: #3BABFD;
 }
 
-
-
-
-
 @media only screen and (max-width: 768px) {
+
+    /*  =================
+        CONTENT
+    ================= */
+
+.thead, tbody {
+    text-transform: capitalize;
+}
+
+/*  =================
+        TABLE 
+    ================= */
+
+caption {
+    /* width: 100%; */
+    margin: 1.3em 0 0.85em 0;
+    border: 0.35em solid #7EEAFB;
+    padding: 0.35em;
+    color: #7EEAFB;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3BABFD;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #000C5A;
+}
+
+tr:nth-child(odd) {
+    background-color: #0B409E;
+}
+
+tbody tr:hover {
+    background-color: #060e47;
+}
+
+td.merge {
+    text-align: center;
+    font-style: italic;
+}
+
+tfoot {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #060e47;
+}
+
+/*  ============
+        HERO    
+    ============ */
+
+.hero h2 {
+    width: 65%;
+    border: 0.2em solid #7EEAFB;
+    border-radius: 1.0rem;
+    color: #7EEAFB;
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 0.4em;
+    margin: auto;
+}
+
+.hero img {
+    width: 95%;
+    height: 21.9em;
+    border-radius: 0.8em;
+    margin: 1em 0 4em 1.10em;
+}
+
+.hero p {
+    padding: 0.8em;
+    border-radius: 0.5em;
+    border: 0.1em solid #3BABFD;
+    color: #3BABFD;
+    width: 80%;
+    margin: 0.8em 1.1em 3.65em 3.5em;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/*  ====================
+        FIRE SECTION
+    ==================== */
+
+.fire-section {
+    background-color: #060e47;
+    float: left;
+    margin: 0.8em;
+    width: calc(50% - 1.6em);
+}
+
+/*  =================
+        FIRE PLAN
+    ================= */
+
+.fire-plan {
+    height: 44.8em;
+    padding-bottom: 1.1em;
+    background-color: #060e47;
+}
+
+.fire-plan h3 {
+    width: 75%;
+    text-align: center;
+    border-radius: 1.3em;
+    padding: 0.3em;
+    margin: auto;
+    background-color: #000C5A;
+}
+
+.fire-plan.fire-section p {
+    color: #3BABFD;
+    text-align: center;
+    margin-top: -0.7em;
+    line-height: 2.1em;
+    font-size: 1.8rem;
+    padding: 1.6rem;
+}
+
+.fire-plan a {
+    position: relative;
+    top: -0.6em;
+    left: 7.8em;
+    padding: 0.30em 1.1em 0.30em 1.1em;
+    text-align: center;
+    border: 0.3em solid #3BABFD;
+    border-radius: 0.8em;
+    color: #3BABFD;
+    background-color: #060e47;
+}
+
+/*  ==================================
+        CIGARATTES AND STOVES
+    ================================== */
+
+.cigarattes-and-stoves {
+    margin: 1.3em 1.3em 1.3em 2.3em;
+    height: 80%;
+    width: 80%;
+    background-color: #060e47;
+}
+
+.cigarattes-and-stoves.fire-section h3 {
+    border: 0.3em solid #060e47;
+    background-color: #060e47;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #2A72F7;
+}
+
+.cigarattes-and-stoves img {
+    margin: 1.75em 1.75em 0.95em 3.1em;
+    border-radius: 1.8rem;
+}
+
+.fire-section p {
+    color: #2A72F7;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+/*  ======================
+    GETTING HERE SHUTTLE
+    ====================== */
+
+.getting-here-shuttle{
+    background-color: #000C5A;
+}
+
+h3, h4, p {
+    text-align: center;
+}
+
+.getting-here-shuttle h3{
+    font-size: 2.3rem;
+    color: #7EEAFB;
+
+}
+
+.getting-here-shuttle h4 {
+    font-size: 2.0rem;
+    color: #2A72F7;
+
+}
+
+.getting-here-shuttle p {
+    font-size: 1.6rem;
+    color: #3BABFD;
+}
+
+.getting-here-shuttle a {
+    display: block;
+    font-size: 2.3rem;
+}
+
+.getting-here-shuttle img {
+    width: 4.3em;
+    height: 4.3em;
+}
+
+.press-church.location-logo {
+    position: relative;
+    top: 1.40em;
+    left: -14.5em;
+}
+
+.driftwood-mall.location-logo {
+    position: relative;
+    top: -7.1em;
+    left: 13.3em;
+
+}
+
+p.press-church {
+    font-size: 2.1rem;
+    color: #7EEAFB;
+    position: relative;
+    top: 2.30em;
+    left: -11.3em;
+}
+
+p.driftwood-mall {
+    font-size: 2.1rem;
+    color: #7EEAFB;
+    position: relative;
+    top: -4.0em;
+    left: 10.3em;
+}
+
+/*  ========================
+        SHUTTLE TIMES
+    ======================== */
+.shuttle-times table {
+    position: relative;
+    top: -3.53em;
+    right: -7.21em;
+    transform: scale(75%);
+    transform: scaleY(125%);
+    height: 1.3em;
+}
+
+/*  =============================
+    BUS FEES AND VANIER PARKING
+    ============================= */
+
+
+.bus-fee-and-vanier-parking {
+    background-color: #060e47;
+}
+
+.bus-fee-and-vanier-parking h4 {
+    padding: 1.3em 0 1.3em 0;
+    color: #7EEAFB;
+    font-size: 4.6rem;
+}
+
+.bus-fee-and-vanier-parking ul {
+    margin: 1.4em 0 2.1em 0;
+}
+
+.bus-fee-and-vanier-parking li {
+    font-size: 2.1rem;
+    color: #3BABFD;
+    margin: 0.7em 0.9em 1.0em 0;
+}
+
+.bus-fee-and-vanier-parking p {
+    font-size: 2.0rem;
+    padding: 1.4em;
+}
+
+/*  ===================
+        FESTIVAL HOSTS
+    =================== */
+
+
+
+.festival-hosts {
+    background-color: #000C5A;
+    width: 85%;
+    margin: auto;
+    border-radius: 1.3em;
+}
+
+.festival-hosts h3 {
+    font-size: 2.6rem;
+    color: #3BABFD;
+}
+
+.festival-hosts img {
+    border-radius: 0.8em;
+}
+
+.festival-hosts p {
+    color: #2A72F7;
+    font-size: 1.9rem;
+}
+
+
+/*  ===================
+        GATE TIMES
+    =================== */
+
+.gate-times caption {
+    margin: 0.3em 0 0 0;
+}
+
+.gate-times table {
+    font-size: 2.3rem;
+    margin: auto;
+}
+
+
+/*  ===========================
+        DAYTIME AND SEATING 
+    =========================== */ 
+
+.daytime-seating-and-boogie-zone h3 {
+    color: #7EEAFB;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+}
+
+.daytime-seating-and-boogie-zone p {
+    color: #3BABFD;
+    font-size: 1.6rem;
+    line-height: 2.75em;
+    margin: 3.5em 1.5em 3.5em 1.5em;
+}
+
+.daytime-seating-and-boogie-zone table {
+    position: relative;
+    top: -1.5em;
+}
+
+/*  ==============================
+        DISABLED VIEWING AREAS 
+    ============================== */
+
+.disabled-acess-viewing-areas {
+    background-color: #000C5A;
+    margin: -1.9em 0 0 0;
+}
+
+.disabled-acess-viewing-areas h3 {
+    padding: 0.85em;
+    font-size: 2.50rem;
+    color: #7EEAFB;
+}
+
+.disabled-acess-viewing-areas p {
+    color: #3BABFD;
+    margin: 1.5em;
+    line-height: 2.1em;
+    font-size: 2.0rem;
+}
+
+/*  =========================
+        NO PETS ALLOWED 
+    ========================= */
+
+.no-pets-allowed {
+    background-color: #060e47;
+    width: 85%;
+    margin: auto;
+    border-radius: 2.1em;
+    border: 0.1em solid #0B409E
+}
+
+.no-pets-allowed h3 {
+    font-size: 1.9rem;
+    color: #7EEAFB;
+}
+
+.no-pets-allowed img {
+    width: 80%;
+    height: 23.3em;
+    border-radius: 1.8rem;
+}
+
+.no-pets-allowed figcaption {
+    text-transform: capitalize;
+    color: #3BABFD;
+    font-size: 1.65rem;
+    text-align: center;
+    padding: 1.25em 0 0.50em 0;
+}
+
+/*  =====================
+        BEER RULES
+    ===================== */
+
+.beer-rules {
+    margin: 1.4em 0 0 0;
+    background-color: #060e47;
+}
+
+.beer-rules h3 {
+    font-size: 2.8rem;
+    color: #7EEAFB;
+}
+
+.beer-rules h4 {
+    color: #7EEAFB;
+    font-size: 2.4rem;
+
+}
+
+.beer-rules p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin: 2.35em 1.35em 2.35em 1.35em;
+    color: #3BABFD;
+}
+
+.beer-rules li {
+    font-size: 1.7rem;
+    padding: 0.6em 0 0.6em 0;
+    color: #3BABFD;
+}
+
 
 }
 
