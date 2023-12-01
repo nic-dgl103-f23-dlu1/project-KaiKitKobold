@@ -11,206 +11,137 @@
     GLOBAL SETTINGS
    =============== */
 
-   * {
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
-
-
 
 /* ===============
     TYPOGRAPHY
      =============== */
 
-p, h1, h2, h3, h4, h5, a {
-    text-transform: capitalize;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  text-transform: capitalize;
 }
 
 a {
-    color: #7EEAFB;
-    text-decoration: none;
+  color: #7eeafb;
+  text-decoration: none;
 }
 
 h2 {
-    font-size: 1.6rem;
-    color: #7EEAFB;
+  font-size: 1.6rem;
+  color: #7eeafb;
 }
 
 i {
-    padding: 10% 50% 10% 50%;
-    display: block;
-    text-align: center;
-    transform: scale(2.00);
+  padding: 10% 50% 10% 50%;
+  display: block;
+  text-align: center;
+  transform: scale(2);
 }
-
 
 p {
-    font-size: 1.0rem;
-    color: #8B9DFD;
+  font-size: 1rem;
+  color: #8b9dfd;
 }
-
-
-
 
 /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
 ul li::before {
-    color: #7EEAFB;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+  color: #7eeafb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
-    /* ===============
+/* ===============
     STRUCTURE
      =============== */
 
-
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .wrapper-width {
-    width: 100%;
-    margin: auto;
-    overflow: auto;
-
+  width: 100%;
+  margin: auto;
+  overflow: auto;
 }
 
-
 body {
-    font-size: 1.6rem;
-    font-family: 'Oxygen', sans-serif;
-    background-color: #010626;
-    color: #8B9DFD;
-    margin: 0;
+  font-size: 1.6rem;
+  font-family: "Oxygen", sans-serif;
+  background-color: #010626;
+  color: #8b9dfd;
+  margin: 0;
 }
 
 /* =============
     CONTENT BLOCKS
     ============ */
 
-
-/* this is primarly used for testing purposes and should be deleted/removed after editing header/footer selectors or
- the [name]-style inputs. */ 
-
-img {
-    display: block;
-    margin: auto;
-    height: 200px;
-    width: 200px;
-}
-
-/*  ===============
-        TABLES 
-    =============== */
-
-    thead, tbody {
-        text-transform: capitalize;
-    }
-    
-    
-    caption {
-        /* width: 100%; */
-        margin: 1.3em 0 0.85em 0;
-        border: 0.35em solid #7EEAFB;
-        padding: 0.35em;
-        color: #7EEAFB;
-        font-size: 1.8rem;
-        text-transform: capitalize;
-    }
-    
-    th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: #3BABFD;
-        color: white;
-    }
-    
-    .gate-times tr:nth-child(even) {
-        background-color: #000C5A;
-        color: #7EEAFB;
-    }
-    
-    tr:nth-child(odd) {
-        color: #3BABFD;
-        background-color: #0B409E;
-    }
-    
-    tbody tr:hover {
-        background-color: #060e47;
-    }
-    
-    td.merge {
-        text-align: center;
-        font-style: italic;
-    }
-    
-    tfoot {
-        font-size: 0.8em;
-        font-style: italic;
-        text-align: center;
-        background-color: #c5c5c5;
-    }
-
-    /* ===============
+/* ===============
         HEADER
      =============== */
 
 header .wrapper-width {
-    width: 100%;
+  width: 100%;
 }
 
 nav {
-    margin: auto;
-    width: 90%;
+  margin: auto;
+  width: 90%;
 }
 
 .header-links {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 header img {
-    /* width: 1.5em; */
-    /* height: 0.6em; */
-    padding: 45px 0 45px 0;
-    width: 15em;
-    height: 15em;
+  /* width: 1.5em; */
+  /* height: 0.6em; */
+  padding: 45px 0 45px 0;
+  width: 15em;
+  height: 15em;
 }
 
 .header-links i {
-    position: absolute;
-    margin-left: -16em;
-    margin-top: -2.5em
+  position: absolute;
+  margin-left: -16em;
+  margin-top: -2.5em;
 }
 
-.header-links li{
-    padding-top: 40px;
+.header-links li {
+  padding-top: 40px;
 }
 
 .header-links a {
-    list-style-type: none;
-    font-size: 2.5rem;
+  list-style-type: none;
+  font-size: 2.5rem;
 }
 
 header .wrapper-width ul {
-    list-style-type: none;
-    font-size: 0.8rem;
-    padding-top: 10px;
+  list-style-type: none;
+  font-size: 0.8rem;
+  padding-top: 10px;
 }
 
 .dropdown-options li a {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
-
-    /* ===========
+/* ===========
         DROPDOWN 
     ============== */
 
@@ -219,43 +150,41 @@ https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=
   */
 
 .dropdown {
-    margin-left: 0.6em;
+  margin-left: 0.6em;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 #nav-items {
-    display: none;
+  display: none;
 }
-    
+
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #4C4CE1;
-    min-width: 140px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
+  display: none;
+  position: absolute;
+  background-color: #4c4ce1;
+  min-width: 140px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
 }
 
 .dropdown a:hover {
-    background-color: #4F9EF3;
+  background-color: #4f9ef3;
 }
 
-    
 .dropdown-options a {
-    display: block;
-    text-decoration: none;
-    
+  display: block;
+  text-decoration: none;
 }
-    
+
 .dropdown:hover .dropdown-options {
-    display: block;
+  display: block;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 /* ===============
@@ -263,159 +192,152 @@ https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=
     =============== */
 
 .footer-logo a {
-    width: 6em;
-    height: 6em;
+  width: 6em;
+  height: 6em;
 }
 
 .footer-logo img {
-    width: 6em;
-    height: 6em;
+  width: 6em;
+  height: 6em;
 }
 
 footer {
-    overflow: auto;
+  overflow: auto;
 }
 
 footer img {
-    
-    width: 45%;
-    height: 45%;
-    padding-top: 15px;
+  width: 45%;
+  height: 45%;
+  padding-top: 15px;
 }
 
 footer ul {
-    font-size: 3.8rem;
-    list-style-type: none;
+  font-size: 3.8rem;
+  list-style-type: none;
 }
 
 footer h4 {
-    color: #4F9EF3;
-    font-size: 2.5rem;
-    list-style-type: none;
+  color: #4f9ef3;
+  font-size: 2.5rem;
+  list-style-type: none;
 }
 
 footer li a {
-    font-size: 2.1rem;
-    color: #7EEAFB;
-
+  font-size: 2.1rem;
+  color: #7eeafb;
 }
 
 .footer-logo img {
-    position: relative;
-    width: 3.5em;
-    height: 3.5em;
-    top: -2em;
-    left: -1.7em;
-
+  position: relative;
+  width: 3.5em;
+  height: 3.5em;
+  top: -2em;
+  left: -1.7em;
 }
 
-.information, .contact {
-    margin: 0 1em 0 0;
+.information,
+.contact {
+  margin: 0 1em 0 0;
 }
 
 footer .wrapper-width {
-    background-color: #4C4CE1;
+  background-color: #4c4ce1;
 }
 
 .footer-logo {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .footer-funders-sponsers {
-    margin-top: -1em;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  margin-top: -1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .footer-funders-sponsers a {
-    font-size: 1.6rem;
-    margin: auto;
-    padding: 3em 0 2em 0;
-
+  font-size: 1.6rem;
+  margin: auto;
+  padding: 3em 0 2em 0;
 }
 
 .footer-hyperlinks-and-location {
-    text-align: center;
+  text-align: center;
 }
 .footer-funders-sponsers h3 {
-    font-size: 1.8rem;
-    text-align: center;
-    margin: 0 2em 0 2em;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 2em 0 2em;
 }
 
-.footer-hyperlinks-and-location ul, .footer-hyperlinks-and-location li {
-    text-decoration-style: none;
+.footer-hyperlinks-and-location ul,
+.footer-hyperlinks-and-location li {
+  text-decoration-style: none;
 }
 
 .foooter-footer {
-    display: flex;
-    flex-direction: column;
-    padding: 3em 0 3em 0;
+  display: flex;
+  flex-direction: column;
+  padding: 3em 0 3em 0;
 }
 
 .foooter-footer a {
-    text-align: center;
-    font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .foooter-footer h2 {
-    align-self: flex-end;
-    font-size: 1.8rem;
-    text-align: center;
-    position: relative;
-    right: 2.5em;
-    top: 1.5em;
-
+  align-self: flex-end;
+  font-size: 1.8rem;
+  text-align: center;
+  position: relative;
+  right: 2.5em;
+  top: 1.5em;
 }
 
 footer p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
-
-
 
 /* Class Selectors */
 
 /* footer and header sections */
 
 header .wrapper-width {
-    width: 100%;
-    
+  width: 100%;
 }
 nav {
-    margin: auto;
+  margin: auto;
 }
 
 .header-links {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-options {
-    background-color: #010626;
-    display: none;
-    position: absolute;
-    z-index: 1;
+  background-color: #010626;
+  display: none;
+  position: absolute;
+  z-index: 1;
 }
 
 .dropdown-options a {
-    display: block;
-    text-decoration: none;
+  display: block;
+  text-decoration: none;
 }
 
 .dropdown:hover .dropdown-options {
-    display: block;
+  display: block;
 }
 
 footer {
-    overflow: auto;
+  overflow: auto;
 }
 
 @media only screen and (min-width: 768px) {
-    /* STYLES ----------------------------------
+  /* STYLES ----------------------------------
 1. Global settings (resets such as border-box)
 2. Typography (headings, paragraphs, lists, buttons)
 3. Layout structure (body, header, footer, sidebar)
@@ -424,115 +346,210 @@ footer {
 6. Page-specific (styles specific to individual locations)
 -----------------------------------------------------*/
 
-/* ===============
-    GLOBAL SETTINGS
-   =============== */
 
-   * {
-    box-sizing: border-box;
-}
-
-
-
-/* ===============
-    TYPOGRAPHY
+  /* ===============
+        HEADER
      =============== */
 
-p, h1, h2, h3, h4, h5, a {
-    text-transform: capitalize;
-}
+  header .wrapper-width {
+    width: 100%;
+  }
 
-body {
+  nav {
+    margin: auto;
+    width: 90%;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header img {
+    padding: 45px 0 45px 0;
+    width: 15em;
+    height: 15em;
+  }
+
+  .header-links i {
+    position: absolute;
+    margin-left: -16em;
+    margin-top: -2.5em;
+  }
+
+  .header-links li {
+    padding-top: 40px;
+  }
+
+  .header-links a {
+    list-style-type: none;
+    font-size: 2.5rem;
+  }
+
+  header .wrapper-width ul {
+    list-style-type: none;
     font-size: 0.8rem;
-    font-family: 'Oxygen', sans-serif;
-}
+    padding-top: 10px;
+  }
 
-a {
-    color: #7EEAFB;
-    text-decoration: none;
-}
-
-h2 {
+  .dropdown-options li a {
     font-size: 1.6rem;
-    color: #7EEAFB;
-}
+  }
 
-i {
-    padding: 10% 50% 10% 50%;
+  /* ===========
+    DROPDOWN 
+============== */
+
+  /* Most code snippets are taken from:
+https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
+    */
+
+  .dropdown {
+    margin-left: 0.6em;
+  }
+
+  .show {
     display: block;
-    text-align: center;
-    transform: scale(2.00);
-}
+  }
 
+  #nav-items {
+    display: block;
+  }
 
-p {
-    font-size: 1.0rem;
-    color: #8B9DFD;
-}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4c4ce1;
+    min-width: 140px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
+  }
 
+  .dropdown a:hover {
+    background-color: #4f9ef3;
+  }
 
+  .dropdown-options a {
+    display: block;
+    text-decoration: none;
+  }
 
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
 
-/* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
-ul li::before {
-    color: #7EEAFB;
+  .show {
+    display: block;
+  }
+
+  /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
+  ul li::before {
+    color: #7eeafb;
     font-weight: bold;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-}
-
-    /* ===============
-    STRUCTURE
-     =============== */
-
-
-html {
-    font-size: 62.5%;
-}
-
-.wrapper-width {
-    width: 100%;
-    margin: auto;
-    overflow: auto;
-
-}
-
-
-body {
-    font-size: 1.6rem;
-    background-color: #010626;
-    color: #8B9DFD;
-    margin: 0;
-}
-
-/* =============
-    CONTENT BLOCKS
-    ============ */
-
-
-/* this is primarly used for testing purposes and should be deleted/removed after editing header/footer selectors or
- the [name]-style inputs. */ 
-
-img {
-    display: block;
-    margin: auto;
-    height: 200px;
-    width: 200px;
-}
-
-
-
-
-
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-.wrapper-width {
+  .wrapper-width {
     max-width: 1170px;
     margin: auto;
+  }
 
+  /*  ================
+        HEADER
+    ================ */
+
+  header .wrapper-width {
+    width: 100%;
+  }
+
+  nav {
+    margin: auto;
+    width: 90%;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header img {
+    padding: 45px 0 45px 0;
+    width: 15em;
+    height: 15em;
+  }
+
+  .header-links i {
+    position: absolute;
+    margin-left: -16em;
+    margin-top: -2.5em;
+  }
+
+  .header-links li {
+    padding-top: 40px;
+  }
+
+  .header-links a {
+    list-style-type: none;
+    font-size: 2.5rem;
+  }
+
+  header .wrapper-width ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+    padding-top: 10px;
+  }
+
+  .dropdown-options li a {
+    font-size: 1.6rem;
+  }
+
+  /* ===========
+    DROPDOWN 
+============== */
+
+  /* Most code snippets are taken from:
+https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
+     */
+
+  .dropdown {
+    margin-left: 0.6em;
+  }
+
+  .show {
+    display: block;
+  }
+
+  #nav-items {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4c4ce1;
+    min-width: 140px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
+  }
+
+  .dropdown a:hover {
+    background-color: #4f9ef3;
+  }
+
+  .dropdown-options a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+
+  .show {
+    display: block;
+  }
 }
-
-}
-

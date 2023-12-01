@@ -12,55 +12,53 @@
     ============== */
 
 li {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
-
 
 /*  ============
         HERO    
     ============ */
 
-    
 .hero h2 {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    background-color: #000C5A;
-    padding: 1.5em;
-    border-bottom: 1em solid #7EEAFB;
-    border-radius: 0.8em;
-    color: #8B9DFD;
-    width: 75%;
-    margin: auto;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  background-color: #000c5a;
+  padding: 1.5em;
+  border-bottom: 1em solid #7eeafb;
+  border-radius: 0.8em;
+  color: #8b9dfd;
+  width: 75%;
+  margin: auto;
 }
 
 .hero img {
-    width: 80%;
-    height: 15.0em;
-    border-radius: 0.8em;
-    margin: 3em 0 4em 2.45em;
+  width: 80%;
+  height: 15em;
+  border-radius: 0.8em;
+  margin: 3em 0 4em 2.45em;
 }
 
 .hero p {
-    width: 75%;
-    margin: 0.8em 1.1em 3.65em 3.5em;
-    text-align: center;
-    font-size: 1.3rem;
-    border-left:  0.65em solid #7EEAFB;
-    border-right: 0.65em solid #7EEAFB;
+  width: 75%;
+  margin: 0.8em 1.1em 3.65em 3.5em;
+  text-align: center;
+  font-size: 1.3rem;
+  border-left: 0.65em solid #7eeafb;
+  border-right: 0.65em solid #7eeafb;
 }
 
 .hero a {
-    width: 85%;
-    padding: 0.6em 0 0.6em 0;
-    text-align: center;
-    border-radius: 0.8em;
-    display: block;
-    margin: auto;
-    position: relative;
-    top: -0.8em;
-    font-size: 1.5rem;
-    background-color: #000C5A;
-    border: 0.3em solid #2A72F7;
+  width: 85%;
+  padding: 0.6em 0 0.6em 0;
+  text-align: center;
+  border-radius: 0.8em;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -0.8em;
+  font-size: 1.5rem;
+  background-color: #000c5a;
+  border: 0.3em solid #2a72f7;
 }
 
 /*  =================
@@ -68,1411 +66,1381 @@ li {
     ================= */
 
 .on-site-camping-steps {
-    margin: 0.5em 1.5em 1.5em;
-    border-radius: 0.6em;
-    background-color: #000C5A;
+  margin: 0.5em 1.5em 1.5em;
+  border-radius: 0.6em;
+  background-color: #000c5a;
 }
 
 .on-site-camping-steps h4 {
-    color: #7EEAFB;
-    text-align: center;
+  color: #7eeafb;
+  text-align: center;
 }
 
 .on-site-camping-steps li {
-    text-transform: capitalize;
-    color: #3BABFD;
-    border-left: 0.2em solid #3BABFD;
-    border-radius: 0.9em;
-    font-size: 1.5rem;
-    padding: 0.1em 0.8em 1.2em 1.0em;
-    margin: 1em 0.5em 1em 1em;
-    position: relative;
-    right: 1.3em;
+  text-transform: capitalize;
+  color: #3babfd;
+  border-left: 0.2em solid #3babfd;
+  border-radius: 0.9em;
+  font-size: 1.5rem;
+  padding: 0.1em 0.8em 1.2em 1em;
+  margin: 1em 0.5em 1em 1em;
+  position: relative;
+  right: 1.3em;
 }
 
 .camping-sell {
-    padding: 1.6em 0em 1.6em 0em;
-    background-color: #000C5A;
+  padding: 1.6em 0em 1.6em 0em;
+  background-color: #000c5a;
 }
 
 .camping-sell h3 {
-    position: relative;
-    top: -15px;
-    color: #3BABFD;
-    text-align: center;
+  position: relative;
+  top: -15px;
+  color: #3babfd;
+  text-align: center;
 }
 
 .camping-sell p {
-    font-size: 1.50rem;
-    padding: 0 0 1.5em;
-    text-align: center;
-    color: #2A72F7;
+  font-size: 1.5rem;
+  padding: 0 0 1.5em;
+  text-align: center;
+  color: #2a72f7;
 }
 
 .camping-sell a {
-    display: block;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    top: -0.6em;
-    width: 85%;
-    background-color: #0B409E;
-    color: #7EEAFB;
-    border-radius: 1em;
-    padding: 0.9em 0 0.9em 0;
-    border: 0.35em solid #7EEAFB;
+  display: block;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -0.6em;
+  width: 85%;
+  background-color: #0b409e;
+  color: #7eeafb;
+  border-radius: 1em;
+  padding: 0.9em 0 0.9em 0;
+  border: 0.35em solid #7eeafb;
 }
 
 .general-camping-info {
-    background-color: #060e47;
+  background-color: #060e47;
 }
 
 .general-camping-info h3 {
-    background-color: #000C5A;
-    text-align: center;
-    color: #7EEAFB;
-    margin: 0.8em 1em 2.3em 1.45em;
-    padding: 1.3em;
-    border-radius: 0.25;
-    border: 0.35em solid #7EEAFB;
+  background-color: #000c5a;
+  text-align: center;
+  color: #7eeafb;
+  margin: 0.8em 1em 2.3em 1.45em;
+  padding: 1.3em;
+  border-radius: 0.25;
+  border: 0.35em solid #7eeafb;
 }
 
 .general-camping-info h4 {
-    font-size: 2.8rem;
-    border-left: 0.2em solid #7EEAFB;
-    border-right: 0.2em solid #7EEAFB;
-    padding: 1em 0 1em 0;
-    margin: 1em 0 1em 0;
-    font-size: 1.2rem;
-    color: #7EEAFB;
-    text-align: center;
+  font-size: 2.8rem;
+  border-left: 0.2em solid #7eeafb;
+  border-right: 0.2em solid #7eeafb;
+  padding: 1em 0 1em 0;
+  margin: 1em 0 1em 0;
+  font-size: 1.2rem;
+  color: #7eeafb;
+  text-align: center;
 }
 
 .general-camping-info p {
-    font-size: 1.4rem;
-    padding: 1.3em 0 1.8em 0;
-    margin: 0 0 1.3em 0;
-    color: #3BABFD;
-    text-align: center;
+  font-size: 1.4rem;
+  padding: 1.3em 0 1.8em 0;
+  margin: 0 0 1.3em 0;
+  color: #3babfd;
+  text-align: center;
 }
-
 .general-camping-info img {
-    border-radius: 1.3em;
-    width: 85%;
+  border-radius: 1.3em;
+  width: 85%;
 }
 
 .camping-info-phone {
-    display: block;
-    text-align: center;
-    width: 50%;
-    background-color: #0B409E;
-    border: 0.3em solid #3BABFD;
-    border-radius: 0.15em;
-    margin: -1.3em 1.5em 2.15em 5.8em;
-    color:#3BABFD;
+  display: block;
+  text-align: center;
+  width: 50%;
+  background-color: #0b409e;
+  border: 0.3em solid #3babfd;
+  border-radius: 0.15em;
+  margin: -1.3em 1.5em 2.15em 5.8em;
+  color: #3babfd;
 }
 
 .acessibility-information {
-    position: relative;
-    top: 1em;
-    display: block;
-    color: #7EEAFB;
-    background-color: #000C5A;
-    margin: -1.3em 3.5em 2.15em 4.3em;
-    padding: 0.5em 0.15em 0.5em 0.15em;
-    text-align: center;
-    border-radius: 0.85em;
-    border: 0.4em solid #3BABFD;
-
-} 
+  position: relative;
+  top: 1em;
+  display: block;
+  color: #7eeafb;
+  background-color: #000c5a;
+  margin: -1.3em 3.5em 2.15em 4.3em;
+  padding: 0.5em 0.15em 0.5em 0.15em;
+  text-align: center;
+  border-radius: 0.85em;
+  border: 0.4em solid #3babfd;
+}
 
 /*  ====================
         CAMPING RULES
     =================== */
 
 .camping-rules {
-    background-color: #000C5A;
-    width: 100%;
-    border-top: 0.45em solid #3BABFD;
-    border-left: 0.45em solid #3BABFD;
-    border-right: 0.45em solid #3BABFD;
-    border-radius: 1.9em;
+  background-color: #000c5a;
+  width: 100%;
+  border-top: 0.45em solid #3babfd;
+  border-left: 0.45em solid #3babfd;
+  border-right: 0.45em solid #3babfd;
+  border-radius: 1.9em;
 }
 
 .camping-rules h4 {
-    font-size: 1.9rem;
-    border: 0em solid ;
+  font-size: 1.9rem;
+  border: 0em solid;
 }
 
-.camping-rules li{
-    color: #3BABFD;
-    font-size: 1.45rem;
-    margin: 1.5em 0 1.5em 0;
+.camping-rules li {
+  color: #3babfd;
+  font-size: 1.45rem;
+  margin: 1.5em 0 1.5em 0;
 }
 
 /*  ===========================
     AREAS WITHIN THE CAMPGROUND
     =========================== */
 
-    .camp-ground-area {
-        border-radius: 3.8em;
-        background-color: #060e47;
-        position: relative;
-        top: -3.2em;
-        padding-bottom: 1.3em;
-    }
+.camp-ground-area {
+  border-radius: 3.8em;
+  background-color: #060e47;
+  position: relative;
+  top: -3.2em;
+  padding-bottom: 1.3em;
+}
 
-    .camp-ground-area h4 {
-        color: #7EEAFB;
-        width: 75%;
-        font-size: 1.45rem;
-        text-align: center;
-        border-radius: 35.3em;
-        border-top: 0.45em solid #7EEAFB;
-        border-bottom: 0.45em solid #7EEAFB;
-        padding: 0.50em;
-        margin: 3.35em 1.5em 2.1em 3.2em;
-        position: relative;
-    }
+.camp-ground-area h4 {
+  color: #7eeafb;
+  width: 75%;
+  font-size: 1.45rem;
+  text-align: center;
+  border-radius: 35.3em;
+  border-top: 0.45em solid #7eeafb;
+  border-bottom: 0.45em solid #7eeafb;
+  padding: 0.5em;
+  margin: 3.35em 1.5em 2.1em 3.2em;
+  position: relative;
+}
 
-    .camp-ground-area img {
-        border-radius: 1.8rem;
-        width: 85%;
-        height: 15.3em ;
-    }
+.camp-ground-area img {
+  border-radius: 1.8rem;
+  width: 85%;
+  height: 15.3em;
+}
 
-    .camp-ground-area p {
-        font-size: 1.8rem;
-        color: #2A72F7;
-        text-align: center;
-    }
+.camp-ground-area p {
+  font-size: 1.8rem;
+  color: #2a72f7;
+  text-align: center;
+}
 
-    .camp-ground-area li {
-        font-size: 1.55rem;
-        margin: 1.3em 0 0.85em 0.85em;
-        position: relative;
-        left: 1.25em;
-        color: #3BABFD;
-    }
+.camp-ground-area li {
+  font-size: 1.55rem;
+  margin: 1.3em 0 0.85em 0.85em;
+  position: relative;
+  left: 1.25em;
+  color: #3babfd;
+}
 
-    .camp-ground-area a {
-        display: block;
-        position: relative;
-        top: 0.55em;
-        color: #7EEAFB;
-        border: 0.25em solid #7EEAFB;
-        border-radius: 1.3em;
-        background-color: #000C5A;
-        font-size: 1.3rem;
-        text-align: center;
-        padding: 0.80em 0 0.80em 0;
-        margin: auto;
-        width: 80%;
+.camp-ground-area a {
+  display: block;
+  position: relative;
+  top: 0.55em;
+  color: #7eeafb;
+  border: 0.25em solid #7eeafb;
+  border-radius: 1.3em;
+  background-color: #000c5a;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.8em 0 0.8em 0;
+  margin: auto;
+  width: 80%;
+}
 
-    }
-    
 /*  ==========================
         PURCHASING ONLINE 
     ========================== */
 
-    .purchasing-online {
-        background-color: #000C5A;
-        border-radius: 2.5em;
-    }
+.purchasing-online {
+  background-color: #000c5a;
+  border-radius: 2.5em;
+}
 
-    .purchasing-online h4 {
-        font-size: 1.65rem;
-        color: #2A72F7;
-        text-align: center;
-    }
+.purchasing-online h4 {
+  font-size: 1.65rem;
+  color: #2a72f7;
+  text-align: center;
+}
 
-    .purchasing-online p {
-        margin: 0 0.85em 0 0.85em;
-        text-align: center;
-        font-size: 1.25rem;
-        color: #8B9DFD;
-    }
+.purchasing-online p {
+  margin: 0 0.85em 0 0.85em;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #8b9dfd;
+}
 
 /*  ====================
         MINORS 
     ==================== */
-    .minors {
-        background-color: #000C5A;
-    }
+.minors {
+  background-color: #000c5a;
+}
 
-    .minors h4 {
-        font-size: 2.5rem;
-        text-align: center;
-        color: #7EEAFB;
-    }
+.minors h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #7eeafb;
+}
 
-    .minors p{
-        font-size: 1.3rem;
-        margin: 0 0.55em 0 0.55em;
-        text-align: center;
-        line-height: 2.50em;
-        color: #3BABFD;
-    }
+.minors p {
+  font-size: 1.3rem;
+  margin: 0 0.55em 0 0.55em;
+  text-align: center;
+  line-height: 2.5em;
+  color: #3babfd;
+}
 
 /*  =============================
         SERVICES AND SHOWERS
     ============================= */
 
+.services {
+  position: relative;
+  top: -1.35em;
+  background-color: #060e47;
+}
 
+.services h4 {
+  position: relative;
+  top: 0.4em;
+  margin: auto;
+  color: #7eeafb;
+  width: 25%;
+  text-align: center;
+  background-color: #060e47;
+  border-top: 0.15em solid #7eeafb;
+  border-bottom: 0.15em solid #7eeafb;
+  border-radius: 1.8em;
+}
 
-    .services {
-        position: relative;
-        top: -1.35em;
-        background-color: #060e47;
-    }
+.services p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #3babfd;
+  padding: 1.3em;
+}
 
-    .services h4 {
-        position: relative;
-        top: 0.4em;
-        margin: auto;
-        color: #7EEAFB;
-        width: 25%;
-        text-align: center;
-        background-color: #060e47;
-        border-top: 0.15em solid #7EEAFB;
-        border-bottom: 0.15em solid #7EEAFB;
-        border-radius: 1.8em;
-    }
+.showers {
+  margin: auto;
+  background-color: #0b409e;
+  width: 85%;
+  border-radius: 0.85em;
+  margin-bottom: -0.95em;
+  border: 0.2em solid #0b409e;
+}
 
-    .services p {
-        text-align: center;
-        font-size: 1.10rem;
-        color: #3BABFD;
-        padding: 1.3em;
-    }
+.showers h4 {
+  background-color: #0b409e;
+}
 
-    .showers {
-        margin: auto;
-        background-color: #0B409E;
-        width: 85%;
-        border-radius: 0.85em;
-        margin-bottom: -0.95em;
-        border: 0.2em solid #0B409E;
-    }
+.showers img {
+  width: 85%;
+  height: 14.5em;
+  border-radius: 1.1em;
+  margin: 2.1em 50% 2.1em 8%;
+}
 
-    .showers h4 {
-        background-color: #0B409E;
-    }
+.showers .location-logo {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  top: -15.9em;
+  left: 14.5em;
+  object-fit: cover;
+}
 
-    .showers img {
-        width: 85%;
-        height: 14.5em;
-        border-radius: 1.1em;
-        margin: 2.1em 50% 2.1em 8%
-    }
+.showers table {
+  position: relative;
+  top: -3.3em;
+  width: 100%;
+}
 
-    .showers .location-logo {
-        width: 10%;
-        height: 10%;
-        position: relative;
-        top: -15.9em;
-        left: 14.5em;
-        object-fit: cover;
-    }
+.showers caption {
+  margin: auto;
+  font-size: 1.3rem;
+  padding: 0.8em;
+}
 
-    .showers table {
-        position: relative;
-        top: -3.3em;
-        width: 100%;
-    }
-
-    .showers caption {
-        margin: auto;
-        font-size: 1.3rem;
-        padding: 0.8em;
-    }
-
-    .showers tfoot td {
-        background-color: #060e47;
-    }
-
+.showers tfoot td {
+  background-color: #060e47;
+}
 
 @media only screen and (min-width: 768px) {
-
-/*  =============
+  /*  =============
     TYPOGRAPHY
     ============== */
 
-    li {
-        text-transform: capitalize;
-    }
+  li {
+    text-transform: capitalize;
+  }
 
-    /*  ===============
+  /*  ===============
         TABLES 
     =============== */
 
-thead, tbody {
+  thead,
+  tbody {
     text-transform: capitalize;
-}
+  }
 
-
-caption {
+  caption {
     /* width: 100%; */
     margin: 1.3em 0 0.85em 0;
-    border: 0.35em solid #7EEAFB;
+    border: 0.35em solid #7eeafb;
     padding: 0.35em;
-    color: #7EEAFB;
+    color: #7eeafb;
     font-size: 1.8rem;
     text-transform: capitalize;
-}
+  }
 
-th {
+  th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #3BABFD;
+    background-color: #3babfd;
     color: white;
-}
+  }
 
-.gate-times tr:nth-child(even) {
-    background-color: #000C5A;
-    color: #7EEAFB;
-}
+  .gate-times tr:nth-child(even) {
+    background-color: #000c5a;
+    color: #7eeafb;
+  }
 
-tr:nth-child(odd) {
-    color: #3BABFD;
-    background-color: #0B409E;
-}
+  tr:nth-child(odd) {
+    color: #3babfd;
+    background-color: #0b409e;
+  }
 
-tbody tr:hover {
+  tbody tr:hover {
     background-color: #060e47;
-}
+  }
 
-td.merge {
+  td.merge {
     text-align: center;
     font-style: italic;
-}
+  }
 
-tfoot {
+  tfoot {
     font-size: 0.8em;
     font-style: italic;
     text-align: center;
     background-color: #c5c5c5;
-}
+  }
 
-    
-    /*  ============
+  /*  ============
             HERO    
         ============ */
-    
-    .hero {
-        margin: 1.2em 0 2.3em 0;
-    }
-    
-    
-    .hero h2 {
+
+  .hero {
+    margin: 1.2em 0 2.3em 0;
+  }
+
+  .hero h2 {
     transform: scale(0.3rem);
-    color: #3BABFD;
+    color: #3babfd;
     background-color: #060e47;
-    border: 0.2em solid #3BABFD;
+    border: 0.2em solid #3babfd;
     border-radius: 1.8rem;
     text-align: center;
     font-size: 2.4rem;
     padding: 0.8em 0 0.9em 0;
     margin: 1.9em 0 2.1em 3.8em;
-    }
+  }
 
-    
-    .hero img {
-        width: 90%;
-        height: 32.0em;
-        border-radius: 0.8em;
-        margin: 3em 0 4em 1.71em;
-    }
-    
-    .hero p {
-        font-size: 1.95rem;
-        width: 80%;
-        margin: 0.8em 1.1em 3.65em 4.1em;
-        text-align: center;
-    }
-    
-    .hero a {
-        width: 65%;
-        padding: 0.6em 0 0.6em 0;
-        text-align: center;
-        border-radius: 0.8em;
-        display: block;
-        margin: auto;
-        position: relative;
-        top: -0.8em;
-        font-size: 1.8rem;
-        background-color: #000C5A;
-        border: 0.3em solid #2A72F7;
-    }
-    
-    /*  =================
+  .hero img {
+    width: 90%;
+    height: 32em;
+    border-radius: 0.8em;
+    margin: 3em 0 4em 1.71em;
+  }
+
+  .hero p {
+    font-size: 1.95rem;
+    width: 80%;
+    margin: 0.8em 1.1em 3.65em 4.1em;
+    text-align: center;
+  }
+
+  .hero a {
+    width: 65%;
+    padding: 0.6em 0 0.6em 0;
+    text-align: center;
+    border-radius: 0.8em;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -0.8em;
+    font-size: 1.8rem;
+    background-color: #000c5a;
+    border: 0.3em solid #2a72f7;
+  }
+
+  /*  =================
             CAMPING STEPS
         ================= */
-    
-    .camping-intro {
-        float: left;
-        width: calc(50% - 3em);
-        margin: 0.5em 0.5em 1.5em;
-        border-radius: 0.6em;
-        background-color: #000C5A;
-    }
-    
-    .on-site-camping-steps {
-        height: 35.3em;
-        margin: 0.5em 1.5em 1.5em;
-        border-radius: 0.6em;
-        background-color: #000C5A;
-    }
-    
-    .on-site-camping-steps h4 {
-        color: #7EEAFB;
-        text-align: center;
-    }
-    
-    .on-site-camping-steps li {
-        text-transform: capitalize;
-        color: #3BABFD;
-        border-left: 0.2em solid #3BABFD;
-        border-radius: 0.9em;
-        font-size: 1.5rem;
-        padding: 0.3em 0.8em 1.2em 1.0em;
-        margin: 2.0em 0.5em 2.5em 1em;
-        position: relative;
-        right: 1.3em;
-    }
-    
-    .camping-sell {
-        padding: 1.6em 0em 1.6em 0em;
-        background-color: #000C5A;
-    }
-    
-    .camping-sell h3 {
-        position: relative;
-        top: -15px;
-        color: #7EEAFB;
-        text-align: center;
-    }
-    
-    .camping-sell p {
-        font-size: 1.50rem;
-        padding: 0 0 1.5em;
-        text-align: center;
-        color: #3BABFD;
-    }
-    
-    .camping-sell a {
-        display: block;
-        text-align: center;
-        margin: auto;
-        position: relative;
-        top: -0.6em;
-        width: 85%;
-        background-color: #000C5A;
-        color: #3BABFD;
-        border-radius: 1em;
-        padding: 0.9em 0 0.9em 0;
-        border: 0.35em solid #3BABFD;
-    }
-/*  =============================
+
+  .camping-intro {
+    float: left;
+    width: calc(50% - 3em);
+    margin: 0.5em 0.5em 1.5em;
+    border-radius: 0.6em;
+    background-color: #000c5a;
+  }
+
+  .on-site-camping-steps {
+    height: 35.3em;
+    margin: 0.5em 1.5em 1.5em;
+    border-radius: 0.6em;
+    background-color: #000c5a;
+  }
+
+  .on-site-camping-steps h4 {
+    color: #7eeafb;
+    text-align: center;
+  }
+
+  .on-site-camping-steps li {
+    text-transform: capitalize;
+    color: #3babfd;
+    border-left: 0.2em solid #3babfd;
+    border-radius: 0.9em;
+    font-size: 1.5rem;
+    padding: 0.3em 0.8em 1.2em 1em;
+    margin: 2em 0.5em 2.5em 1em;
+    position: relative;
+    right: 1.3em;
+  }
+
+  .camping-sell {
+    padding: 1.6em 0em 1.6em 0em;
+    background-color: #000c5a;
+  }
+
+  .camping-sell h3 {
+    position: relative;
+    top: -15px;
+    color: #7eeafb;
+    text-align: center;
+  }
+
+  .camping-sell p {
+    font-size: 1.5rem;
+    padding: 0 0 1.5em;
+    text-align: center;
+    color: #3babfd;
+  }
+
+  .camping-sell a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -0.6em;
+    width: 85%;
+    background-color: #000c5a;
+    color: #3babfd;
+    border-radius: 1em;
+    padding: 0.9em 0 0.9em 0;
+    border: 0.35em solid #3babfd;
+  }
+  /*  =============================
         GENERAL CAMPING INFO
     ============================= */
-    
-    .general-camping-info {
-        width: 98%;
-        background-color: #060e47;
-    }
-    
-    .general-camping-info h3 {
-        width: 85%;
-        font-size: 2.3rem;
-        background-color: #000C5A;
-        text-align: center;
-        color: #7EEAFB;
-        margin: 0.8em 1em 2.3em 1.45em;
-        padding: 1.3em;
-        border-radius: 0.50em;
-        border: 0.35em solid #7EEAFB;
-    }
-    
-    .general-camping-info h4 {
-        font-size: 1.9rem;
-        border-left: 0.4em solid #7EEAFB;
-        border-right: 0 solid #7EEAFB;
-        padding: 1em 0 1em 0;
-        margin: 1em 0 1em 0;
-        color: #7EEAFB;
-        text-align: center;
-    }
-    
-    .general-camping-info p {
-        font-size: 1.8rem;
-        padding: 1.3em 0 1.8em 0;
-        margin: 0 0.6em 1.3em 0.6em;
-        color: #3BABFD;
-        text-align: center;
-    }
-    
-    .general-camping-info img {
-        border-radius: 1.3em;
-        width: 75%;
-        height: 28.3em;
-    }
-    
-    .camping-info-phone {
-        display: block;
-        text-align: center;
-        font-size: 2.1rem;
-        width: 50%;
-        background-color: #0B409E;
-        border: 0.3em solid #3BABFD;
-        border-radius: 0.45em;
-        margin: -1.3em 1.5em 2.15em 9.8em;
-        color:#3BABFD;
-    }
-    
-    .acessibility-information {
-        position: relative;
-        top: 1em;
-        display: block;
-        color: #7EEAFB;
-        background-color: #000C5A;
-        font-size: 2.3rem;
-        margin: -1.3em 3.5em 2.15em 4.3em;
-        padding: 0.5em 0.15em 0.5em 0.15em;
-        text-align: center;
-        border-radius: 0.85em;
-        border: 0.4em solid #3BABFD;
-    
-    } 
-    
-    /*  ====================
+
+  .general-camping-info {
+    width: 98%;
+    background-color: #060e47;
+  }
+
+  .general-camping-info h3 {
+    width: 85%;
+    font-size: 2.3rem;
+    background-color: #000c5a;
+    text-align: center;
+    color: #7eeafb;
+    margin: 0.8em 1em 2.3em 1.45em;
+    padding: 1.3em;
+    border-radius: 0.5em;
+    border: 0.35em solid #7eeafb;
+  }
+
+  .general-camping-info h4 {
+    font-size: 1.9rem;
+    border-left: 0.4em solid #7eeafb;
+    border-right: 0 solid #7eeafb;
+    padding: 1em 0 1em 0;
+    margin: 1em 0 1em 0;
+    color: #7eeafb;
+    text-align: center;
+  }
+
+  .general-camping-info p {
+    font-size: 1.8rem;
+    padding: 1.3em 0 1.8em 0;
+    margin: 0 0.6em 1.3em 0.6em;
+    color: #3babfd;
+    text-align: center;
+  }
+
+  .general-camping-info img {
+    border-radius: 1.3em;
+    width: 75%;
+    height: 28.3em;
+  }
+
+  .camping-info-phone {
+    display: block;
+    text-align: center;
+    font-size: 2.1rem;
+    width: 50%;
+    background-color: #0b409e;
+    border: 0.3em solid #3babfd;
+    border-radius: 0.45em;
+    margin: -1.3em 1.5em 2.15em 9.8em;
+    color: #3babfd;
+  }
+
+  .acessibility-information {
+    position: relative;
+    top: 1em;
+    display: block;
+    color: #7eeafb;
+    background-color: #000c5a;
+    font-size: 2.3rem;
+    margin: -1.3em 3.5em 2.15em 4.3em;
+    padding: 0.5em 0.15em 0.5em 0.15em;
+    text-align: center;
+    border-radius: 0.85em;
+    border: 0.4em solid #3babfd;
+  }
+
+  /*  ====================
             CAMPING RULES
         =================== */
-    
-    .camping-rules {
-        background-color: #000C5A;
-        width: 100%;
-        border-top: 0.45em solid #3BABFD;
-        border-left: 0.45em solid #3BABFD;
-        border-right: 0.45em solid #3BABFD;
-        border-radius: 1.9em;
-    }
-    
-    .camping-rules h4 {
-        font-size: 1.9rem;
-        border: 0em solid ;
-    }
-    
-    .camping-rules li{
-        color: #3BABFD;
-        font-size: 1.65rem;
-        margin: 1.5em 0 1.5em 0;
-    }
 
-    /*  ===========================
+  .camping-rules {
+    background-color: #000c5a;
+    width: 100%;
+    border-top: 0.45em solid #3babfd;
+    border-left: 0.45em solid #3babfd;
+    border-right: 0.45em solid #3babfd;
+    border-radius: 1.9em;
+  }
+
+  .camping-rules h4 {
+    font-size: 1.9rem;
+    border: 0em solid;
+  }
+
+  .camping-rules li {
+    color: #3babfd;
+    font-size: 1.65rem;
+    margin: 1.5em 0 1.5em 0;
+  }
+
+  /*  ===========================
                 SHUTTLE TIMES 
         =========================== */
-    
-    .shuttle-times table {
-        position: relative;
-        top: 12.8em;
-    }
 
-    /*  ===========================
+  .shuttle-times table {
+    position: relative;
+    top: 12.8em;
+  }
+
+  /*  ===========================
                 GATE TIMES 
         ===========================*/
 
-        .gate-times table {
-            margin: auto;
-            width: 100%;
-            height: 15.2em;
-            text-transform: capitalize;
-        }
-        
-        
-        .gate-times caption {
-            /* width: 100%; */
-            margin: 1.3em 0 0.85em 0;
-            border: 0.35em solid #7EEAFB;
-            padding: 0.35em;
-            color: #7EEAFB;
-            font-size: 1.8rem;
-            text-transform: capitalize;
-        }
-        
-        .gate-times th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: #3BABFD;
-            color: white;
-        }
-        
-        .gate-times tr:nth-child(even) {
-            background-color: #000C5A;
-            color: #7EEAFB;
-        }
-        
-        tr:nth-child(odd) {
-            color: #3BABFD;
-            background-color: #0B409E;
-        }
-        
-        tbody tr:hover {
-            background-color: #060e47;
-        }
-        
-        td.merge {
-            text-align: center;
-            font-style: italic;
-        }
-        
-        tfoot {
-            font-size: 1.6rem;
-            font-style: italic;
-            text-align: center;
-            background-color: #c5c5c5;
-        }
-    
-    /*  ===========================
+  .gate-times table {
+    margin: auto;
+    width: 100%;
+    height: 15.2em;
+    text-transform: capitalize;
+  }
+
+  .gate-times caption {
+    /* width: 100%; */
+    margin: 1.3em 0 0.85em 0;
+    border: 0.35em solid #7eeafb;
+    padding: 0.35em;
+    color: #7eeafb;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+  }
+
+  .gate-times th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3babfd;
+    color: white;
+  }
+
+  .gate-times tr:nth-child(even) {
+    background-color: #000c5a;
+    color: #7eeafb;
+  }
+
+  tr:nth-child(odd) {
+    color: #3babfd;
+    background-color: #0b409e;
+  }
+
+  tbody tr:hover {
+    background-color: #060e47;
+  }
+
+  td.merge {
+    text-align: center;
+    font-style: italic;
+  }
+
+  tfoot {
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+    background-color: #c5c5c5;
+  }
+
+  /*  ===========================
         AREAS WITHIN THE CAMPGROUND
         =========================== */
-    
-        .camp-ground-area {
-            width: 90%;
-            border-radius: 3.8em;
-            background-color: #060e47;
-            position: relative;
-            top: -3.2em;
-            margin: 0 0 0 1.8em;
-            padding-bottom: 1.3em;
-        }
-    
-        .camp-ground-area h4 {
-            color: #7EEAFB;
-            width: 75%;
-            font-size: 1.75rem;
-            text-align: center;
-            border-radius: 35.3em;
-            border-top: 0.45em solid #7EEAFB;
-            border-bottom: 0.45em solid #7EEAFB;
-            padding: 1.4em 0.50em 1.4em 0.50em;
-            margin: 4.35em 1.5em 3.1em 5.0em;
-            position: relative;
-            top: 1.2em;
-        }
-    
-        .camp-ground-area img {
-            border-radius: 1.8rem;
-            width: 60%;
-            height: 21.3em;
-        }
-    
-        .camp-ground-area p {
-            font-size: 2.1rem;
-            color: #2A72F7;
-            text-align: center;
-        }
-    
-        .camp-ground-area li {
-            font-size: 1.75rem;
-            margin: 1.3em 0 1.20em 0.85em;
-            position: relative;
-            left: 1.25em;
-            color: #3BABFD;
-        }
-    
-        .camp-ground-area a {
-            display: block;
-            position: relative;
-            top: 0.350em;
-            color: #7EEAFB;
-            border: 0.25em solid #7EEAFB;
-            border-radius: 1.3em;
-            background-color: #000C5A;
-            font-size: 1.8rem;
-            text-align: center;
-            padding: 0.80em 0.50em 0.80em 0.50em;
-            margin: auto;
-            width: 60%;
-    
-        }
-        
-    /*  ==========================
+
+  .camp-ground-area {
+    width: 90%;
+    border-radius: 3.8em;
+    background-color: #060e47;
+    position: relative;
+    top: -3.2em;
+    margin: 0 0 0 1.8em;
+    padding-bottom: 1.3em;
+  }
+
+  .camp-ground-area h4 {
+    color: #7eeafb;
+    width: 75%;
+    font-size: 1.75rem;
+    text-align: center;
+    border-radius: 35.3em;
+    border-top: 0.45em solid #7eeafb;
+    border-bottom: 0.45em solid #7eeafb;
+    padding: 1.4em 0.5em 1.4em 0.5em;
+    margin: 4.35em 1.5em 3.1em 5em;
+    position: relative;
+    top: 1.2em;
+  }
+
+  .camp-ground-area img {
+    border-radius: 1.8rem;
+    width: 60%;
+    height: 21.3em;
+  }
+
+  .camp-ground-area p {
+    font-size: 2.1rem;
+    color: #2a72f7;
+    text-align: center;
+  }
+
+  .camp-ground-area li {
+    font-size: 1.75rem;
+    margin: 1.3em 0 1.2em 0.85em;
+    position: relative;
+    left: 1.25em;
+    color: #3babfd;
+  }
+
+  .camp-ground-area a {
+    display: block;
+    position: relative;
+    top: 0.35em;
+    color: #7eeafb;
+    border: 0.25em solid #7eeafb;
+    border-radius: 1.3em;
+    background-color: #000c5a;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0.8em 0.5em 0.8em 0.5em;
+    margin: auto;
+    width: 60%;
+  }
+
+  /*  ==========================
             PURCHASING ONLINE 
         ========================== */
-    
-        .purchasing-online {
-            width: 75%;
-            padding: 0.6em;
-            margin: auto;
-            background-color: #000C5A;
-            border-radius: 2.5em;
-        }
-    
-        .purchasing-online h4 {
-            font-size: 1.85rem;
-            color: #2A72F7;
-            text-align: center;
-        }
-    
-        .purchasing-online p {
-            margin: 0 0.85em 0 0.85em;
-            text-align: center;
-            font-size: 1.45rem;
-            color: #2A72F7;
-        }
-    
-    /*  ====================
+
+  .purchasing-online {
+    width: 75%;
+    padding: 0.6em;
+    margin: auto;
+    background-color: #000c5a;
+    border-radius: 2.5em;
+  }
+
+  .purchasing-online h4 {
+    font-size: 1.85rem;
+    color: #2a72f7;
+    text-align: center;
+  }
+
+  .purchasing-online p {
+    margin: 0 0.85em 0 0.85em;
+    text-align: center;
+    font-size: 1.45rem;
+    color: #2a72f7;
+  }
+
+  /*  ====================
             MINORS 
         ==================== */
 
-        .minors {
-            margin: 0 0 0 2.2em;
-            width: 90%;
-            border-radius: 3.8em;
-            height: 48.3em;
-            background-color: #000C5A;
-        }
-    
-        .minors h4 {
-            padding: 0.5em;
-            font-size: 3.2rem;
-            text-align: center;
-            color: #7EEAFB;
-            position: relative;
-            top: 0.50em;
-        }
-    
-        .minors p{
-            font-size: 1.8rem;
-            margin: 0 0.55em 0 0.55em;
-            text-align: center;
-            line-height: 2.50em;
-            color: #3BABFD;
-        }
-    
-    /*  =============================
+  .minors {
+    margin: 0 0 0 2.2em;
+    width: 90%;
+    border-radius: 3.8em;
+    height: 48.3em;
+    background-color: #000c5a;
+  }
+
+  .minors h4 {
+    padding: 0.5em;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #7eeafb;
+    position: relative;
+    top: 0.5em;
+  }
+
+  .minors p {
+    font-size: 1.8rem;
+    margin: 0 0.55em 0 0.55em;
+    text-align: center;
+    line-height: 2.5em;
+    color: #3babfd;
+  }
+
+  /*  =============================
             SERVICES AND SHOWERS
         ============================= */
-    
-    
-    
-        .services {
-            position: relative;
-            top: -1.35em;
-            background-color: #060e47;
-        }
-    
-        .services h4 {
-            font-size: 2.1rem;
-            position: relative;
-            top: 0.4em;
-            margin: auto;
-            color: #7EEAFB;
-            width: 25%;
-            text-align: center;
-            background-color: #060e47;
-            border-top: 0.15em solid #7EEAFB;
-            border-bottom: 0.15em solid #7EEAFB;
-            border-radius: 1.8em;
-        }
-    
-        .services p {
-            text-align: center;
-            font-size: 1.6rem;
-            color: #3BABFD;
-            padding: 1.3em;
-        }
-    
-        .showers {
-            margin: auto;
-            background-color: #000C5A;
-            width: 85%;
-            border-radius: 0.85em;
-            margin-bottom: -0.95em;
-            border: 0.4em solid #000C5A;
-        }
-    
-        .showers h4 {
-            margin: 1.3em 0 2.4em 11.8em;
-            background-color: #000C5A;
-        }
-    
-        .showers img {
-            width: 85%;
-            height: 18.5em;
-            border-radius: 1.1em;
-            margin: 2.1em 50% 2.1em 8%
-        }
-    
-        .showers .location-logo {
-            width: 10%;
-            height: 10%;
-            position: relative;
-            top: -19.9em;
-            left: 28.5em;
-            object-fit: cover;
-        }
-    
-        .showers table {
-            position: relative;
-            top: -3.3em;
-            width: 100%;
-        }
-    
-        .showers caption {
-            margin: auto;
-            font-size: 1.7rem;
-            padding: 1.6em;
-        }
 
-        .showers tr:nth-child(even) {
-            background-color: #000C5A;
-            color: #7EEAFB;
-        }
-        
-        .showers tr:nth-child(odd) {
-            color: #3BABFD;
-            background-color: #0B409E;
-        }
-    
-        .showers tfoot td {
-            background-color: #060e47;
-        }
-    
+  .services {
+    position: relative;
+    top: -1.35em;
+    background-color: #060e47;
+  }
 
+  .services h4 {
+    font-size: 2.1rem;
+    position: relative;
+    top: 0.4em;
+    margin: auto;
+    color: #7eeafb;
+    width: 25%;
+    text-align: center;
+    background-color: #060e47;
+    border-top: 0.15em solid #7eeafb;
+    border-bottom: 0.15em solid #7eeafb;
+    border-radius: 1.8em;
+  }
+
+  .services p {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #3babfd;
+    padding: 1.3em;
+  }
+
+  .showers {
+    margin: auto;
+    background-color: #000c5a;
+    width: 85%;
+    border-radius: 0.85em;
+    margin-bottom: -0.95em;
+    border: 0.4em solid #000c5a;
+  }
+
+  .showers h4 {
+    margin: 1.3em 0 2.4em 11.8em;
+    background-color: #000c5a;
+  }
+
+  .showers img {
+    width: 85%;
+    height: 18.5em;
+    border-radius: 1.1em;
+    margin: 2.1em 50% 2.1em 8%;
+  }
+
+  .showers .location-logo {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: -19.9em;
+    left: 28.5em;
+    object-fit: cover;
+  }
+
+  .showers table {
+    position: relative;
+    top: -3.3em;
+    width: 100%;
+  }
+
+  .showers caption {
+    margin: auto;
+    font-size: 1.7rem;
+    padding: 1.6em;
+  }
+
+  .showers tr:nth-child(even) {
+    background-color: #000c5a;
+    color: #7eeafb;
+  }
+
+  .showers tr:nth-child(odd) {
+    color: #3babfd;
+    background-color: #0b409e;
+  }
+
+  .showers tfoot td {
+    background-color: #060e47;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-
-/*  =============
+  /*  =============
     TYPOGRAPHY
     ============== */
 
-    li {
-        text-transform: capitalize;
-    }
+  li {
+    text-transform: capitalize;
+  }
 
-    /*  ============
+  /*  ============
             HERO    
         ============ */
-    
-            
-    .hero {
-        margin: -4.2em 0 -22.3em 0;
-    }
-    
-    
-    .hero h2 {
+
+  .hero {
+    margin: -4.2em 0 -22.3em 0;
+  }
+
+  .hero h2 {
     transform: scale(0.65);
-    color: #3BABFD;
+    color: #3babfd;
     background-color: #060e47;
-    border: 0.25em solid #3BABFD;
+    border: 0.25em solid #3babfd;
     border-radius: 1.8rem;
     text-align: center;
     font-size: 5.1rem;
     padding: 0.8em 0 0.9em 0;
     margin: 2.4em 0 0.3em 4.3em;
-    }
+  }
 
-    
-    .hero img {
-        width: 57%;
-        height: 42.0em;
-        border-radius: 0.8em;
-        margin: 3em 0 4em 0.2em;
-        position: relative;
-        top: 6.1em;
-        right: 2.5em;
-    }
-    
-    .hero p {
-        font-size: 1.7em;
-        width: 50%;
-        margin: 0.8em 1.1em 3.4em 0.5em;
-        border: 0 solid #7EEAFB;
-        text-align: center;
-    }
-    
-    .hero a {
-        width: 45%;
-        padding: 1.2em 0 0.6em 0;
-        text-align: center;
-        border-radius: 0.8em;
-        display: block;
-        margin: auto;
-        position: relative;
-        top: -0.8em;
-        font-size: 2.4rem;
-        margin: 0 0 1.2em 1.6em;
-        background-color: #000C5A;
-        border: 0.3em solid #2A72F7;
-    }
-    
-    /*  =================
+  .hero img {
+    width: 57%;
+    height: 42em;
+    border-radius: 0.8em;
+    margin: 3em 0 4em 0.2em;
+    position: relative;
+    top: 6.1em;
+    right: 2.5em;
+  }
+
+  .hero p {
+    font-size: 1.7em;
+    width: 50%;
+    margin: 0.8em 1.1em 3.4em 0.5em;
+    border: 0 solid #7eeafb;
+    text-align: center;
+  }
+
+  .hero a {
+    width: 45%;
+    padding: 1.2em 0 0.6em 0;
+    text-align: center;
+    border-radius: 0.8em;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -0.8em;
+    font-size: 2.4rem;
+    margin: 0 0 1.2em 1.6em;
+    background-color: #000c5a;
+    border: 0.3em solid #2a72f7;
+  }
+
+  /*  =================
             CAMPING STEPS
         ================= */
-    
-    .camping-intro {
-        float: left;
-        width:42%;
-        margin: 0.5em 0.5em 0em;
-        border-radius: 0.6em;
-        background-color: #000C5A;
-    }
-    
-    .on-site-camping-steps {
-        position: relative;
-        bottom: 34.7em;
-        left: 43.5em;
-        width: 50% - 5em;
-        height: 40.9em;
-        margin: 0.5em 1.5em 1.5em;
-        border-radius: 0.6em;
-        background-color: #000C5A;
-    }
-    
-    .on-site-camping-steps h4 {
-        font-size: 2.3rem;
-        color: #7EEAFB;
-        text-align: center;
-    }
-    
-    .on-site-camping-steps li {
-        text-transform: capitalize;
-        color: #3BABFD;
-        border-left: 0.2em solid #3BABFD;
-        border-radius: 0.9em;
-        font-size: 2.1rem;
-        padding: 0.3em 0.8em 1.2em 1.0em;
-        margin: 2.0em 0.5em 2.5em 1em;
-        position: relative;
-        right: 1.3em;
-    }
 
-    /*  =======================
+  .camping-intro {
+    float: left;
+    width: 42%;
+    margin: 0.5em 0.5em 0em;
+    border-radius: 0.6em;
+    background-color: #000c5a;
+  }
+
+  .on-site-camping-steps {
+    position: relative;
+    bottom: 34.7em;
+    left: 46.5em;
+    width: 50% - 5em;
+    height: 40.9em;
+    margin: 0.5em 1.5em 1.5em;
+    border-radius: 0.6em;
+    background-color: #000c5a;
+  }
+
+  .on-site-camping-steps h4 {
+    font-size: 2.3rem;
+    color: #7eeafb;
+    text-align: center;
+  }
+
+  .on-site-camping-steps li {
+    text-transform: capitalize;
+    color: #3babfd;
+    border-left: 0.2em solid #3babfd;
+    border-radius: 0.9em;
+    font-size: 2.1rem;
+    padding: 0.3em 0.8em 1.2em 1em;
+    margin: 2em 0.5em 2.5em 1em;
+    position: relative;
+    right: 1.3em;
+  }
+
+  /*  =======================
             CAMPING SELL
         ======================= */
-    
-    .camping-sell {
-        position: relative;
-        top: 7.4em;
-        left: 7.9em;
-        padding: 1.6em 0em 0.2em 0em;
-        background-color: #000C5A;
-    }
-    
-    .camping-sell h3 {
-        font-size: 2.3rem;
-        position: relative;
-        top: -15px;
-        color: #7EEAFB;
-        text-align: center;
-    }
-    
-    .camping-sell p {
-        font-size: 1.95rem;
-        padding: 0 0 1.5em;
-        text-align: center;
-        color: #3BABFD;
-    }
-    
-    .camping-sell a {
-        font-size: 1.8rem;
-        display: block;
-        text-align: center;
-        margin: auto;
-        position: relative;
-        top: -0.6em;
-        width: 85%;
-        background-color: #000C5A;
-        color: #3BABFD;
-        border-radius: 1em;
-        padding: 0.9em 0 0.9em 0;
-        border: 0.35em solid #3BABFD;
-    }
-/*  =============================
+
+  .camping-sell {
+    position: relative;
+    top: 7.4em;
+    left: 7.9em;
+    padding: 1.6em 0em 0.2em 0em;
+    background-color: #000c5a;
+  }
+
+  .camping-sell h3 {
+    font-size: 2.3rem;
+    position: relative;
+    top: -15px;
+    color: #7eeafb;
+    text-align: center;
+  }
+
+  .camping-sell p {
+    font-size: 1.95rem;
+    padding: 0 0 1.5em;
+    text-align: center;
+    color: #3babfd;
+  }
+
+  .camping-sell a {
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -0.6em;
+    width: 85%;
+    background-color: #000c5a;
+    color: #3babfd;
+    border-radius: 1em;
+    padding: 0.9em 0 0.9em 0;
+    border: 0.35em solid #3babfd;
+  }
+  /*  =============================
         GENERAL CAMPING INFO
     ============================= */
-    
-    .general-camping-info {
-        width: 58%;
-        border-radius: 1.9em;
-        margin: 2.1em 0 0 1.5em;
-        background-color: #060e47;
-    }
-    
-    .general-camping-info h3 {
-        width: 85%;
-        font-size: 2.3rem;
-        background-color: #000C5A;
-        text-align: center;
-        color: #7EEAFB;
-        margin: 0.8em 1em 2.3em 1.45em;
-        padding: 1.3em;
-        border-radius: 0.50em;
-        border: 0.35em solid #7EEAFB;
-    }
-    
-    .general-camping-info h4 {
-        font-size: 1.9rem;
-        border-left: 0.4em solid #7EEAFB;
-        border-right: 0 solid #7EEAFB;
-        padding: 1em 0 1em 0;
-        margin: 1em 0 1em 0;
-        color: #7EEAFB;
-        text-align: center;
-    }
-    
-    .general-camping-info p {
-        font-size: 1.8rem;
-        padding: 1.3em 0 1.8em 0;
-        margin: 0 0.6em 1.3em 0.6em;
-        color: #3BABFD;
-        text-align: center;
-    }
-    
-    .general-camping-info img {
-        border-radius: 1.3em;
-        width: 75%;
-        height: 28.3em;
-    }
-    
-    .camping-info-phone {
-        display: block;
-        text-align: center;
-        font-size: 2.1rem;
-        width: 50%;
-        background-color: #0B409E;
-        border: 0.3em solid #3BABFD;
-        border-radius: 0.45em;
-        margin: -1.3em 1.5em 2.15em 9.8em;
-        color:#3BABFD;
-    }
-    
-    .acessibility-information {
-        position: relative;
-        top: 1em;
-        display: block;
-        color: #7EEAFB;
-        background-color: #000C5A;
-        font-size: 2.3rem;
-        margin: -1.3em 3.5em 2.15em 4.3em;
-        padding: 0.5em 0.15em 0.5em 0.15em;
-        text-align: center;
-        border-radius: 0.85em;
-        border: 0.4em solid #3BABFD;
-    
-    } 
-    
-    /*  ====================
+
+  .general-camping-info {
+    width: 58%;
+    border-radius: 1.9em;
+    margin: 2.1em 0 0 1.5em;
+    background-color: #060e47;
+  }
+
+  .general-camping-info h3 {
+    width: 85%;
+    font-size: 2.3rem;
+    background-color: #000c5a;
+    text-align: center;
+    color: #7eeafb;
+    margin: 0.8em 1em 2.3em 1.45em;
+    padding: 1.3em;
+    border-radius: 0.5em;
+    border: 0.35em solid #7eeafb;
+  }
+
+  .general-camping-info h4 {
+    font-size: 1.9rem;
+    border-left: 0.4em solid #7eeafb;
+    border-right: 0 solid #7eeafb;
+    padding: 1em 0 1em 0;
+    margin: 1em 0 1em 0;
+    color: #7eeafb;
+    text-align: center;
+  }
+
+  .general-camping-info p {
+    font-size: 1.8rem;
+    padding: 1.3em 0 1.8em 0;
+    margin: 0 0.6em 1.3em 0.6em;
+    color: #3babfd;
+    text-align: center;
+  }
+
+  .general-camping-info img {
+    border-radius: 1.3em;
+    width: 75%;
+    height: 28.3em;
+  }
+
+  .camping-info-phone {
+    display: block;
+    text-align: center;
+    font-size: 2.1rem;
+    width: 50%;
+    background-color: #0b409e;
+    border: 0.3em solid #3babfd;
+    border-radius: 0.45em;
+    margin: -1.3em 1.5em 2.15em 9.8em;
+    color: #3babfd;
+  }
+
+  .acessibility-information {
+    position: relative;
+    top: 1em;
+    display: block;
+    color: #7eeafb;
+    background-color: #000c5a;
+    font-size: 2.3rem;
+    margin: -1.3em 3.5em 2.15em 4.3em;
+    padding: 0.5em 0.15em 0.5em 0.15em;
+    text-align: center;
+    border-radius: 0.85em;
+    border: 0.4em solid #3babfd;
+  }
+
+  /*  ====================
             CAMPING RULES
         =================== */
-    
-    .camping-rules {
-        background-color: #000C5A;
-        width: 100%;
-        border-top: 0.45em solid #3BABFD;
-        border-left: 0.45em solid #3BABFD;
-        border-right: 0.45em solid #3BABFD;
-        border-radius: 1.9em;
-    }
-    
-    .camping-rules h4 {
-        font-size: 1.9rem;
-        border: 0em solid ;
-    }
-    
-    .camping-rules li{
-        color: #3BABFD;
-        font-size: 1.65rem;
-        margin: 1.5em 0 1.5em 0;
-    }
 
-    /*  ===========================
+  .camping-rules {
+    background-color: #000c5a;
+    width: 100%;
+    border-top: 0.45em solid #3babfd;
+    border-left: 0.45em solid #3babfd;
+    border-right: 0.45em solid #3babfd;
+    border-radius: 1.9em;
+  }
+
+  .camping-rules h4 {
+    font-size: 1.9rem;
+    border: 0em solid;
+  }
+
+  .camping-rules li {
+    color: #3babfd;
+    font-size: 1.65rem;
+    margin: 1.5em 0 1.5em 0;
+  }
+
+  /*  ===========================
                 SHUTTLE TIMES 
         =========================== */
-    
-    .shuttle-times table {
-        position: relative;
-        top: 12.8em;
-    }
 
-    /*  ===========================
+  .shuttle-times table {
+    position: relative;
+    top: 12.8em;
+  }
+
+  /*  ===========================
                 GATE TIMES 
         ===========================*/
 
-        
-        .gate-times table {
-            position: relative;
-            bottom: 114.70em;
-            margin: -13.4em 0 -23.3em 48.9em;
-            width: 38%;
-            height: 28.2em;
-            text-transform: capitalize;
-        }
-        
-        
-        .gate-times caption {
-            /* width: 100%; */
-            margin: 1.3em 0 0.85em 0;
-            border: 0.35em solid #7EEAFB;
-            padding: 0.35em;
-            color: #7EEAFB;
-            font-size: 1.8rem;
-            text-transform: capitalize;
-        }
-        
-        .gate-times th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: #3BABFD;
-            color: white;
-        }
-        
-        .gate-times tr:nth-child(even) {
-            background-color: #000C5A;
-            color: #7EEAFB;
-        }
-        
-        tr:nth-child(odd) {
-            color: #3BABFD;
-            background-color: #0B409E;
-        }
-        
-        tbody tr:hover {
-            background-color: #060e47;
-        }
-        
-        td.merge {
-            text-align: center;
-            font-style: italic;
-        }
-        
-        tfoot {
-            font-size: 1.6rem;
-            font-style: italic;
-            text-align: center;
-            background-color: #c5c5c5;
-        }
-    
-    /*  ===========================
+  .gate-times table {
+    position: relative;
+    bottom: 114.7em;
+    margin: -12.4em 0 -23.3em 51.9em;
+    width: 36%;
+    height: 28.2em;
+    text-transform: capitalize;
+  }
+
+  .gate-times caption {
+    /* width: 100%; */
+    margin: 1.3em 0 0.85em 0;
+    border: 0.35em solid #7eeafb;
+    padding: 0.35em;
+    color: #7eeafb;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+  }
+
+  .gate-times th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3babfd;
+    color: white;
+  }
+
+  .gate-times tr:nth-child(even) {
+    background-color: #000c5a;
+    color: #7eeafb;
+  }
+
+  tr:nth-child(odd) {
+    color: #3babfd;
+    background-color: #0b409e;
+  }
+
+  tbody tr:hover {
+    background-color: #060e47;
+  }
+
+  td.merge {
+    text-align: center;
+    font-style: italic;
+  }
+
+  tfoot {
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+    background-color: #c5c5c5;
+  }
+
+  /*  ===========================
         AREAS WITHIN THE CAMPGROUND
         =========================== */
-    
-    
-        .camp-ground-area {
-            width: 38%;
-            border-radius: 3.8em;
-            background-color: #060e47;
-            position: relative;
-            top: -42.4em;
-            margin: -75em 0 0 48.8em;
-            padding-bottom: 1.3em;
-        }
-    
-        .camp-ground-area h4 {
-            color: #7EEAFB;
-            width: 75%;
-            font-size: 1.75rem;
-            text-align: center;
-            border-radius: 35.3em;
-            border-top: 0.45em solid #7EEAFB;
-            border-bottom: 0.45em solid #7EEAFB;
-            padding: 1.4em 0.50em 1.4em 0.50em;
-            margin: 4.35em 1.5em 3.1em 3.8em;
-            position: relative;
-            top: 1.2em;
-        }
-    
-        .camp-ground-area img {
-            border-radius: 1.8rem;
-            width: 80%;
-            height: 26.3em;
-        }
-    
-        .camp-ground-area p {
-            font-size: 2.8rem;
-            color: #2A72F7;
-            text-align: center;
-        }
-    
-        .camp-ground-area li {
-            font-size: 1.9rem;
-            margin: 1.3em 0 1.20em 0.85em;
-            position: relative;
-            left: 1.25em;
-            color: #3BABFD;
-        }
-    
-        .camp-ground-area a {
-            display: block;
-            position: relative;
-            top: 0.350em;
-            color: #7EEAFB;
-            border: 0.25em solid #7EEAFB;
-            border-radius: 1.3em;
-            background-color: #000C5A;
-            font-size: 1.8rem;
-            text-align: center;
-            padding: 0.80em 0.50em 0.80em 0.50em;
-            margin: auto;
-            width: 60%;
-    
-        }
-        
-    /*  ==========================
+
+  .camp-ground-area {
+    width: 36%;
+    border-radius: 3.8em;
+    background-color: #060e47;
+    position: relative;
+    top: -42.4em;
+    margin: -75em 0 0 51.8em;
+    padding-bottom: 1.3em;
+  }
+
+  .camp-ground-area h4 {
+    color: #7eeafb;
+    width: 75%;
+    font-size: 1.75rem;
+    text-align: center;
+    border-radius: 35.3em;
+    border-top: 0.45em solid #7eeafb;
+    border-bottom: 0.45em solid #7eeafb;
+    padding: 1.4em 0.5em 1.4em 0.5em;
+    margin: 4.35em 1.5em 3.1em 3.8em;
+    position: relative;
+    top: 1.2em;
+  }
+
+  .camp-ground-area img {
+    border-radius: 1.8rem;
+    width: 80%;
+    height: 26.3em;
+  }
+
+  .camp-ground-area p {
+    font-size: 2.8rem;
+    color: #2a72f7;
+    text-align: center;
+  }
+
+  .camp-ground-area li {
+    font-size: 1.9rem;
+    margin: 1.3em 0 1.2em 0.85em;
+    position: relative;
+    left: 1.25em;
+    color: #3babfd;
+  }
+
+  .camp-ground-area a {
+    display: block;
+    position: relative;
+    top: 0.35em;
+    color: #7eeafb;
+    border: 0.25em solid #7eeafb;
+    border-radius: 1.3em;
+    background-color: #000c5a;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0.8em 0.5em 0.8em 0.5em;
+    margin: auto;
+    width: 60%;
+  }
+
+  /*  ==========================
             PURCHASING ONLINE 
         ========================== */
-    
-        .purchasing-online {
-            width: 33%;
-            padding: 0.6em;
-            position: relative;
-            bottom: 41em;
-            margin: 0 0 0 51.0em;
-            background-color: #000C5A;
-            border-radius: 2.5em;
-        }
-    
-        .purchasing-online h4 {
-            font-size: 1.85rem;
-            color: #2A72F7;
-            text-align: center;
-        }
-    
-        .purchasing-online p {
-            margin: 0 0.85em 0 0.85em;
-            text-align: center;
-            font-size: 1.45rem;
-            color: #2A72F7;
-        }
-    
-    /*  ====================
+
+  .purchasing-online {
+    width: 33%;
+    padding: 0.6em;
+    position: relative;
+    bottom: 41em;
+    margin: 0 0 0 53em;
+    background-color: #000c5a;
+    border-radius: 2.5em;
+  }
+
+  .purchasing-online h4 {
+    font-size: 1.85rem;
+    color: #2a72f7;
+    text-align: center;
+  }
+
+  .purchasing-online p {
+    margin: 0 0.85em 0 0.85em;
+    text-align: center;
+    font-size: 1.45rem;
+    color: #2a72f7;
+  }
+
+  /*  ====================
             MINORS 
         ==================== */
 
-        .minors {
-            margin: -40em 0 0 50.2em;
-            position: relative;
-            bottom:2em;
-            width: 35%;
-            border-radius: 3.8em;
-            height: 60.3em;
-            background-color: #000C5A;
-        }
-    
-        .minors h4 {
-            padding: 0.5em;
-            font-size: 3.2rem;
-            text-align: center;
-            color: #7EEAFB;
-            position: relative;
-            top: 0.50em;
-        }
-    
-        .minors p{
-            font-size: 1.8rem;
-            margin: 0 0.55em 0 0.55em;
-            text-align: center;
-            line-height: 2.50em;
-            color: #3BABFD;
-        }
-    
-    
-    /*  =============================
+  .minors {
+    margin: -40em 0 0 52em;
+    position: relative;
+    bottom: 2em;
+    width: 35%;
+    border-radius: 3.8em;
+    height: 60.3em;
+    background-color: #000c5a;
+  }
+
+  .minors h4 {
+    padding: 0.5em;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #7eeafb;
+    position: relative;
+    top: 0.5em;
+  }
+
+  .minors p {
+    font-size: 1.8rem;
+    margin: 0 0.55em 0 0.55em;
+    text-align: center;
+    line-height: 2.5em;
+    color: #3babfd;
+  }
+
+  /*  =============================
             SERVICES AND SHOWERS
         ============================= */
-    
-    
-    
-        .services {
-            border-radius: 1.3em;
-            width: 95%;
-            padding: 1.3em 1.3em 0 1.3em;
-            margin: auto;
-        }
-    
-        .services h4 {
-            font-size: 3.2rem;
-            position: relative;
-            right: -0.8em;
-            top: 0.4em;
-            margin: auto;
-            color: #7EEAFB;
-            width: 25%;
-            text-align: center;
-            background-color: #060e47;
-            border-top: 0.15em solid #7EEAFB;
-            border-bottom: 0.15em solid #7EEAFB;
-            border-radius: 1.8em;
-        }
-    
-        .services p {
-            text-align: center;
-            font-size: 2.1rem;
-            color: #3BABFD;
-            padding: 1.3em;
-        }
-    
-        .showers {
-            margin: auto;
-            background-color: #000C5A;
-            width: 85%;
-            border-radius: 0.85em;
-            margin-bottom: -0.95em;
-            border: 0.4em solid #000C5A;
-        }
-    
-        .showers h4 {
-            margin: 1.3em 0 2.4em 11.8em;
-            background-color: #000C5A;
-        }
-    
-        .showers img {
-            width: 75%;
-            height: 29.3em;
-            border-radius: 1.1em;
-            margin: 2.1em 50% 2.1em 9.50em;
-        }
-    
-        .showers .location-logo {
-            width:6.5%;
-            height:6.5%;
-            position: relative;
-            top: -30.9em;
-            left: 41.5em;
-            object-fit: cover;
-        }
-    
-        .showers table {
-            font-size: 1.9rem;
-            position: relative;
-            height: 24.3em;
-            width: 100%;
-        }
-    
-        .showers caption {
-            margin: auto;
-            font-size: 2.1rem;
-            padding: 1.6em;
-        }
 
-        .showers tr:nth-child(even) {
-            background-color: #000C5A;
-            color: #7EEAFB;
-        }
-        
-        .showers tr:nth-child(odd) {
-            color: #3BABFD;
-            background-color: #0B409E;
-        }
-    
-        .showers tfoot td {
-            background-color: #060e47;
-        }
+  .services {
+    border-radius: 1.3em;
+    width: 95%;
+    padding: 1.3em 1.3em 0 1.3em;
+    margin: auto;
+  }
 
+  .services h4 {
+    font-size: 3.2rem;
+    position: relative;
+    right: -0.8em;
+    top: 0.4em;
+    margin: auto;
+    color: #7eeafb;
+    width: 25%;
+    text-align: center;
+    background-color: #060e47;
+    border-top: 0.15em solid #7eeafb;
+    border-bottom: 0.15em solid #7eeafb;
+    border-radius: 1.8em;
+  }
+
+  .services p {
+    text-align: center;
+    font-size: 2.1rem;
+    color: #3babfd;
+    padding: 1.3em;
+  }
+
+  .showers {
+    margin: auto;
+    background-color: #000c5a;
+    width: 85%;
+    border-radius: 0.85em;
+    margin-bottom: -0.95em;
+    border: 0.4em solid #000c5a;
+  }
+
+  .showers h4 {
+    margin: 1.3em 0 2.4em 11.8em;
+    background-color: #000c5a;
+  }
+
+  .showers img {
+    width: 75%;
+    height: 29.3em;
+    border-radius: 1.1em;
+    margin: 2.1em 50% 2.1em 9.5em;
+  }
+
+  .showers .location-logo {
+    width: 6.5%;
+    height: 6.5%;
+    position: relative;
+    top: -30.9em;
+    left: 41.5em;
+    object-fit: cover;
+  }
+
+  .showers table {
+    font-size: 1.9rem;
+    position: relative;
+    height: 24.3em;
+    width: 100%;
+  }
+
+  .showers caption {
+    margin: auto;
+    font-size: 2.1rem;
+    padding: 1.6em;
+  }
+
+  .showers tr:nth-child(even) {
+    background-color: #000c5a;
+    color: #7eeafb;
+  }
+
+  .showers tr:nth-child(odd) {
+    color: #3babfd;
+    background-color: #0b409e;
+  }
+
+  .showers tfoot td {
+    background-color: #060e47;
+  }
 }

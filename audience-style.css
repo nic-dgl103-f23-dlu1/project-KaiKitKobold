@@ -8,44 +8,46 @@
 -----------------------------------------------------*/
 
 /*  =================
-        TYPOGRAPHY 
+    TYPOGRAPHY 
     ================= */
-h3, h4, p {
-    text-align: center;
+h3,
+h4,
+p {
+  text-align: center;
 }
 
-ul, li {
-    text-transform: capitalize;
+ul,
+li {
+  text-transform: capitalize;
 }
 
+/*  =======================
+    AUDIENCE INFO HERO    
+    ======================= */
 
-/*  ============
-        HERO    
-    ============ */
-
-    .hero h2 {
-    color: #3BABFD;
-    text-align: center;
-    font-size: 2.1rem;
-    padding: 1.5em;
-    margin: auto;
+.hero h2 {
+  color: #3babfd;
+  text-align: center;
+  font-size: 2.1rem;
+  padding: 1.5em;
+  margin: auto;
 }
 
 .hero img {
-    width: 80%;
-    height: 15.0em;
-    border-radius: 0.8em;
-    margin: 1em 0 4em 2.45em;
+  width: 80%;
+  height: 15em;
+  border-radius: 0.8em;
+  margin: 1em 0 4em 2.45em;
 }
 
 .hero p {
-    border-radius: 0.1em;
-    border: 0.1em solid #3BABFD;
-    color: #3BABFD;
-    width: 75%;
-    margin: 0.8em 1.1em 3.65em 3.5em;
-    text-align: center;
-    font-size: 1.6rem;
+  border-radius: 0.1em;
+  border: 0.1em solid #3babfd;
+  color: #3babfd;
+  width: 75%;
+  margin: 0.8em 1.1em 3.65em 3.5em;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 /*  =================
@@ -53,37 +55,37 @@ ul, li {
     ================= */
 
 .fire-plan {
-    padding-bottom: 1.1em;
-    background-color: #060e47;
+  padding-bottom: 1.1em;
+  background-color: #060e47;
 }
 
 .fire-plan h3 {
-    width: 75%;
-    text-align: center;
-    border-radius: 1.3em;
-    padding: 0.3em;
-    margin: auto;
-    background-color: #000C5A;
+  width: 75%;
+  text-align: center;
+  border-radius: 1.3em;
+  padding: 0.3em;
+  margin: auto;
+  background-color: #000c5a;
 }
 
 .fire-plan p {
-    text-align: center;
-    margin-top: -0.7em;
-    line-height: 1.8em;
-    font-size: 1.3rem;
-    padding: 1.6rem;
+  text-align: center;
+  margin-top: -0.7em;
+  line-height: 1.8em;
+  font-size: 1.3rem;
+  padding: 1.6rem;
 }
 
 .fire-plan a {
-    position: relative;
-    top: -0.6em;
-    left: 7.8em;
-    padding: 0.30em 1.1em 0.30em 1.1em;
-    text-align: center;
-    border: 0.3em solid #3BABFD;
-    border-radius: 0.8em;
-    color: #3BABFD;
-    background-color: #060e47;
+  position: relative;
+  top: -0.6em;
+  left: 7.8em;
+  padding: 0.3em 1.1em 0.3em 1.1em;
+  text-align: center;
+  border: 0.3em solid #3babfd;
+  border-radius: 0.8em;
+  color: #3babfd;
+  background-color: #060e47;
 }
 
 /*  ==================================
@@ -91,78 +93,78 @@ ul, li {
     ================================== */
 
 .cigarattes-and-stoves {
-    margin: 1.3em 1.3em 1.3em 2.3em;
-    height: 80%;
-    width: 80%;
-    background-color: #000C5A;
+  margin: 1.3em 1.3em 1.3em 2.3em;
+  height: 80%;
+  width: 80%;
+  background-color: #000c5a;
 }
 
 .cigarattes-and-stoves h3 {
-    font-size: 1.5rem;
-    text-align: center;
-    color: #2A72F7;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #2a72f7;
 }
 
 .cigarattes-and-stoves img {
-    margin: 1.75em 1.75em 0.95em 3.1em;
-    border-radius: 1.8rem;
+  margin: 1.75em 1.75em 0.95em 3.1em;
+  border-radius: 1.8rem;
 }
 
 .cigarattes-and-stoves p {
-    color: #3BABFD;
-    font-size: 1.1rem;
-    text-align: center;
+  color: #3babfd;
+  font-size: 1.1rem;
+  text-align: center;
 }
 
-.getting-here-shuttle{
-    background-color: #000C5A;
+.getting-here-shuttle {
+  background-color: #000c5a;
 }
 
-h3, h4, p {
-    text-align: center;
+h3,
+h4,
+p {
+  text-align: center;
 }
 
-.getting-here-shuttle h3{
-    font-size: 1.9rem;
-    color: #7EEAFB;
-
+.getting-here-shuttle h3 {
+  font-size: 1.9rem;
+  color: #7eeafb;
 }
 
 .getting-here-shuttle h4 {
-    font-size: 1.8rem;
-    color: #2A72F7;
-
+  font-size: 1.8rem;
+  color: #2a72f7;
 }
 
 .getting-here-shuttle p {
-    font-size: 1.2rem;
-    color: #3BABFD;
+  font-size: 1.2rem;
+  color: #3babfd;
 }
 
 .getting-here-shuttle img {
-    position: relative;
-    left: 7.5em;
-    top: -4.00em;
-    width: 3.1em;
-    height: 3.1em;
+  position: relative;
+  left: 7.5em;
+  top: -4em;
+  width: 3.1em;
+  height: 3.1em;
 }
 
 .getting-here-shuttle .location-logo {
-    position: relative;
-    top: 1.4em;
-    left: -6.5em;
+  position: relative;
+  top: 1.4em;
+  left: -6.5em;
 }
 
 .press-church {
-    position: relative;
-    top: 6.17em;
-    left: -8em;
+  position: relative;
+  top: 6.17em;
+  left: -8em;
 }
 
 .driftwood-mall {
-    position: relative;
-    top: -1.2em;
-    left: 10em;
+  position: relative;
+  top: -1.2em;
+  left: 10em;
 }
 
 /*  ==================================
@@ -170,87 +172,83 @@ h3, h4, p {
     ================================== */
 
 .bus-fee-and-vanier-parking {
-    background-color: #060e47;
+  background-color: #060e47;
 }
 
 .bus-fee-and-vanier-parking h4 {
-    padding: 1.3em 0 1.3em 0;
-    color: #7EEAFB;
-    font-size: 2.3rem;
+  padding: 1.3em 0 1.3em 0;
+  color: #7eeafb;
+  font-size: 2.3rem;
 }
 
 .bus-fee-and-vanier-parking ul {
-    margin: 1.4em 0 2.1em 0;
+  margin: 1.4em 0 2.1em 0;
 }
 
 .bus-fee-and-vanier-parking li {
-    font-size: 1.5rem;
-    color: #3BABFD;
-    margin: 0.7em 0.9em 1.0em 0;
+  font-size: 1.5rem;
+  color: #3babfd;
+  margin: 0.7em 0.9em 1em 0;
 }
 
 .bus-fee-and-vanier-parking p {
-    font-size: 1.5rem;
-    padding: 1.4em;
+  font-size: 1.5rem;
+  padding: 1.4em;
 }
 
 /*  ===================
         FESTIVAL HOSTS
     =================== */
 
-
-
 .festival-hosts {
-    background-color: #000C5A;
-    width: 85%;
-    margin: auto;
-    border-radius: 1.3em;
+  background-color: #000c5a;
+  width: 85%;
+  margin: auto;
+  border-radius: 1.3em;
 }
 
 .festival-hosts h3 {
-    font-size: 2.0rem;
-    color: #3BABFD;
+  font-size: 2rem;
+  color: #3babfd;
 }
 
 .festival-hosts img {
-    border-radius: 0.8em;
+  border-radius: 0.8em;
 }
 
 .festival-hosts p {
-    color: #2A72F7;
-    font-size: 1.5rem;
+  color: #2a72f7;
+  font-size: 1.5rem;
 }
-
 
 /*  ===================
         GATE TIMES
     =================== */
 
 .gate-times caption {
-    margin: 0.3em 0 0 0;
+  margin: 0.3em 0 0 0;
 }
-
 
 /*  ===========================
         DAYTIME AND SEATING 
-    =========================== */ 
+    =========================== */
 
 .daytime-seating-and-boogie-zone h3 {
-    color: #7EEAFB;
-    text-transform: capitalize;
-    font-size: 1.4rem;
+  color: #7eeafb;
+  text-transform: capitalize;
+  font-size: 1.4rem;
 }
 
 .daytime-seating-and-boogie-zone p {
-    color: #3BABFD;
-    font-size: 1.2rem;
-    line-height: 2.75em;
-    margin: 3.5em 1.5em 3.5em 1.5em;
+  color: #3babfd;
+  font-size: 1.2rem;
+  line-height: 2.75em;
+  margin: 3.5em 1.5em 3.5em 1.5em;
 }
 
 .daytime-seating-and-boogie-zone table {
-    position: relative;
-    top: -1.5em;
+  position: relative;
+  top: -1.5em;
 }
 
 /*  ==============================
@@ -258,21 +256,21 @@ h3, h4, p {
     ============================== */
 
 .disabled-acess-viewing-areas {
-    background-color: #000C5A;
-    margin: -1.9em 0 0 0;
+  background-color: #000c5a;
+  margin: -1.9em 0 0 0;
 }
 
 .disabled-acess-viewing-areas h3 {
-    padding: 0.85em;
-    font-size: 1.95rem;
-    color: #7EEAFB;
+  padding: 0.85em;
+  font-size: 1.95rem;
+  color: #7eeafb;
 }
 
 .disabled-acess-viewing-areas p {
-    color: #3BABFD;
-    margin: 1.5em;
-    line-height: 2.1em;
-    font-size: 1.5rem;
+  color: #3babfd;
+  margin: 1.5em;
+  line-height: 2.1em;
+  font-size: 1.5rem;
 }
 
 /*  =========================
@@ -280,916 +278,896 @@ h3, h4, p {
     ========================= */
 
 .no-pets-allowed {
-    background-color: #060e47;
-    width: 85%;
-    margin: auto;
-    border-radius: 2.1em;
-    border: 0.1em solid #0B409E
+  background-color: #060e47;
+  width: 85%;
+  margin: auto;
+  border-radius: 2.1em;
+  border: 0.1em solid #0b409e;
 }
 
 .no-pets-allowed h3 {
-    font-size: 1.9rem;
-    color: #7EEAFB;
+  font-size: 1.9rem;
+  color: #7eeafb;
 }
 
 .no-pets-allowed img {
-    width: 80%;
-    height: 16.3em;
-    border-radius: 1.8rem;
+  width: 80%;
+  height: 16.3em;
+  border-radius: 1.8rem;
 }
 
 .no-pets-allowed p {
-    color: #3BABFD;
-    font-size: 1.35rem;
-    padding: 1.25em 0 0.50em 0;
+  color: #3babfd;
+  font-size: 1.35rem;
+  padding: 1.25em 0 0.5em 0;
 }
 
 .beer-rules {
-    margin: 1.4em 0 0 0;
-    background-color: #060e47;
+  margin: 1.4em 0 0 0;
+  background-color: #060e47;
 }
 
 .beer-rules h3 {
-    font-size: 2.2rem;
-    color: #7EEAFB;
+  font-size: 2.2rem;
+  color: #7eeafb;
 }
 
 .beer-rules h4 {
-    color: #7EEAFB;
-    font-size: 2.1rem;
-
+  color: #7eeafb;
+  font-size: 2.1rem;
 }
 
 .beer-rules p {
-    font-size: 1.4rem;
-    line-height: 3rem;
-    margin: 2.35em 1.35em 2.35em 1.35em;
-    color: #3BABFD;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  margin: 2.35em 1.35em 2.35em 1.35em;
+  color: #3babfd;
 }
 
 .beer-rules li {
-    font-size: 1.6rem;
-    padding: 0.6em 0 0.6em 0;
-    color: #3BABFD;
+  font-size: 1.6rem;
+  padding: 0.6em 0 0.6em 0;
+  color: #3babfd;
 }
 
 @media only screen and (min-width: 768px) {
-
-    /*  =================
-        CONTENT
+  /*  =================
+    CONTENT
     ================= */
 
-.thead, tbody {
+  .thead,
+  tbody {
     text-transform: capitalize;
-}
+  }
 
-/*  =================
+  /*  =================
         TABLE 
     ================= */
 
-caption {
+  caption {
     /* width: 100%; */
     margin: 1.3em 0 0.85em 0;
-    border: 0.35em solid #7EEAFB;
+    border: 0.35em solid #7eeafb;
     padding: 0.35em;
-    color: #7EEAFB;
+    color: #7eeafb;
     font-size: 1.8rem;
     text-transform: capitalize;
-}
+  }
 
-th {
+  th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #3BABFD;
+    background-color: #3babfd;
     color: white;
-}
+  }
 
-tr:nth-child(even) {
-    background-color: #000C5A;
-}
+  tr:nth-child(even) {
+    background-color: #000c5a;
+  }
 
-tr:nth-child(odd) {
-    background-color: #0B409E;
-}
+  tr:nth-child(odd) {
+    background-color: #0b409e;
+  }
 
-tbody tr:hover {
+  tbody tr:hover {
     background-color: #060e47;
-}
+  }
 
-td.merge {
+  td.merge {
     text-align: center;
     font-style: italic;
-}
+  }
 
-tfoot {
+  tfoot {
     font-size: 0.8em;
     font-style: italic;
     text-align: center;
-}
+  }
 
-tfoot td {
+  tfoot td {
     background-color: #060e47;
-}
+  }
 
-/*  ============
-        HERO    
-    ============ */
+  /*  =======================
+    AUDIENCE INFO HERO    
+    ======================= */
 
-.hero h2 {
+  .hero h2 {
     width: 65%;
-    border: 0.2em solid #7EEAFB;
-    border-radius: 1.0rem;
-    color: #7EEAFB;
+    border: 0.2em solid #7eeafb;
+    border-radius: 1rem;
+    color: #7eeafb;
     text-align: center;
     font-size: 3.2rem;
     padding: 0.4em;
     margin: auto;
-}
+  }
 
-.hero img {
+  .hero img {
     width: 95%;
     height: 21.9em;
     border-radius: 0.8em;
-    margin: 1em 0 4em 1.10em;
-}
+    margin: 1em 0 4em 1.1em;
+  }
 
-.hero p {
+  .hero p {
     padding: 0.8em;
     border-radius: 0.5em;
-    border: 0.1em solid #3BABFD;
-    color: #3BABFD;
+    border: 0.1em solid #3babfd;
+    color: #3babfd;
     width: 80%;
     margin: 0.8em 1.1em 3.65em 3.5em;
     text-align: center;
     font-size: 2.2rem;
-}
+  }
 
-/*  ====================
+  /*  ====================
         FIRE SECTION
     ==================== */
 
-.fire-section {
+  .fire-section {
     background-color: #060e47;
     float: left;
     margin: 0.8em;
     width: calc(50% - 1.6em);
-}
+  }
 
-/*  =================
+  /*  =================
         FIRE PLAN
     ================= */
 
-.fire-plan {
+  .fire-plan {
     height: 44.8em;
     padding-bottom: 1.1em;
     background-color: #060e47;
-}
+  }
 
-.fire-plan h3 {
+  .fire-plan h3 {
     width: 75%;
     text-align: center;
     border-radius: 1.3em;
     padding: 0.3em;
     margin: auto;
-    background-color: #000C5A;
-}
+    background-color: #000c5a;
+  }
 
-.fire-plan.fire-section p {
-    color: #3BABFD;
+  .fire-plan.fire-section p {
+    color: #3babfd;
     text-align: center;
     margin-top: -0.7em;
     line-height: 2.1em;
     font-size: 1.8rem;
     padding: 1.6rem;
-}
+  }
 
-.fire-plan a {
+  .fire-plan a {
     position: relative;
     top: -0.6em;
     left: 7.8em;
-    padding: 0.30em 1.1em 0.30em 1.1em;
+    padding: 0.3em 1.1em 0.3em 1.1em;
     text-align: center;
-    border: 0.3em solid #3BABFD;
+    border: 0.3em solid #3babfd;
     border-radius: 0.8em;
-    color: #3BABFD;
+    color: #3babfd;
     background-color: #060e47;
-}
+  }
 
-/*  ==================================
+  /*  ==================================
         CIGARATTES AND STOVES
     ================================== */
 
-.cigarattes-and-stoves {
+  .cigarattes-and-stoves {
     margin: 1.3em 1.3em 1.3em 2.3em;
     height: 80%;
     width: 80%;
     background-color: #060e47;
-}
+  }
 
-.cigarattes-and-stoves.fire-section h3 {
+  .cigarattes-and-stoves.fire-section h3 {
     border: 0.3em solid #060e47;
     background-color: #060e47;
     font-size: 1.5rem;
     text-align: center;
-    color: #2A72F7;
-}
+    color: #2a72f7;
+  }
 
-.cigarattes-and-stoves img {
+  .cigarattes-and-stoves img {
     margin: 1.75em 1.75em 0.95em 3.1em;
     border-radius: 1.8rem;
-}
+  }
 
-.fire-section p {
-    color: #2A72F7;
+  .fire-section p {
+    color: #2a72f7;
     font-size: 2.1rem;
     text-align: center;
-}
+  }
 
-/*  ======================
+  /*  ======================
     GETTING HERE SHUTTLE
     ====================== */
 
-.getting-here-shuttle{
-    background-color: #000C5A;
-}
+  .getting-here-shuttle {
+    background-color: #000c5a;
+  }
 
-h3, h4, p {
+  h3,
+  h4,
+  p {
     text-align: center;
-}
+  }
 
-.getting-here-shuttle h3{
+  .getting-here-shuttle h3 {
     font-size: 2.3rem;
-    color: #7EEAFB;
+    color: #7eeafb;
+  }
 
-}
+  .getting-here-shuttle h4 {
+    font-size: 2rem;
+    color: #2a72f7;
+  }
 
-.getting-here-shuttle h4 {
-    font-size: 2.0rem;
-    color: #2A72F7;
-
-}
-
-.getting-here-shuttle p {
+  .getting-here-shuttle p {
     font-size: 1.6rem;
-    color: #3BABFD;
-}
+    color: #3babfd;
+  }
 
-.getting-here-shuttle a {
+  .getting-here-shuttle a {
     display: block;
     font-size: 2.3rem;
-}
+  }
 
-.getting-here-shuttle img {
+  .getting-here-shuttle img {
     width: 4.3em;
     height: 4.3em;
-}
+  }
 
-.press-church.location-logo {
+  .press-church.location-logo {
     position: relative;
-    top: 1.40em;
+    top: 1.4em;
     left: -14.5em;
-}
+  }
 
-.driftwood-mall.location-logo {
+  .driftwood-mall.location-logo {
     position: relative;
     top: -7.1em;
     left: 13.3em;
+  }
 
-}
-
-p.press-church {
+  p.press-church {
     font-size: 2.1rem;
-    color: #7EEAFB;
+    color: #7eeafb;
     position: relative;
-    top: 2.30em;
+    top: 2.3em;
     left: -11.3em;
-}
+  }
 
-p.driftwood-mall {
+  p.driftwood-mall {
     font-size: 2.1rem;
-    color: #7EEAFB;
+    color: #7eeafb;
     position: relative;
-    top: -4.0em;
+    top: -4em;
     left: 10.3em;
-}
+  }
 
-/*  ========================
-        SHUTTLE TIMES
-    ======================== */
-.shuttle-times table {
+  /*  ===============================
+    AUDIENCE INFO SHUTTLE TIMES
+    =============================== */
+
+  .shuttle-times table {
     position: relative;
     top: -3.53em;
     right: -7.21em;
     transform: scale(75%);
     transform: scaleY(125%);
     height: 1.3em;
-}
+  }
 
-/*  =============================
+  /*  =============================
     BUS FEES AND VANIER PARKING
     ============================= */
 
-
-.bus-fee-and-vanier-parking {
+  .bus-fee-and-vanier-parking {
     background-color: #060e47;
-}
+  }
 
-.bus-fee-and-vanier-parking h4 {
+  .bus-fee-and-vanier-parking h4 {
     padding: 1.3em 0 1.3em 0;
-    color: #7EEAFB;
+    color: #7eeafb;
     font-size: 4.6rem;
-}
+  }
 
-.bus-fee-and-vanier-parking ul {
+  .bus-fee-and-vanier-parking ul {
     margin: 1.4em 0 2.1em 0;
-}
+  }
 
-.bus-fee-and-vanier-parking li {
+  .bus-fee-and-vanier-parking li {
     font-size: 2.1rem;
-    color: #3BABFD;
-    margin: 0.7em 0.9em 1.0em 0;
-}
+    color: #3babfd;
+    margin: 0.7em 0.9em 1em 0;
+  }
 
-.bus-fee-and-vanier-parking p {
-    font-size: 2.0rem;
+  .bus-fee-and-vanier-parking p {
+    font-size: 2rem;
     padding: 1.4em;
-}
+  }
 
-/*  ===================
+  /*  ===================
         FESTIVAL HOSTS
     =================== */
 
-
-
-.festival-hosts {
-    background-color: #000C5A;
+  .festival-hosts {
+    background-color: #000c5a;
     width: 85%;
     margin: auto;
     border-radius: 1.3em;
-}
+  }
 
-.festival-hosts h3 {
+  .festival-hosts h3 {
     font-size: 2.6rem;
-    color: #3BABFD;
-}
+    color: #3babfd;
+  }
 
-.festival-hosts img {
+  .festival-hosts img {
     border-radius: 0.8em;
-}
+  }
 
-.festival-hosts p {
-    color: #2A72F7;
+  .festival-hosts p {
+    color: #2a72f7;
     font-size: 1.9rem;
-}
+  }
 
-
-/*  ===================
+  /*  ===================
         GATE TIMES
     =================== */
 
-.gate-times caption {
+  .gate-times caption {
     margin: 0.3em 0 0 0;
-}
+  }
 
-.gate-times table {
+  .gate-times table {
     font-size: 2.3rem;
     margin: auto;
-}
+  }
 
-
-/*  ===========================
+  /*  ===========================
         DAYTIME AND SEATING 
-    =========================== */ 
+    =========================== */
 
-.daytime-seating-and-boogie-zone h3 {
-    color: #7EEAFB;
+  .daytime-seating-and-boogie-zone h3 {
+    color: #7eeafb;
     text-transform: capitalize;
     font-size: 2.2rem;
-}
+  }
 
-.daytime-seating-and-boogie-zone p {
-    color: #3BABFD;
+  .daytime-seating-and-boogie-zone p {
+    color: #3babfd;
     font-size: 1.6rem;
     line-height: 2.75em;
     margin: 3.5em 1.5em 3.5em 1.5em;
-}
+  }
 
-.daytime-seating-and-boogie-zone table {
+  .daytime-seating-and-boogie-zone table {
     position: relative;
     top: -1.5em;
-}
+  }
 
-/*  ==============================
-        DISABLED VIEWING AREAS 
-    ============================== */
+  /*  ======================================
+    AUDIENCE INFO DISABLED VIEWING AREAS 
+    ====================================== */
 
-.disabled-acess-viewing-areas {
-    background-color: #000C5A;
+  .disabled-acess-viewing-areas {
+    background-color: #000c5a;
     margin: -1.9em 0 0 0;
-}
+  }
 
-.disabled-acess-viewing-areas h3 {
+  .disabled-acess-viewing-areas h3 {
     padding: 0.85em;
-    font-size: 2.50rem;
-    color: #7EEAFB;
-}
+    font-size: 2.5rem;
+    color: #7eeafb;
+  }
 
-.disabled-acess-viewing-areas p {
-    color: #3BABFD;
+  .disabled-acess-viewing-areas p {
+    color: #3babfd;
     margin: 1.5em;
     line-height: 2.1em;
-    font-size: 2.0rem;
-}
+    font-size: 2rem;
+  }
 
-/*  =========================
+  /*  =========================
         NO PETS ALLOWED 
     ========================= */
 
-.no-pets-allowed {
+  .no-pets-allowed {
     background-color: #060e47;
     width: 85%;
     margin: auto;
     border-radius: 2.1em;
-    border: 0.1em solid #0B409E
-}
+    border: 0.1em solid #0b409e;
+  }
 
-.no-pets-allowed h3 {
+  .no-pets-allowed h3 {
     font-size: 1.9rem;
-    color: #7EEAFB;
-}
+    color: #7eeafb;
+  }
 
-.no-pets-allowed img {
+  .no-pets-allowed img {
     width: 80%;
     height: 23.3em;
     border-radius: 1.8rem;
-}
+  }
 
-.no-pets-allowed figcaption {
+  .no-pets-allowed figcaption {
     text-transform: capitalize;
-    color: #3BABFD;
+    color: #3babfd;
     font-size: 1.65rem;
     text-align: center;
-    padding: 1.25em 0 0.50em 0;
-}
+    padding: 1.25em 0 0.5em 0;
+  }
 
-/*  =====================
+  /*  =====================
         BEER RULES
     ===================== */
 
-.beer-rules {
+  .beer-rules {
     margin: 1.4em 0 0 0;
     background-color: #060e47;
-}
+  }
 
-.beer-rules h3 {
+  .beer-rules h3 {
     font-size: 2.8rem;
-    color: #7EEAFB;
-}
+    color: #7eeafb;
+  }
 
-.beer-rules h4 {
-    color: #7EEAFB;
+  .beer-rules h4 {
+    color: #7eeafb;
     font-size: 2.4rem;
+  }
 
-}
-
-.beer-rules p {
+  .beer-rules p {
     font-size: 1.6rem;
     line-height: 3rem;
     margin: 2.35em 1.35em 2.35em 1.35em;
-    color: #3BABFD;
-}
+    color: #3babfd;
+  }
 
-.beer-rules li {
+  .beer-rules li {
     font-size: 1.7rem;
     padding: 0.6em 0 0.6em 0;
-    color: #3BABFD;
-}
-
-
+    color: #3babfd;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
+  /*  =======================
+    AUDIENCE INFO HERO    
+    ======================= */
 
-    /*  ============
-            HERO    
-        ============ */
-    
-    .hero h2 {
-        width: 60%;
-        border: 0.2em solid #7EEAFB;
-        border-radius: 1.0rem;
-        color: #7EEAFB;
-        text-align: center;
-        font-size: 3.2rem;
-        padding: 0.6em;
-        margin: 1.2em 1.2em 1.2em 8.2em;
-    }
-    
-    .hero img {
-        width: 80%;
-        height: 33.9em;
-        border-radius: 0.8em;
-        margin: 1em 0 4em 8.90em;
-    }
-    
-    .hero p {
-        padding: 0.8em;
-        border-radius: 0.5em;
-        border: 0.1em solid #3BABFD;
-        color: #3BABFD;
-        width: 80%;
-        margin: 0.8em 1.1em 3.65em 7.2em;
-        text-align: center;
-        font-size: 2.0rem;
-    }
-    
-    /*  ====================
-            FIRE SECTION
-        ==================== */
-    
-    .fire-section {
-        background-color: #060e47;
-    }
-    
-    /*  =================
-            FIRE PLAN
-        ================= */
-    
-    .fire-plan {
-        float: left;
-        width: calc(50% - 1.9em);
-        height: 34.2em;
-        padding-bottom: 1.1em;
-        background-color: #060e47;
-    }
-    
-    .fire-plan h3 {
-        width: 75%;
-        text-align: center;
-        border-radius: 1.3em;
-        padding: 0.3em;
-        margin: auto;
-        background-color: #000C5A;
-    }
-    
-    .fire-plan.fire-section p {
-        color: #3BABFD;
-        text-align: center;
-        margin-top: -0.7em;
-        line-height: 2.1em;
-        font-size: 1.8rem;
-        padding: 1.6rem;
-    }
-    
-    .fire-plan a {
-        position: relative;
-        top: -0.5em;
-        left: 14.8em;
-        padding: 0.30em 1.1em 0.30em 1.1em;
-        text-align: center;
-        border: 0.3em solid #3BABFD;
-        border-radius: 0.8em;
-        color: #3BABFD;
-        background-color: #060e47;
-    }
-    
-    /*  ==================================
-            CIGARATTES AND STOVES
-        ================================== */
-    
-    .cigarattes-and-stoves {
-        margin: 1.3em 1.3em 1.3em 2.3em;
-        height: 1.2em;
-        width: 20%;
-        background-color: #060e47;
-    }
-    
-    .cigarattes-and-stoves.fire-section h3 {
-        border: 0.3em solid #060e47;
-        background-color: #060e47;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #2A72F7;
-    }
-    
-    .cigarattes-and-stoves img {
-        margin: 1.75em 1.75em 0.95em 3.1em;
-        border-radius: 1.8rem;
-    }
-    
-    .fire-section p {
-        color: #2A72F7;
-        font-size: 2.1rem;
-        text-align: center;
-    }
+  .hero h2 {
+    width: 60%;
+    border: 0.2em solid #7eeafb;
+    border-radius: 1rem;
+    color: #7eeafb;
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 0.6em;
+    margin: 1.2em 1.2em 1.2em 8.2em;
+  }
 
-    .shuttle-content {
-        width: calc(50% - 1em);
-        float: left;
-    }
+  .hero img {
+    width: 80%;
+    height: 33.9em;
+    border-radius: 0.8em;
+    margin: 1em 0 4em 8.9em;
+  }
 
-    /*  ========================
-            SHUTTLE CONTENT
-        ======================== */
+  .hero p {
+    padding: 0.8em;
+    border-radius: 0.5em;
+    border: 0.1em solid #3babfd;
+    color: #3babfd;
+    width: 80%;
+    margin: 0.8em 1.1em 3.65em 7.2em;
+    text-align: center;
+    font-size: 2rem;
+  }
 
-        .shuttle-content {
-            width: calc(50% - 1em);
-            float: left;
-        }
-    
-        /*  ======================
-            GETTING HERE SHUTTLE
-            ====================== */
-        
-        .getting-here-shuttle{
-            width: 100%;
-            margin: auto;
-            background-color: #000C5A;
-        }
-        
-        h3, h4, p {
-            text-align: center;
-        }
-        
-        .getting-here-shuttle h3{
-            font-size: 2.3rem;
-            color: #7EEAFB;
-        
-        }
-        
-        .getting-here-shuttle h4 {
-            font-size: 2.6rem;
-            color: #2A72F7;
-        
-        }
-        
-        .getting-here-shuttle p {
-            font-size: 1.5rem;
-            color: #3BABFD;
-        }
-        
-        .getting-here-shuttle a {
-            display: block;
-            font-size: 2.3rem;
-        }
-        
-        .getting-here-shuttle img {
-            width: 4.3em;
-            height: 4.3em;
-        }
-        
-        .press-church.location-logo {
-            position: relative;
-            top: 1.70em;
-            left: -9.5em;
-        }
-        
-        .driftwood-mall.location-logo {
-            position: relative;
-            top: -7.1em;
-            left: 10.8em;
-        
-        }
-        
-        p.press-church {
-            font-size: 2.1rem;
-            color: #7EEAFB;
-            position: relative;
-            top: 2.710em;
-            left: -7.3em;
-        }
-        
-        p.driftwood-mall {
-            font-size: 2.1rem;
-            color: #7EEAFB;
-            position: relative;
-            top: -3.9em;
-            left: 8.3em;
-        }
-        
-        /*  ========================
-                SHUTTLE TIMES
-            ======================== */
-        .shuttle-times table {
-            font-size: 1.6rem;
-            text-align: center;
-            position: relative;
-            margin: -5.9em;
-            top: 32.53em;
-            right: 35.5em;
-            transform: scale(75%);
-            transform: scaleY(125%);
-            height: 11.3em;
-        }
-        
-        /*  =============================
-            BUS FEES AND VANIER PARKING
-            ============================= */
-        
-        
-        .bus-fee-and-vanier-parking {
-            width: 50%;
-            position: relative; 
-            right: -1.5em;
-            background-color: #060e47;
-        }
-        
-        .bus-fee-and-vanier-parking h4 {
-            padding: 1.3em 0 1.3em 0;
-            color: #7EEAFB;
-            font-size: 4.6rem;
-        }
-        
-        .bus-fee-and-vanier-parking ul {
-            margin: 1.4em 0 2.1em 0;
-        }
-        
-        .bus-fee-and-vanier-parking li {
-            font-size: 2.1rem;
-            color: #3BABFD;
-            margin: 0.7em 0.9em 1.0em 0;
-        }
-        
-        .bus-fee-and-vanier-parking p {
-            font-size: 2.0rem;
-            padding: 1.4em;
-        }
-        
-        /*  ===================
-                FESTIVAL HOSTS
-            =================== */
-        
-        
-        
-        .festival-hosts {
-            background-color: #000C5A;
-            width: 50%;
-            margin: 0 0 0 1.3em;
-            border-radius: 1.3em;
-        }
-        
-        .festival-hosts h3 {
-            font-size: 2.6rem;
-            color: #3BABFD;
-        }
-        
-        .festival-hosts img {
-            border-radius: 0.8em;
-        }
-        
-        .festival-hosts p {
-            color: #2A72F7;
-            font-size: 1.9rem;
-        }
-        
-        
-        /*  ===================
-                GATE TIMES
-            =================== */
-        
-        .gate-times caption {
-            margin: 0.3em 0 0 0;
-        }
-        
-        .gate-times table {
-            font-size: 1.9rem;
-            padding-bottom: 7.3em;
-            margin: -20em 0 5.3em 32.8em;
-        }
-        
-    
+  /*  ====================
+    AUDIENCE INFO FIRE SECTION
+    ==================== */
 
-    
-    /*  ===========================
+  .fire-section {
+    background-color: #060e47;
+  }
+
+  /*  =================
+    AUDIENCE INFO FIRE PLAN
+    ================= */
+
+  .fire-plan {
+    float: left;
+    width: calc(50% - 1.9em);
+    height: 34.2em;
+    padding-bottom: 1.1em;
+    background-color: #060e47;
+  }
+
+  .fire-plan h3 {
+    width: 75%;
+    text-align: center;
+    border-radius: 1.3em;
+    padding: 0.3em;
+    margin: auto;
+    background-color: #000c5a;
+  }
+
+  .fire-plan.fire-section p {
+    color: #3babfd;
+    text-align: center;
+    margin-top: -0.7em;
+    line-height: 2.1em;
+    font-size: 1.8rem;
+    padding: 1.6rem;
+  }
+
+  .fire-plan a {
+    position: relative;
+    top: -0.5em;
+    left: 14.8em;
+    padding: 0.3em 1.1em 0.3em 1.1em;
+    text-align: center;
+    border: 0.3em solid #3babfd;
+    border-radius: 0.8em;
+    color: #3babfd;
+    background-color: #060e47;
+  }
+
+  /*  ==================================
+    CIGARATTES AND STOVES
+    ================================== */
+
+  .cigarattes-and-stoves {
+    margin: 1.3em 1.3em 1.3em 2.3em;
+    height: 1.2em;
+    width: 20%;
+    background-color: #060e47;
+  }
+
+  .cigarattes-and-stoves.fire-section h3 {
+    border: 0.3em solid #060e47;
+    background-color: #060e47;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #2a72f7;
+  }
+
+  .cigarattes-and-stoves img {
+    margin: 1.75em 1.75em 0.95em 3.1em;
+    border-radius: 1.8rem;
+  }
+
+  .fire-section p {
+    color: #2a72f7;
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .shuttle-content {
+    width: calc(50% - 1em);
+    float: left;
+  }
+
+  /*  ===============================
+    AUDIENCE INFO SHUTTLE CONTENT
+    =============================== */
+
+  .shuttle-content {
+    width: calc(50% - 1em);
+    float: left;
+  }
+
+  /*  ====================================
+    AUDIENCE INFO GETTING HERE SHUTTLE
+    ==================================== */
+
+  .getting-here-shuttle {
+    width: 100%;
+    margin: auto;
+    background-color: #000c5a;
+  }
+
+  h3,
+  h4,
+  p {
+    text-align: center;
+  }
+
+  .getting-here-shuttle h3 {
+    font-size: 2.3rem;
+    color: #7eeafb;
+  }
+
+  .getting-here-shuttle h4 {
+    font-size: 2.6rem;
+    color: #2a72f7;
+  }
+
+  .getting-here-shuttle p {
+    font-size: 1.5rem;
+    color: #3babfd;
+  }
+
+  .getting-here-shuttle a {
+    display: block;
+    font-size: 2.3rem;
+  }
+
+  .getting-here-shuttle img {
+    width: 4.3em;
+    height: 4.3em;
+  }
+
+  .press-church.location-logo {
+    position: relative;
+    top: 1.7em;
+    left: -9.5em;
+  }
+
+  .driftwood-mall.location-logo {
+    position: relative;
+    top: -7.1em;
+    left: 10.8em;
+  }
+
+  p.press-church {
+    font-size: 2.1rem;
+    color: #7eeafb;
+    position: relative;
+    top: 2.71em;
+    left: -7.3em;
+  }
+
+  p.driftwood-mall {
+    font-size: 2.1rem;
+    color: #7eeafb;
+    position: relative;
+    top: -3.9em;
+    left: 8.3em;
+  }
+
+  /*  ===============================
+    AUDIENCE INFO SHUTTLE TIMES
+    =============================== */
+  .shuttle-times table {
+    font-size: 1.6rem;
+    text-align: center;
+    position: relative;
+    margin: -5.9em;
+    top: 32.53em;
+    right: 35.5em;
+    transform: scale(75%);
+    transform: scaleY(125%);
+    height: 11.3em;
+  }
+
+  /*  =============================
+    BUS FEES AND VANIER PARKING
+    ============================= */
+
+  .bus-fee-and-vanier-parking {
+    width: 50%;
+    position: relative;
+    right: -1.5em;
+    background-color: #060e47;
+  }
+
+  .bus-fee-and-vanier-parking h4 {
+    padding: 1.3em 0 1.3em 0;
+    color: #7eeafb;
+    font-size: 4.6rem;
+  }
+
+  .bus-fee-and-vanier-parking ul {
+    margin: 1.4em 0 2.1em 0;
+  }
+
+  .bus-fee-and-vanier-parking li {
+    font-size: 2.1rem;
+    color: #3babfd;
+    margin: 0.7em 0.9em 1em 0;
+  }
+
+  .bus-fee-and-vanier-parking p {
+    font-size: 2rem;
+    padding: 1.4em;
+  }
+
+  /*  ================================
+    AUDIENCE INFO FESTIVAL HOSTS
+    ================================ */
+
+  .festival-hosts {
+    background-color: #000c5a;
+    width: 50%;
+    margin: 0 0 0 1.3em;
+    border-radius: 1.3em;
+  }
+
+  .festival-hosts h3 {
+    font-size: 2.6rem;
+    color: #3babfd;
+  }
+
+  .festival-hosts img {
+    border-radius: 0.8em;
+  }
+
+  .festival-hosts p {
+    color: #2a72f7;
+    font-size: 1.9rem;
+  }
+
+  /*  ==========================
+            AUDIENCE INFO GATE TIMES
+            ========================== */
+
+  .gate-times caption {
+    margin: 0.3em 0 0 0;
+  }
+
+  .gate-times table {
+    font-size: 1.9rem;
+    padding-bottom: 7.3em;
+    height: 21.3em;
+    margin: -23em 0 5.3em 37.8em;
+  }
+
+  /*  ===========================
             DAYTIME AND SEATING 
-        =========================== */ 
-    
-    .daytime-seating-and-boogie-zone h3 {
-        color: #7EEAFB;
-        text-transform: capitalize;
-        font-size: 2.8rem;
-        margin: 0.8em 0 2.0em 0;
-    }
-
-    .daytime-seating-and-boogie-zone img {
-        width: 75%;
-        height: 36.5em;
-        margin: auto;
-    }
-    
-    .daytime-seating-and-boogie-zone p {
-        color: #3BABFD;
-        font-size: 1.9rem;
-        line-height: 2.75em;
-        margin: 3.5em 1.5em 3.5em 1.5em;
-    }
-    
-    .daytime-seating-and-boogie-zone table {
-        position: relative;
-        width: 100%;
-        font-size: 2.1rem;
-        height: 19.8em;
-        top: -1.5em;
-    }
-    
-    /*  ==============================
-            DISABLED VIEWING AREAS 
-        ============================== */
-    
-    .disabled-acess-viewing-areas {
-        background-color: #000C5A;
-        margin: -1.9em 0 0 0;
-    }
-    
-    .disabled-acess-viewing-areas h3 {
-        padding: 0.85em;
-        font-size: 2.50rem;
-        color: #7EEAFB;
-    }
-    
-    .disabled-acess-viewing-areas p {
-        color: #3BABFD;
-        margin: 1.5em;
-        line-height: 2.1em;
-        font-size: 2.0rem;
-    }
-
-    /*  ===========================
-            END CONTENT
         =========================== */
 
-    .end-content {
-        float: left;
-        width: calc(50% - 4.0em);
-    }
-    
-    /*  =========================
+  .daytime-seating-and-boogie-zone h3 {
+    color: #7eeafb;
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    margin: 0.8em 0 2em 0;
+  }
+
+  .daytime-seating-and-boogie-zone img {
+    width: 75%;
+    height: 36.5em;
+    margin: auto;
+  }
+
+  .daytime-seating-and-boogie-zone p {
+    color: #3babfd;
+    font-size: 1.9rem;
+    line-height: 2.75em;
+    margin: 3.5em 1.5em 3.5em 1.5em;
+  }
+
+  .daytime-seating-and-boogie-zone table {
+    position: relative;
+    width: 100%;
+    font-size: 2.1rem;
+    height: 19.8em;
+    top: -1.5em;
+  }
+
+  /*  ======================================
+        AUDIENCE INFO DISABLED VIEWING AREAS 
+        ====================================== */
+
+  .disabled-acess-viewing-areas {
+    background-color: #000c5a;
+    margin: -1.9em 0 0 0;
+  }
+
+  .disabled-acess-viewing-areas h3 {
+    padding: 0.85em;
+    font-size: 2.5rem;
+    color: #7eeafb;
+  }
+
+  .disabled-acess-viewing-areas p {
+    color: #3babfd;
+    margin: 1.5em;
+    line-height: 2.1em;
+    font-size: 2rem;
+  }
+
+  /*  ===========================
+        AUDIENCE INFO END CONTENT
+        =========================== */
+
+  .end-content {
+    float: left;
+    width: calc(50% - 4em);
+  }
+
+  /*  =========================
             NO PETS ALLOWED 
         ========================= */
-    
-    .no-pets-allowed {
-        background-color: #060e47;
-        width: 50%;
-        margin: auto;
-        border-radius: 2.1em;
-        border: 0.1em solid #0B409E
-    }
-    
-    .no-pets-allowed h3 {
-        font-size: 1.9rem;
-        color: #7EEAFB;
-    }
-    
-    .no-pets-allowed img {
-        width: 80%;
-        height: 23.3em;
-        border-radius: 1.8rem;
-    }
-    
-    .no-pets-allowed figcaption {
-        text-transform: capitalize;
-        color: #3BABFD;
-        font-size: 1.65rem;
-        text-align: center;
-        padding: 1.25em 0 0.50em 0;
-    }
-    
-    /*  =====================
+
+  .no-pets-allowed {
+    background-color: #060e47;
+    width: 50%;
+    margin: auto;
+    border-radius: 2.1em;
+    border: 0.1em solid #0b409e;
+  }
+
+  .no-pets-allowed h3 {
+    font-size: 1.9rem;
+    color: #7eeafb;
+  }
+
+  .no-pets-allowed img {
+    width: 80%;
+    height: 23.3em;
+    border-radius: 1.8rem;
+  }
+
+  .no-pets-allowed figcaption {
+    text-transform: capitalize;
+    color: #3babfd;
+    font-size: 1.65rem;
+    text-align: center;
+    padding: 1.25em 0 0.5em 0;
+  }
+
+  /*  =====================
             BEER RULES
         ===================== */
-    
-    .beer-rules {
-        background-color: #060e47;
-        width: 50%;
-        margin: auto;
-        border-radius: 2.1em;
-        border: 0.1em solid #0B409E
-    }
-    
-    .beer-rules h3 {
-        font-size: 2.8rem;
-        color: #7EEAFB;
-    }
-    
-    .beer-rules h4 {
-        color: #7EEAFB;
-        font-size: 2.4rem;
-    
-    }
-    
-    .beer-rules p {
-        font-size: 1.6rem;
-        line-height: 3rem;
-        margin: 2.35em 1.35em 2.35em 1.35em;
-        color: #3BABFD;
-    }
-    
-    .beer-rules li {
-        font-size: 1.7rem;
-        padding: 0.6em 0 0.6em 0;
-        color: #3BABFD;
-    }
-    
 
+  .beer-rules {
+    background-color: #060e47;
+    width: 50%;
+    margin: auto;
+    border-radius: 2.1em;
+    border: 0.1em solid #0b409e;
+  }
+
+  .beer-rules h3 {
+    font-size: 2.8rem;
+    color: #7eeafb;
+  }
+
+  .beer-rules h4 {
+    color: #7eeafb;
+    font-size: 2.4rem;
+  }
+
+  .beer-rules p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin: 2.35em 1.35em 2.35em 1.35em;
+    color: #3babfd;
+  }
+
+  .beer-rules li {
+    font-size: 1.7rem;
+    padding: 0.6em 0 0.6em 0;
+    color: #3babfd;
+  }
 }
