@@ -19,6 +19,13 @@
   clear: both;
 }
 
+img {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
 /* ===============
     TYPOGRAPHY
      =============== */
@@ -303,6 +310,10 @@ footer p {
 
 /* Class Selectors */
 
+video {
+  display: none;
+}
+
 /* footer and header sections */
 
 header .wrapper-width {
@@ -350,105 +361,127 @@ footer {
   /* ===============
         HEADER
      =============== */
+  
+    header i {
+      display: none;
+    }
+  
+    header .wrapper-width {
+      width: 100%;
+    }
+  
+    nav {
+      margin: auto;
+      width: 90%;
+    }
+  
+    .header-links {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    header img {
+      padding: 45px 0 45px 0;
+      width: 20em;
+      height: 15em;
+    }
 
-  header .wrapper-width {
-    width: 100%;
-  }
-
-  nav {
-    margin: auto;
-    width: 90%;
-  }
-
-  .header-links {
-    display: flex;
-    flex-direction: row;
-  }
-
-  header img {
-    padding: 45px 0 45px 0;
-    width: 15em;
-    height: 15em;
-  }
-
-  .header-links i {
-    position: absolute;
-    margin-left: -16em;
-    margin-top: -2.5em;
-  }
-
-  .header-links li {
-    padding-top: 40px;
-  }
-
-  .header-links a {
-    list-style-type: none;
-    font-size: 2.5rem;
-  }
-
-  header .wrapper-width ul {
-    list-style-type: none;
-    font-size: 0.8rem;
-    padding-top: 10px;
-  }
-
-  .dropdown-options li a {
-    font-size: 1.6rem;
-  }
-
-  /* ===========
-    DROPDOWN 
-============== */
-
-  /* Most code snippets are taken from:
-https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
-    */
-
-  .dropdown {
-    margin-left: 0.6em;
-  }
-
-  .show {
-    display: block;
-  }
-
-  #nav-items {
-    display: block;
-  }
-
-  .dropdown-content {
+    .fa-bars {
+      display: none;
+    }
+  
+    .header-links i {
+      position: absolute;
+      margin-left: -7.1em;
+      margin-top: -0.6em;
+    }
+  
+    .header-links li {
+      padding: 3.2em 4em 0 4.2em;
+      margin: 0.2em -0.2em 1.0em 0.4em;
+      position: relative;
+      left: -4%;
+    }
+  
+    .header-links a {
+      list-style-type: none;
+      font-size: 1.9rem;
+    }
+  
+    header .wrapper-width ul {
+      list-style-type: none;
+      font-size: 0.8rem;
+      padding-top: 10px;
+      padding: 10px 0 0- 0; 
+      
+    }
+  
+    .dropdown-options li a {
+      font-size: 1.8rem;
+    }
+  
+    /* ===========
+      DROPDOWN 
+  ============== */
+  
+    /* Most code snippets are taken from:
+  https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
+      */
+  
+    .dropdown {
+      display: block;
+      margin: 0em 6.3em 8.1em 3.0em; 
+      padding: 0 3.6em 0 2.8em;
+    }
+  
+    .show {
+      display: block;
+    }
+  
+    #nav-items {
+      display: block;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #4c4ce1;
+      min-width: 140px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
+    }
+  
+    .dropdown a:hover {
+      background-color: #4f9ef3;
+    }
+  
+    .dropdown-options a {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .dropdown:hover .dropdown-options {
+      display: block;
+    }
+  
+    .show {
+      display: block;
+    }
+  
+    /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
+    ul li::before {
+      color: #7eeafb;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  
+  /*  =============
+        CONTENT
+      ============= */
+  video  {
     display: none;
-    position: absolute;
-    background-color: #4c4ce1;
-    min-width: 140px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
-  }
-
-  .dropdown a:hover {
-    background-color: #4f9ef3;
-  }
-
-  .dropdown-options a {
-    display: block;
-    text-decoration: none;
-  }
-
-  .dropdown:hover .dropdown-options {
-    display: block;
-  }
-
-  .show {
-    display: block;
-  }
-
-  /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
-  ul li::before {
-    color: #7eeafb;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
   }
 }
 
@@ -458,98 +491,65 @@ https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=
     margin: auto;
   }
 
-  /*  ================
+   /* ===============
         HEADER
-    ================ */
+     =============== */
+  
+     header i {
+      display: none;
+    }
+  
+    header .wrapper-width {
+      width: 100%;
+    }
+  
+    nav {
+      margin: auto;
+      width: 90%;
+    }
+  
+    .header-links {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    header img {
+      padding: 45px 0 45px 0;
+      width: 30em;
+      height: 20em;
+    }
 
-  header .wrapper-width {
-    width: 100%;
-  }
-
-  nav {
-    margin: auto;
-    width: 90%;
-  }
-
-  .header-links {
-    display: flex;
-    flex-direction: column;
-  }
-
-  header img {
-    padding: 45px 0 45px 0;
-    width: 15em;
-    height: 15em;
-  }
-
-  .header-links i {
-    position: absolute;
-    margin-left: -16em;
-    margin-top: -2.5em;
-  }
-
-  .header-links li {
-    padding-top: 40px;
-  }
-
-  .header-links a {
-    list-style-type: none;
-    font-size: 2.5rem;
-  }
-
-  header .wrapper-width ul {
-    list-style-type: none;
-    font-size: 0.8rem;
-    padding-top: 10px;
-  }
-
-  .dropdown-options li a {
-    font-size: 1.6rem;
-  }
-
-  /* ===========
-    DROPDOWN 
-============== */
-
-  /* Most code snippets are taken from:
-https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
-     */
-
-  .dropdown {
-    margin-left: 0.6em;
-  }
-
-  .show {
-    display: block;
-  }
-
-  #nav-items {
-    display: none;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #4c4ce1;
-    min-width: 140px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
-  }
-
-  .dropdown a:hover {
-    background-color: #4f9ef3;
-  }
-
-  .dropdown-options a {
-    display: block;
-    text-decoration: none;
-  }
-
-  .dropdown:hover .dropdown-options {
-    display: block;
-  }
-
-  .show {
-    display: block;
-  }
+    .fa-bars {
+      display: none;
+    }
+  
+    .header-links i {
+      position: absolute;
+      margin-left: -7.1em;
+      margin-top: -0.6em;
+    }
+  
+    .header-links li {
+      padding: 3.2em 4em 0 4.2em;
+      margin: 0.2em -0.2em 1.0em 7.4em;
+      position: relative;
+      left: -6.5em
+    }
+  
+    .header-links a {
+      list-style-type: none;
+      font-size: 1.9rem;
+    }
+  
+    header .wrapper-width ul {
+      list-style-type: none;
+      font-size: 0.8rem;
+      padding-top: 10px;
+      padding: 10px 0 0- 0; 
+      
+    }
+  
+    .dropdown-options li a {
+      font-size: 1.8rem;
+    }
 }
