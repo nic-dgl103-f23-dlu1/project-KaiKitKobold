@@ -111,6 +111,32 @@ li {
   background-color: #060e47;
 }
 
+.fire-section:hover {
+  border: 0.6em solid #3babfd;
+  border-radius: 0.8em;
+  transform: scale(1.1);
+  transition: all 200ms ease-out;
+
+}
+
+.fire-section:not(:hover) {
+  transition: all 250ms ease-in;
+}
+
+.fire-section a:hover {
+  transform: scale(1.5);
+  color: #7eeafb;
+  font-size: 2.0rem;
+  border: 0.4em solid #7eeafb;
+  transition: all 150ms ease-in-out;
+  margin: 0 0 0 -4.9em;
+}
+
+.fire-section a:not(:hover) {
+  transition: all 200ms ease-in-out;
+}
+
+
 .fire-plan h3 {
   width: 75%;
   text-align: center;
@@ -227,6 +253,19 @@ p {
   background-color: #060e47;
 }
 
+.bus-fee-and-vanier-parking:hover {
+  transform: scale(1.1);
+  border: 0.2em solid #2a72f7;
+  border-radius: 0.3em;
+  transition: all 150ms ease-out;
+  position: relative;
+  left: -1em;
+}
+
+.bus-fee-and-vanier-parking:not(:hover) {
+  transition: all 200ms ease-in;
+}
+
 .bus-fee-and-vanier-parking h4 {
   padding: 1.3em 0 1.3em 0;
   color: #7eeafb;
@@ -249,6 +288,28 @@ p {
 }
 
 /*  ===================
+      SHUTTLE TIMES
+    =================== */
+
+.shuttle-times table:hover {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.4);
+  border: 0.3em solid #3babfd;
+  border-radius: 0.3em;
+  transition: all 350ms ease-in-out;
+  right: 18.5em;
+}
+
+.shuttle-times table:not(:hover) {
+  transition: all 250ms ease-out;
+}
+
+.shuttle-times table td:hover {
+  border: 0.1em solid #7eeafb;
+}
+
+/*  ===================
         FESTIVAL HOSTS
     =================== */
 
@@ -257,6 +318,19 @@ p {
   width: 85%;
   margin: auto;
   border-radius: 1.3em;
+}
+
+.festival-hosts:hover {
+  border: 0.2em solid #7eeafb;
+  transform: scale(1.1);
+  position: relative;
+  left: 1.5em;
+  z-index: 2;
+  transition: all 100ms ease-in;
+}
+
+.festival-hosts:not(:hover), .gate-times table:not(:hover) {
+  transition: all 50ms ease-out;
 }
 
 .festival-hosts h3 {
@@ -273,12 +347,19 @@ p {
   font-size: 1.5rem;
 }
 
+
 /*  ===================
         GATE TIMES
     =================== */
 
 .gate-times caption {
   margin: 0.3em 0 0 0;
+}
+
+.gate-times table:hover {
+  transform: scale(1.2);
+  border: 0.3em solid #3babfd;
+  transition: all 100ms ease-in;
 }
 
 /*  ===========================
@@ -335,6 +416,17 @@ p {
   margin: auto;
   border-radius: 2.1em;
   border: 0.1em solid #0b409e;
+}
+
+.no-pets-allowed:hover, .beer-rules:hover {
+  margin: 1.5em 0 2.3em 0;
+  border: 0.4em solid #7eeafb;
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
+}
+
+.no-pets-allowed:not(:hover), .beer-rules:not(:hover) {
+  transition: all 150ms ease-out;
 }
 
 .no-pets-allowed h3 {
@@ -1111,8 +1203,8 @@ p {
   }
 
   .daytime-seating-and-boogie-zone img {
-    width: 75%;
-    height: 36.5em;
+    width: 35%;
+    height: 19.5em;
     margin: auto;
   }
 
