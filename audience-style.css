@@ -7,6 +7,9 @@
 6. Page-specific (styles specific to individual locations)
 -----------------------------------------------------*/
 
+
+
+
 /*  =================
     TYPOGRAPHY 
     ================= */
@@ -22,10 +25,59 @@ li {
 }
 
 /*  =======================
+        CONTENT
+    ======================= */
+
+    .thead,
+    tbody {
+      text-transform: capitalize;
+    }
+    /*  =================
+          TABLE 
+      ================= */
+    caption {
+      /* width: 100%; */
+      margin: 1.3em 0 0.85em 0;
+      border: 0.35em solid #7eeafb;
+      padding: 0.35em;
+      color: #7eeafb;
+      font-size: 1.8rem;
+      text-transform: capitalize;
+    }
+    th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #3babfd;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #000c5a;
+    }
+    tr:nth-child(odd) {
+      background-color: #0b409e;
+    }
+    tbody tr:hover {
+      background-color: #060e47;
+    }
+    td.merge {
+      text-align: center;
+      font-style: italic;
+    }
+    tfoot {
+      font-size: 0.8em;
+      font-style: italic;
+      text-align: center;
+    }
+    tfoot td {
+      background-color: #060e47;
+    }
+
+/*  =======================
     AUDIENCE INFO HERO    
     ======================= */
 
-.hero h2 {
+.hero h1 {
   color: #3babfd;
   text-align: center;
   font-size: 2.1rem;
@@ -335,65 +387,11 @@ p {
     CONTENT
     ================= */
 
-  .thead,
-  tbody {
-    text-transform: capitalize;
-  }
-
-  /*  =================
-        TABLE 
-    ================= */
-
-  caption {
-    /* width: 100%; */
-    margin: 1.3em 0 0.85em 0;
-    border: 0.35em solid #7eeafb;
-    padding: 0.35em;
-    color: #7eeafb;
-    font-size: 1.8rem;
-    text-transform: capitalize;
-  }
-
-  th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #3babfd;
-    color: white;
-  }
-
-  tr:nth-child(even) {
-    background-color: #000c5a;
-  }
-
-  tr:nth-child(odd) {
-    background-color: #0b409e;
-  }
-
-  tbody tr:hover {
-    background-color: #060e47;
-  }
-
-  td.merge {
-    text-align: center;
-    font-style: italic;
-  }
-
-  tfoot {
-    font-size: 0.8em;
-    font-style: italic;
-    text-align: center;
-  }
-
-  tfoot td {
-    background-color: #060e47;
-  }
-
   /*  =======================
     AUDIENCE INFO HERO    
     ======================= */
 
-  .hero h2 {
+  .hero h1 {
     width: 65%;
     border: 0.2em solid #7eeafb;
     border-radius: 1rem;
@@ -641,6 +639,64 @@ p {
         GATE TIMES
     =================== */
 
+    .gate-times a:hover {
+      font-size: 2.0rem;
+      transition: all 180ms ease-in-out;
+    }
+  
+    .gate-times table {
+      margin: auto;
+      width: 40%;
+      height: 15.2em;
+      position: relative;
+      left: -3.3em;
+      text-transform: capitalize;
+    }
+  
+    .gate-times caption {
+      /* width: 100%; */
+      margin: 1.3em 0 0.85em 0;
+      border: 0.35em solid #7eeafb;
+      padding: 0.35em;
+      color: #7eeafb;
+      font-size: 1.8rem;
+      text-transform: capitalize;
+    }
+  
+    .gate-times th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #3babfd;
+      color: white;
+    }
+  
+    .gate-times tr:nth-child(even) {
+      background-color: #000c5a;
+      color: #7eeafb;
+    }
+  
+    tr:nth-child(odd) {
+      color: #3babfd;
+      background-color: #0b409e;
+    }
+  
+    tbody tr:hover {
+      background-color: #060e47;
+    }
+  
+    td.merge {
+      text-align: center;
+      font-style: italic;
+    }
+  
+    tfoot {
+      font-size: 1.6rem;
+      font-style: italic;
+      text-align: center;
+      background-color: #c5c5c5;
+    }
+
   .gate-times caption {
     margin: 0.3em 0 0 0;
   }
@@ -763,7 +819,7 @@ p {
     AUDIENCE INFO HERO    
     ======================= */
 
-  .hero h2 {
+  .hero h1 {
     width: 60%;
     border: 0.2em solid #7eeafb;
     border-radius: 1rem;
@@ -973,6 +1029,7 @@ p {
   /*  =============================
     BUS FEES AND VANIER PARKING
     ============================= */
+
 
   .bus-fee-and-vanier-parking {
     width: 50%;

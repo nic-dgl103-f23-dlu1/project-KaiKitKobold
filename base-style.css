@@ -97,6 +97,11 @@ body {
     CONTENT BLOCKS
     ============ */
 
+
+/*=============================
+    ANIMATIONS AND TRANSITIONS 
+  =============================
+
 /* ===============
         HEADER
      =============== */
@@ -171,14 +176,17 @@ https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #4c4ce1;
   min-width: 140px;
   overflow: auto;
-  box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
 }
 
 .dropdown a:hover {
-  background-color: #4f9ef3;
+  border: 0.3em solid #7eeafb;
+  border-radius: 0.5em;
+  background-color: #000c5a;
+  color: #7eeafb;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .dropdown-options a {
@@ -270,17 +278,23 @@ footer .wrapper-width {
   padding: 3em 0 2em 0;
 }
 
-.footer-hyperlinks-and-location {
+.footer-hyperlinks {
   text-align: center;
 }
+
+.footer-hyperlinks a:hover {
+  color: #4C4CE1;
+  transition: all 100ms ease-in-out;
+}
+
 .footer-funders-sponsers h3 {
   font-size: 1.8rem;
   text-align: center;
   margin: 0 2em 0 2em;
 }
 
-.footer-hyperlinks-and-location ul,
-.footer-hyperlinks-and-location li {
+.footer-hyperlinks ul,
+.footer-hyperlinks li {
   text-decoration-style: none;
 }
 
@@ -445,14 +459,9 @@ footer {
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #4c4ce1;
       min-width: 140px;
       overflow: auto;
       box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
-    }
-  
-    .dropdown a:hover {
-      background-color: #4f9ef3;
     }
   
     .dropdown-options a {
@@ -470,7 +479,9 @@ footer {
   
     /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
     ul li::before {
-      color: #7eeafb;
+      border: 0.3em solid #7eeafb;
+      border-radius: 1.0em;
+      color: #b0f4ff;
       font-weight: bold;
       display: inline-block;
       width: 1em;
@@ -483,6 +494,10 @@ footer {
   video  {
     display: none;
   }
+
+/*=============================
+    ANIMATIONS AND TRANSITIONS 
+  =============================
 
   /* ===============
     FOOTER
@@ -685,6 +700,16 @@ footer p {
     margin: auto;
   }
 
+/*  ===============
+      CONTENT
+    =============== */
+  
+/*  ==========================
+    TRANSITIONS AND ANIMATIONS
+    ========================== */
+  
+
+
   /* ===============
         HEADER
      =============== */
@@ -747,7 +772,7 @@ footer p {
       font-size: 1.8rem;
     }
 
- /* ===============
+/* ===============
     FOOTER
     =============== */
 
@@ -773,6 +798,7 @@ footer p {
     }
     
     footer {
+      width: 100%;
       overflow: auto;
     }
     

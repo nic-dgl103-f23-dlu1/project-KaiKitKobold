@@ -27,7 +27,7 @@
   margin: auto;
 }
 
-.hero h3 {
+.hero h1 {
   text-align: center;
   font-size: 1.8rem;
   width: 95%;
@@ -173,7 +173,7 @@ fieldset {
     margin: auto;
   }
 
-  .hero h3 {
+  .hero h1 {
     color: #8b9dfd;
     border: 0.3em solid #8b9dfd;
     border-radius: 0.8em;
@@ -263,6 +263,21 @@ fieldset {
     border-radius: 0.5em;
   }
 
+  input.reset:hover {
+    background-color: #010626;
+    color: #7EEAFB;
+    border: 0.35em solid #7eeafb;
+    border-radius: 1.0em;
+    transform: scale(1.25);
+    transition: all 150ms ease-in;
+  }
+
+  input.reset:not(:hover) {
+    transform: scale(1.0);
+    transition: all 200ms ease-in-out;
+
+  }
+
   input.submit {
     top: -2.9em;
     right: -24.5em;
@@ -271,6 +286,20 @@ fieldset {
     background-color: #010626;
     border: 0.2em solid#7EEAFB;
     color: #7eeafb;
+  }
+
+  input.submit:hover{
+    background-color: #010626;
+    color: #8b9dfd;
+    border: 0.35em solid #8b9dfd;
+    border-radius: 1.0em;
+    transform: scale(1.25);
+    transition: all 150ms ease-in;
+  }
+
+  input.submit:not(:hover) {
+    transform: scale(1.0);
+    transition: all 200ms ease-out;
   }
 
   .wrapper-button {
@@ -370,7 +399,7 @@ fieldset {
     margin: auto;
   }
 
-  .hero h3 {
+  .hero h1 {
     color: #8b9dfd;
     border: 0.3em solid #8b9dfd;
     border-radius: 0.8em;
@@ -382,7 +411,9 @@ fieldset {
   }
 
   .hero p {
-    margin: 2.4em 0 3.1em 0;
+    margin: 2.8em 0 3.8em 0;
+    position: relative;
+    top: -1.8em;
     text-align: center;
     font-size: 2rem;
     font-weight: 700px;
@@ -391,11 +422,11 @@ fieldset {
 
   .hero img {
     position: absolute;
-    right: 11.1em;
-    top: 62.5em;
-    width: 40%;
-    height: 18.5em;
-    margin: 3em 0 10em 2.45em;
+    right: 17.7em;
+    top: 79.5em;
+    width: 26.2em ;
+    height: 17.5em;
+    margin: auto;
     z-index: 2;
   }
 
@@ -407,10 +438,37 @@ fieldset {
     border: 0.3em solid #7eeafb;
     border-radius: 0.8em;
     padding: 0.8em 3.2em 0.8em 3.2em;
-    margin: 1em 0 0 1.1em;
+    margin: 2em 0 0 2.1em;
     position: relative;
-    top: -1em;
+    top: -2em;
     right: -27.8em;
+  }
+
+  .hero a:hover {
+    border: 0.6em solid #8799ff;
+    color: #8799ff;
+    font-size: 1.80rem;
+    border-radius: 1.0em;
+    padding: 1.0em 3.8em 1.0em 3.8em;
+    margin: 2em 1em 1em -1.5em;
+    position: relative;
+    top: -1.8em;
+    transition: all 110ms ease-in;
+  }
+
+  .hero a:not(:hover) {
+    background-color: #000c5a;
+    color: #7eeafb;
+    font-size: 1.65rem;
+    text-align: center;
+    border: 0.3em solid #7eeafb;
+    border-radius: 0.8em;
+    padding: 0.8em 3.2em 0.8em 3.2em;
+    margin: 2em 0 0 2.1em;
+    position: relative;
+    top: -2em;
+    right: -27.8em;
+    transition: all 210ms ease-in-out;
   }
 
   /*  ==============

@@ -11,7 +11,7 @@
   padding: 1.5em 0 4em 0;
 }
 
-.get-involved h2 {
+.get-involved h1 {
   background-color: #2a72f7;
   width: 75%;
   margin: auto;
@@ -56,7 +56,7 @@
 6. Page-specific (styles specific to individual locations)
 -----------------------------------------------------*/
 
-  .involved h2 {
+  .involved h1 {
     font-size: 2.8rem;
     text-align: center;
     margin: 1.3em;
@@ -71,6 +71,7 @@
   .involved img {
     margin: auto;
     width: 85%;
+    border-radius: 2.1em;
     height: 32.3em;
   }
 
@@ -81,6 +82,33 @@
     width: calc(33.3% - 1em);
     padding: 0.5em;
     margin: 0.5em;
+  }
+
+  .get-involved:hover {
+    transform: scale(1.0);
+    border: 0.3em solid #7eeafb;
+    transition: all 300ms ease-out;
+  }
+
+  .get-involved:not(:hover) {
+    transform: scale(0.8);
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 0.2em solid #2a72f7;
+    transition: all 150ms ease-in;
+  }
+
+  .get-involved a:hover {
+    transform: scale(1.2);
+    border: 0.4em solid #7eeafb;
+    transition: all 350ms ease-in-out;
+  }
+
+  .get-involved a:not(:hover) {
+    transform: scale(1.0);
+    border: 0.2em solid #2a72f7;
+    transition: all 150ms ease-in;
+    padding: 0.5em;
   }
 
   .get-involved h3 {
@@ -102,6 +130,7 @@
 
   .get-involved img {
     width: 100%;
+    border-radius: 1.3em;
     margin: 1.8em -1.8em 0 -1.8em;
     height: 29.1em;
   }
@@ -148,7 +177,7 @@
 6. Page-specific (styles specific to individual locations)
 -----------------------------------------------------*/
 
-  .involved h2 {
+  .involved h1 {
     font-size: 2.2rem;
     text-align: center;
     margin: 1.3em;
@@ -196,6 +225,7 @@
 
   .get-involved img {
     width: 100%;
+    border-radius: 1.3em;
     margin: 1.8em -1.8em 0 -1.8em;
     height: 29.1em;
   }

@@ -15,11 +15,28 @@ li {
   text-transform: capitalize;
 }
 
+/*  ==============================
+    TRANSITIONS AND ANIMATIONS 
+    ============================== */
+
+    .acessibility-information:hover {
+      transform: scale(1.2);
+      transition: all 200ms ease-in-out;
+
+    }
+
+    .acessibility-information:not(:hover) {
+      transform: scale(1.0);
+      transition: all 150ms ease-in-out;
+    }
+
+    .acessibility-information:hover
+
 /*  ============
         HERO    
     ============ */
 
-.hero h2 {
+.hero h1 {
   text-transform: uppercase;
   font-size: 1.4rem;
   background-color: #000c5a;
@@ -71,6 +88,28 @@ li {
   background-color: #000c5a;
 }
 
+.on-site-camping-steps:hover {
+  border: 0.5em solid #3babfd;
+  border-radius: 0.5em;
+  transform: scale(1.1);
+  position: relative;
+  top: -580px;
+  padding-bottom: 42em;
+  transition: all 200ms ease-in;
+}
+
+.on-site-camping-steps:not(:hover), .camping-sell:not(:hover){
+  transition: all 150ms ease-out;
+}
+
+.camping-sell:hover {
+  scale: (1.5);
+  padding: 15px;
+  border: 0.5em solid #3babfd;
+  border-radius: 0.8em;
+  transition: all 200ms ease-in;
+}
+
 .on-site-camping-steps h4 {
   color: #7eeafb;
   text-align: center;
@@ -91,6 +130,26 @@ li {
 .camping-sell {
   padding: 1.6em 0em 1.6em 0em;
   background-color: #000c5a;
+}
+
+.camping-sell a:hover {
+  padding: 10px;
+  color: #7eeafb;
+  transform: scale(1.1);
+  border:  0.4em solid #7eeafb;
+  border-radius: 1.2em;
+  transition: all 400ms ease-in-out;
+}
+
+.camping-sell a:not(:hover) {
+  transition: all 150ms ease-out;
+}
+
+.camping-sell a:after {
+  color: #060e47;
+  border: 0.2em solid #060e47;
+  transition: all 120ms ease-out;
+
 }
 
 .camping-sell h3 {
@@ -123,6 +182,17 @@ li {
 
 .general-camping-info {
   background-color: #060e47;
+}
+
+.general-camping-info:hover {
+  position: relative;
+  z-index: 2;
+  border: 0.4em solid #2a72f7;
+  transition: all 100ms ease-out;
+}
+
+.general-camping-info:not(:hover) {
+  transition: all 100ms ease-out;
 }
 
 .general-camping-info h3 {
@@ -183,6 +253,25 @@ li {
 }
 
 /*  ====================
+        GATE TIMES 
+    ==================== */
+
+    .gate-times table:hover {
+      transform: scale(1.1);
+      position: relative;
+      z-index: 3;
+      border: 0.5em solid #3babfd ;
+      text-align: center;
+      border-radius: 1.0em;
+      transition: all 100ms ease-out;
+    }
+
+    .gate-times table:not(:hover), .camp-ground-area:not(:hover), .purchasing-online:not(:hover), .minors:not(:hover), .camping-sell:not(:hover) {
+      transition: all 100ms ease-in;
+    }
+
+
+/*  ====================
         CAMPING RULES
     =================== */
 
@@ -216,6 +305,14 @@ li {
   position: relative;
   top: -3.2em;
   padding-bottom: 1.3em;
+}
+
+.camp-ground-area:hover {
+  border: 0.4em solid#7eeafb;
+  transform: scale(1.1);
+  position: relative;
+  z-index: 3;
+  transition: all 100ms ease-out;
 }
 
 .camp-ground-area h4 {
@@ -275,6 +372,14 @@ li {
   border-radius: 2.5em;
 }
 
+.purchasing-online:hover {
+  border: 0.3em solid #7eeafb;
+  color: #3babfd;
+  padding: 30px;
+  transition: all 100ms ease-out;
+  
+}
+
 .purchasing-online h4 {
   font-size: 1.65rem;
   color: #2a72f7;
@@ -291,8 +396,17 @@ li {
 /*  ====================
         MINORS 
     ==================== */
+
 .minors {
   background-color: #000c5a;
+}
+
+.minors:hover {
+  transform: scale(1.1);
+  border: 0.4em solid #3babfd;
+  margin-bottom: 3.2em;
+  text-align: center;
+  transition: all 100ms ease-out;
 }
 
 .minors h4 {
@@ -317,6 +431,17 @@ li {
   position: relative;
   top: -1.35em;
   background-color: #060e47;
+}
+
+.services:hover {
+  border: 0.8em solid #0b409e;
+  border-radius: 0.85em;
+  transform: scale(0.99);
+  transition: all 150ms ease-out;
+}
+
+.services:not(:hover) {
+  transition: all 150ms ease-out;
 }
 
 .services h4 {
@@ -346,6 +471,15 @@ li {
   border-radius: 0.85em;
   margin-bottom: -0.95em;
   border: 0.2em solid #0b409e;
+}
+
+.showers:hover {
+  transform: scale(1.1);
+  margin-top: 3.5em;
+  margin-bottom: 4.8em;
+  border: 0.4em solid #0b409e;
+  border-radius: 0.90em;
+  transition: all 100ms ease-out;
 }
 
 .showers h4 {
@@ -454,7 +588,7 @@ li {
     margin: 1.2em 0 2.3em 0;
   }
 
-  .hero h2 {
+  .hero h1 {
     transform: scale(0.3rem);
     color: #3babfd;
     background-color: #060e47;
@@ -492,6 +626,23 @@ li {
     font-size: 1.8rem;
     background-color: #000c5a;
     border: 0.3em solid #2a72f7;
+  }
+
+  .hero a:hover {
+    font-size: 3.2rem;
+    border: 0.4em solid #7eeafb;
+    color: #7eeafb;
+    padding: 1.0em 0 1.0em 0;
+    transition: all 150ms ease-in-out
+  }
+
+  .hero a:not(:hover) {
+    font-size: 1.8rem;
+    background-color: #000c5a;
+    border: 0em solid #000c5a;
+    width: 30%;
+    margin: 0 0 0 6.5em;
+    transition: all 100ms ease-out;
   }
 
   /*  =================
@@ -619,6 +770,37 @@ li {
     color: #3babfd;
   }
 
+  .camping-info-phone:hover {
+    font-size: 2.4rem;
+    background-color: #0b409e;
+    border: 0.4em solid #3babfd;
+    border-radius: 0.60em;
+    color: #3babfd;
+    transition: all 150ms ease-in;
+    padding: 1em 0 1em 0;
+    margin: -1.3em 0 1.3em 8.2em;
+  }
+
+  .camping-info-phone:after {
+    background-color: #000c5a;
+    color: #000c5a;
+    border: 0.5em solid #000c5a;
+    transition: all 200ms ease-in-out;
+  }
+
+  .camping-info-phone:not(:hover) {
+    display: block;
+    text-align: center;
+    font-size: 2.1rem;
+    width: 50%;
+    background-color: #0b409e;
+    border: 0.3em solid #3babfd;
+    border-radius: 0.45em;
+    margin: -1.3em 1.5em 2.15em 9.2em;
+    color: #3babfd;
+    transition: all 200ms ease-out;
+  }
+
   .acessibility-information {
     position: relative;
     top: 1em;
@@ -669,6 +851,11 @@ li {
   /*  ===========================
                 GATE TIMES 
         ===========================*/
+
+  .gate-times a:hover {
+    font-size: 2.0rem;
+    transition: all 180ms ease-in-out;
+  }
 
   .gate-times table {
     margin: auto;
@@ -943,7 +1130,7 @@ li {
     margin: -4.2em 0 -22.3em 0;
   }
 
-  .hero h2 {
+  .hero h1 {
     transform: scale(0.65);
     color: #3babfd;
     background-color: #060e47;
@@ -1010,6 +1197,8 @@ li {
     border-radius: 0.6em;
     background-color: #000c5a;
   }
+
+
 
   .on-site-camping-steps h4 {
     font-size: 2.3rem;

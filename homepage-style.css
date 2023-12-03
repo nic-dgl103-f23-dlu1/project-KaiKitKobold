@@ -31,7 +31,7 @@
   opacity: 0.6;
 }
 
-.hero h2 {
+.hero h1 {
   text-align: center;
   padding: 2em 0em 2em 0em;
 }
@@ -47,11 +47,26 @@
   text-align: center;
 }
 
+.hero a:hover {
+  transition: all 350ms ease-in;
+  border: 0.5em solid #7eeafb;
+  color: #7eeafb;
+  margin-top: 50px;
+  padding: 25px;
+  width: 35%;
+}
+
+.hero a:active {
+  color: #2a72f7;
+  border: 0.5em solid #2a72f7;
+  transition: 200ms ease-in-out;
+}
+
 .hero video {
   padding: 3em 0 3em 0;
 }
 
-/* == ABOUT US == */
+/* == HOMEPAGE ABOUT US == */
 
 .about-us {
   margin: 2em 0 2em 0;
@@ -100,7 +115,7 @@
   margin: auto;
   width: 45%;
 }
-/* == CALL TO ACTION == */
+/* == HOMEPAGE CALL TO ACTION == */
 
 .call-to-action {
   overflow: auto;
@@ -152,7 +167,7 @@
   color: #000c5a;
 }
 
-/* == GET INVOLVED == */
+/* == HOMEPAGE GET INVOLVED == */
 
 .get-involved .wrapper-width {
   padding-top: 30px;
@@ -254,6 +269,27 @@
   display: block;
 }
 
+.komosos-section a:hover {
+  transition: all 350ms ease-in;
+  border: 0.5em solid #7eeafb;
+  color: #7eeafb;
+  margin-top: 50px;
+  padding: 25px;
+  width: 35%;
+}
+
+.komosos-section a:active {
+  color: #2a72f7;
+  border: 0.5em solid #2a72f7;
+  transition: 200ms ease-in-out;
+}
+
+.komosos-section a:not(:hover) {
+  border: 0em;
+  padding: 30px;
+  transition: all 250ms ease-out;
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     overflow: auto;
@@ -321,6 +357,18 @@
     display: block;
   }
 
+  .about-us:hover {
+    color: #7eeafb;
+    background-color: #000c5a;
+    border: 0.25em solid #7eeafb;
+    transition: all 250ms ease-out;
+  }
+
+  .about-us:not(:hover) {
+    border:  0em solid #000c5a;
+    transition: all 250ms ease-in;
+  }
+
   .about-us h2 {
     margin-top: 35px;
     font-size: 2rem;
@@ -342,6 +390,18 @@
     display: block;
     margin: auto;
     width: 45%;
+  }
+
+  .about-us a:hover {
+    color: #2a72f7;
+    border: 0.25em solid #2a72f7;
+    transition: all 200ms ease-in;
+  }
+  .about-us a:not(:hover) {
+    color: #7eeafb;
+    background-color: #000c5a;
+    border: 0.25em solid #7eeafb;
+    transition: all 250ms ease-out;
   }
   /* == CALL TO ACTION == */
 
@@ -531,6 +591,7 @@
   }
 
   video.background-video {
+    display: block;
     width: 100%;
     height: 100%;
     position: relative;
@@ -539,7 +600,7 @@
     z-index: -2;
   }
 
-  .hero h2 {
+  .hero h1 {
     text-align: center;
     padding: 2em 0em 2em 0em;
   }
@@ -630,6 +691,32 @@
     display: block;
   }
 
+  .call-to-article:hover {
+    border: 0.4em solid #000c5a;
+    border-radius: 1.0em;
+    transition: all 200ms ease-in-out;
+    
+  }
+
+  .call-to-article:not(:hover) {
+    border: 0 solid #2a72f7;
+    border-radius: 0em;
+    transition: all 250ms ease-in-out;
+  }
+
+  .call-to-article a:hover {
+    border: 0.5em solid #2a72f7;
+    width: 85%;
+    transition: all 300ms ease;
+    background-color: #000c5a;
+    color: #2a72f7;
+    border-radius: 1.0em;
+  }
+
+  .call-to-article a:not(:hover) {
+    transition: all 100ms ease-in-out;
+  }
+
   .call-to-action p {
     font-size: 1.3rem;
     padding: 1em 2em 0 0;
@@ -695,6 +782,21 @@
     padding: 0.75em;
     float: left;
     width: calc(33.3% - 1.5em);
+  }
+
+  .get-involved-content a:hover {
+    transition: all 150ms ease-in-out;
+    border: 0.3em solid #7eeafb;
+    width: 85%;
+    border-radius: 1.2em;
+  }
+
+  .get-involved-content a:not(:hover) {
+    transition: all 200ms ease-in;
+    border: 0em;
+    width: 90%;
+    padding: 0.75em;
+
   }
 
   .volunteer-class {
@@ -789,4 +891,5 @@
     margin: auto;
     display: block;
   }
+
 }
