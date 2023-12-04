@@ -12,6 +12,7 @@
    =============== */
 
 * {
+  font-family: "Oxygen", sans-serif;
   box-sizing: border-box;
 }
 
@@ -37,6 +38,7 @@ h3,
 h4,
 h5,
 a {
+  font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
 }
 
@@ -60,15 +62,6 @@ i {
 p {
   font-size: 1rem;
   color: #8b9dfd;
-}
-
-/* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
-ul li::before {
-  color: #7eeafb;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 /* ===============
@@ -97,14 +90,48 @@ body {
     CONTENT BLOCKS
     ============ */
 
-
 /*=============================
     ANIMATIONS AND TRANSITIONS 
-  =============================
+  ============================= */
 
-/* ===============
+/* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
+ul li::before {
+  color: #7eeafb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.dropdown a:hover {
+  border: 0.3em solid #7eeafb;
+  border-radius: 0.5em;
+  background-color: #000c5a;
+  color: #7eeafb;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.dropdown a:not(:hover) {
+  transition: all 150ms ease-in;
+}
+
+.footer-hyperlinks a:hover {
+  color: #4c4ce1;
+  transition: all 100ms ease-in-out;
+}
+
+.footer-hyperlinks-and-location a:not(:hover) {
+  transition: all 100ms ease-in-out;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+/*  ===============
         HEADER
-     =============== */
+    =============== */
 
 header .wrapper-width {
   width: 100%;
@@ -153,7 +180,7 @@ header .wrapper-width ul {
   font-size: 1.6rem;
 }
 
-/* ===========
+/*  ==============
         DROPDOWN 
     ============== */
 
@@ -180,22 +207,9 @@ https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=
   overflow: auto;
 }
 
-.dropdown a:hover {
-  border: 0.3em solid #7eeafb;
-  border-radius: 0.5em;
-  background-color: #000c5a;
-  color: #7eeafb;
-  cursor: pointer;
-  transition: all 200ms ease-in-out;
-}
-
 .dropdown-options a {
   display: block;
   text-decoration: none;
-}
-
-.dropdown:hover .dropdown-options {
-  display: block;
 }
 
 .show {
@@ -282,11 +296,6 @@ footer .wrapper-width {
   text-align: center;
 }
 
-.footer-hyperlinks a:hover {
-  color: #4C4CE1;
-  transition: all 100ms ease-in-out;
-}
-
 .footer-funders-sponsers h3 {
   font-size: 1.8rem;
   text-align: center;
@@ -357,6 +366,10 @@ nav {
   display: block;
 }
 
+.dropdown a {
+  display: block;
+}
+
 footer {
   overflow: auto;
 }
@@ -371,327 +384,322 @@ footer {
 6. Page-specific (styles specific to individual locations)
 -----------------------------------------------------*/
 
-
   /* ===============
         HEADER
      =============== */
-  
-    header i {
-      display: none;
-    }
-  
-    header .wrapper-width {
-      width: 100%;
-    }
-  
-    nav {
-      margin: auto;
-      width: 90%;
-    }
-  
-    .header-links {
-      display: flex;
-      flex-direction: row;
-    }
-  
-    header img {
-      padding: 45px 0 45px 0;
-      width: 20em;
-      height: 15em;
-    }
 
-    .fa-bars {
-      display: none;
-    }
-  
-    .header-links i {
-      position: absolute;
-      margin-left: -7.1em;
-      margin-top: -0.6em;
-    }
-  
-    .header-links li {
-      padding: 3.2em 4em 0 4.2em;
-      margin: 0.2em -0.2em 1.0em 0.4em;
-      position: relative;
-      left: -4%;
-    }
-  
-    .header-links a {
-      list-style-type: none;
-      font-size: 1.9rem;
-    }
-  
-    header .wrapper-width ul {
-      list-style-type: none;
-      font-size: 0.8rem;
-      padding-top: 10px;
-      padding: 10px 0 0- 0; 
-      
-    }
-  
-    .dropdown-options li a {
-      font-size: 1.8rem;
-    }
-  
-    /* ===========
-      DROPDOWN 
-  ============== */
-  
-    /* Most code snippets are taken from:
-  https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
-      */
-  
-    .dropdown {
-      display: block;
-      margin: 0em 6.3em 8.1em 3.0em; 
-      padding: 0 3.6em 0 2.8em;
-    }
-  
-    .show {
-      display: block;
-    }
-  
-    #nav-items {
-      display: block;
-    }
-  
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      min-width: 140px;
-      overflow: auto;
-      box-shadow: 0px 8px 16px 0px #4C4CE1(228, 220, 220, 0.2);
-    }
-  
-    .dropdown-options a {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .dropdown:hover .dropdown-options {
-      display: block;
-    }
-  
-    .show {
-      display: block;
-    }
-  
-    /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
-    ul li::before {
-      border: 0.3em solid #7eeafb;
-      border-radius: 1.0em;
-      color: #b0f4ff;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-    }
-  
-  /*  =============
-        CONTENT
-      ============= */
-  video  {
+  header i {
     display: none;
   }
 
-/*=============================
+  header .wrapper-width {
+    width: 100%;
+  }
+
+  nav {
+    margin: auto;
+    width: 90%;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header img {
+    padding: 45px 0 45px 0;
+    width: 20em;
+    height: 15em;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .header-links i {
+    position: absolute;
+    margin-left: -7.1em;
+    margin-top: -0.6em;
+  }
+
+  .header-links li {
+    padding: 3.2em 4em 0 4.2em;
+    margin: 0.2em -0.2em 1em 0.4em;
+    position: relative;
+    left: -4%;
+  }
+
+  .header-links a {
+    list-style-type: none;
+    font-size: 1.9rem;
+  }
+
+  header .wrapper-width ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding: 10px 0 0 0;
+  }
+
+  .dropdown-options li a {
+    font-size: 1.8rem;
+  }
+
+  /* ===========
+      DROPDOWN 
+  ============== */
+
+  /* Most code snippets are taken from:
+  https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript#:~:text=The%20tab%20is%20used,items%20and%20links%20inside%20it.
+      */
+
+  .dropdown {
+    display: block;
+    margin: 0em 6.3em 8.1em 3em;
+    padding: 0 3.6em 0 2.8em;
+  }
+
+  .show {
+    display: block;
+  }
+
+  #nav-items {
+    display: block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #4c4ce1;
+  }
+
+  .dropdown-options a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+
+  .show {
+    display: block;
+  }
+
+  /*  =============
+        CONTENT
+      ============= */
+  video {
+    display: none;
+  }
+
+  /*=============================
     ANIMATIONS AND TRANSITIONS 
   =============================
+
+    /* snippet taken from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color */
+  ul li::before {
+    border: 0.3em solid #7eeafb;
+    border-radius: 1em;
+    color: #b0f4ff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 
   /* ===============
     FOOTER
     =============== */
 
-.footer-logo {
-  z-index: 5;
-  background-color: #4f9ef3;
-  display: flex;
-  flex-direction: row;
-  margin: 0 0 0 23.5em;
-  width: 50%;
-  border-bottom-left-radius: 2.6em;
-  border-bottom-right-radius: 2.6em;
-}
+  .footer-logo {
+    z-index: 5;
+    background-color: #4f9ef3;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 23.5em;
+    width: 50%;
+    border-bottom-left-radius: 2.6em;
+    border-bottom-right-radius: 2.6em;
+  }
 
-.footer-logo a {
-  width: 6em;
-  height: 6em;
-}
+  .footer-logo a {
+    width: 6em;
+    height: 6em;
+  }
 
-.footer-logo img {
-  width: 6em;
-  height: 6em;
-}
+  .footer-logo img {
+    width: 6em;
+    height: 6em;
+  }
 
-footer {
-  overflow: auto;
-}
+  footer {
+    overflow: auto;
+  }
 
-footer img {
-  width: 45%;
-  height: 45%;
-  padding-top: 15px;
-}
+  footer img {
+    width: 45%;
+    height: 45%;
+    padding-top: 15px;
+  }
 
-footer ul {
-  font-size: 3.8rem;
-  list-style-type: none;
-}
+  footer ul {
+    font-size: 3.8rem;
+    list-style-type: none;
+  }
 
-footer h4 {
-  color: #4f9ef3;
-  font-size: 2.5rem;
-  list-style-type: none;
-}
+  footer h4 {
+    color: #4f9ef3;
+    font-size: 2.5rem;
+    list-style-type: none;
+  }
 
-footer li a {
-  font-size: 2.1rem;
-  color: #7eeafb;
-}
+  footer li a {
+    font-size: 2.1rem;
+    color: #7eeafb;
+  }
 
-.footer-logo img {
-  position: relative;
-  width: 3.0em;
-  height: 3.5em;
-  top: -2em;
-  left: -1.7em;
-}
+  .footer-logo img {
+    position: relative;
+    width: 3em;
+    height: 3.5em;
+    top: -2em;
+    left: -1.7em;
+  }
 
-.information,
-.contact {
-  margin: 0 1em 0 0;
-}
+  .information,
+  .contact {
+    margin: 0 1em 0 0;
+  }
 
-footer .wrapper-width {
-  background-color: #4c4ce1;
-}
+  footer .wrapper-width {
+    background-color: #4c4ce1;
+  }
 
-.footer-logo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
+  .footer-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 
-.footer-funders-sponsers {
-  position: relative;
-  top: 3.9em;
-  background-color: #4f9ef3;
-  width: 40%;
-  padding: 0 0 0 0;
-  margin-top: 1em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  
-}
+  .footer-funders-sponsers {
+    position: relative;
+    top: 3.9em;
+    background-color: #4f9ef3;
+    width: 40%;
+    padding: 0 0 0 0;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-.footer-funders-sponsers h3{
-  color: #000c5a;
-  font-size: 2.9rem;
+  .footer-funders-sponsers h3 {
+    color: #000c5a;
+    font-size: 2.9rem;
+  }
 
-}
+  .footer-funders-sponsers a {
+    color: #000c5a;
+    font-size: 1.9rem;
+    margin: auto;
+    padding: 3em 0 2em 0;
+  }
 
-.footer-funders-sponsers a {
-  color: #000c5a;
-  font-size: 1.9rem;
-  margin: auto;
-  padding: 3em 0 2em 0;
-}
+  .footer-hyperlinks {
+    z-index: 1;
+    position: relative;
+    right: -15.3em;
+    top: -1.4em;
+    width: 63%;
+    padding: 3.5em;
+    margin: -40.5em 0 0 3.5em;
+    background-color: #000c5a;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
 
-.footer-hyperlinks {
-  z-index: 1;
-  position: relative;
-  right: -15.3em;
-  top: -1.4em;
-  width: 63%;
-  padding: 3.5em;
-  margin: -40.5em 0 0 3.5em;
-  background-color: #000c5a;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-}
+  .footer-hyperlinks a {
+    margin: 1.3em 0 1.3em 0;
+  }
 
-.footer-hyperlinks a {
-  margin: 1.3em 0 1.3em 0;
-}
+  .information,
+  .contact {
+    border-top: 0.3rem solid #4c4ce1;
+    position: relative;
+    right: 1.1em;
+    display: flex;
+    flex-direction: column;
+  }
 
-.information, .contact {
-  border-top: 0.3rem solid #4c4ce1;
-  position: relative;
-  right: 1.1em;
-  display: flex;
-  flex-direction: column;
+  .information {
+    padding-right: 1.3em;
+    border-right: 0.3rem solid #4f9ef3;
+  }
 
-}
+  .location-block h4 {
+    text-align: center;
+  }
 
-.information {
-  padding-right: 1.3em;
-  border-right: 0.3rem solid #4f9ef3;
-}
+  .location-block {
+    background-color: #000c5a;
+    position: relative;
+    right: -9.9em;
+    width: 62%;
+    top: -4.5em;
+    padding: 1em 4.5em 0.5em 0;
+    margin: 3.5em 15em 0 13.4em;
+  }
 
-.location-block h4{
-  text-align: center;
+  .footer-funders-sponsers h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 2em 0 2em;
+  }
 
-}
+  .footer-hyperlinks-and-location ul,
+  .footer-hyperlinks-and-location li {
+    text-decoration-style: none;
+  }
 
-.location-block {
-  background-color: #000c5a;
-  position: relative;
-  right: -9.9em;
-  width: 62%;
-  top: -4.5em;
-  padding: 1.0em 4.5em 0.5em -3.5em;
-  margin: 3.5em 15em 0 8.9em;
-}
+  .foooter-footer {
+    margin: -4.1em;
+    background-color: #010626;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 3em 0;
+  }
 
-.footer-funders-sponsers h3 {
-  font-size: 1.8rem;
-  text-align: center;
-  margin: 0 2em 0 2em;
-}
+  .foooter-footer a {
+    color: #7eeafb;
+    text-align: center;
+    position: relative;
+    right: 12.2em;
+    top: 0.2em;
+    font-size: 2.2rem;
+  }
 
-.footer-hyperlinks-and-location ul,
-.footer-hyperlinks-and-location li {
-  text-decoration-style: none;
-}
+  .foooter-footer h2 {
+    color: #7eeafb;
+    font-size: 2.2rem;
+    text-align: center;
+    position: relative;
+    right: 4.5em;
+    top: -1.9em;
+  }
 
-.foooter-footer {
-  margin: -4.1em;
-  background-color: #010626;
-  display: flex;
-  flex-direction: column;
-  padding: 3em 0 3em 0;
-}
-
-.foooter-footer a {
-  color: #7eeafb;
-  text-align: center;
-  position: relative;
-  right: 12.2em;
-  top: 0.2em;
-  font-size: 2.2rem;
-}
-
-.foooter-footer h2 {
-  color: #7eeafb;
-  font-size: 2.2rem;
-  text-align: center;
-  position: relative;
-  right: 4.5em;
-  top: -1.9em;
-}
-
-footer p {
-  color: #4C4CE1;
-  text-align: center;
-  font-size: 1.8rem;
-  position: relative;
-  left: -4.9em;
-  top: 1.5em;
-  margin: -2.1em 0 0 9.1em;
-}
+  footer p {
+    color: #4c4ce1;
+    text-align: center;
+    font-size: 1.8rem;
+    position: relative;
+    left: -4.9em;
+    top: 1.5em;
+    margin: -2.1em 0 0 9.1em;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -700,269 +708,263 @@ footer p {
     margin: auto;
   }
 
-/*  ===============
+  /*  ===============
       CONTENT
     =============== */
-  
-/*  ==========================
+
+  /*  ==========================
     TRANSITIONS AND ANIMATIONS
     ========================== */
-  
-
 
   /* ===============
         HEADER
      =============== */
-  
-    header i {
-      display: none;
-    }
-  
-    header .wrapper-width {
-      width: 100%;
-    }
-  
-    nav {
-      margin: auto;
-      width: 90%;
-    }
-  
-    .header-links {
-      display: flex;
-      flex-direction: row;
-    }
-  
-    header img {
-      padding: 45px 0 45px 0;
-      width: 30em;
-      height: 20em;
-    }
 
-    .fa-bars {
-      display: none;
-    }
-  
-    .header-links i {
-      position: absolute;
-      margin-left: -7.1em;
-      margin-top: -0.6em;
-    }
-  
-    .header-links li {
-      padding: 3.2em 4em 0 4.2em;
-      margin: 0.2em -0.2em 1.0em 7.4em;
-      position: relative;
-      left: -6.5em
-    }
-  
-    .header-links a {
-      list-style-type: none;
-      font-size: 1.9rem;
-    }
-  
-    header .wrapper-width ul {
-      list-style-type: none;
-      font-size: 0.8rem;
-      padding-top: 10px;
-      padding: 10px 0 0- 0; 
-      
-    }
-  
-    .dropdown-options li a {
-      font-size: 1.8rem;
-    }
+  header i {
+    display: none;
+  }
 
-/* ===============
+  header .wrapper-width {
+    width: 100%;
+  }
+
+  nav {
+    margin: auto;
+    width: 90%;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header img {
+    padding: 45px 0 45px 0;
+    width: 30em;
+    height: 20em;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .header-links i {
+    position: absolute;
+    margin-left: -7.1em;
+    margin-top: -0.6em;
+  }
+
+  .header-links li {
+    padding: 3.2em 4em 0 4.2em;
+    margin: 0.2em -0.2em 1em 7.4em;
+    position: relative;
+    left: -6.5em;
+  }
+
+  .header-links a {
+    list-style-type: none;
+    font-size: 1.9rem;
+  }
+
+  header .wrapper-width ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding: 10px 0 0 0;
+  }
+
+  .dropdown-options li a {
+    font-size: 1.8rem;
+  }
+
+  /* ===============
     FOOTER
     =============== */
 
-    .footer-logo {
-      z-index: 5;
-      background-color: #4f9ef3;
-      display: flex;
-      flex-direction: row;
-      margin: 0 0 0 32.5em;
-      width: 50%;
-      border-bottom-left-radius: 2.6em;
-      border-bottom-right-radius: 2.6em;
-    }
-    
-    .footer-logo a {
-      width: 6em;
-      height: 6em;
-    }
-    
-    .footer-logo img {
-      width: 6em;
-      height: 6em;
-    }
-    
-    footer {
-      width: 100%;
-      overflow: auto;
-    }
-    
-    footer img {
-      width: 45%;
-      height: 45%;
-      padding-top: 15px;
-    }
-    
-    footer ul {
-      font-size: 3.8rem;
-      list-style-type: none;
-    }
-    
-    footer h4 {
-      color: #4f9ef3;
-      font-size: 2.5rem;
-      list-style-type: none;
-    }
-    
-    footer li a {
-      font-size: 2.1rem;
-      color: #7eeafb;
-    }
-    
-    .footer-logo img {
-      position: relative;
-      width: 3.0em;
-      height: 3.5em;
-      top: -2em;
-      left: -1.7em;
-    }
-    
-    .information,
-    .contact {
-      margin: 0 1em 0 0;
-    }
-    
-    footer .wrapper-width {
-      background-color: #4c4ce1;
-    }
-    
-    .footer-logo {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-    }
-    
-    .footer-funders-sponsers {
-      position: relative;
-      background-color: #4f9ef3;
-      width: 40%;
-      padding: 0 0 0 0;
-      margin-top: 1em;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      
-    }
-    
-    .footer-funders-sponsers h3{
-      color: #000c5a;
-      font-size: 2.9rem;
-    
-    }
-    
-    .footer-funders-sponsers a {
-      color: #000c5a;
-      font-size: 1.9rem;
-      margin: auto;
-      padding: 3em 0 2em 0;
-    }
-    
-    .footer-hyperlinks {
-      z-index: 1;
-      position: relative;
-      right: -25.8em;
-      top: -7.0em;
-      width: 63%;
-      padding: 3.5em;
-      margin: -40.5em 0 0 3.5em;
-      background-color: #000c5a;
-      display: flex;
-      flex-direction: row;
-      text-align: center;
-    }
-    
-    .footer-hyperlinks a {
-      margin: 1.3em 0 1.3em 0;
-    }
-    
-    .information, .contact {
-      border-top: 0.3rem solid #4c4ce1;
-      position: relative;
-      right: 1.1em;
-      display: flex;
-      flex-direction: column;
-    
-    }
-    
-    .information {
-      padding-right: 1.3em;
-      border-right: 0.3rem solid #4f9ef3;
-    }
-    
-    .location-block h4{
-      text-align: center;
-    
-    }
-    
-    .location-block {
-      background-color: #000c5a;
-      position: relative;
-      right: -20.5em;
-      width: 62%;
-      top: -10.0em;
-      padding: 1.0em 4.5em 0.5em -3.5em;
-      margin: 3.5em 15em 0 8.9em;
-    }
-    
-    .footer-funders-sponsers h3 {
-      font-size: 1.8rem;
-      text-align: center;
-      margin: 0 2em 0 2em;
-    }
-    
-    .footer-hyperlinks-and-location ul,
-    .footer-hyperlinks-and-location li {
-      text-decoration-style: none;
-    }
-    
-    .foooter-footer {
-      margin: -4.1em;
-      background-color: #010626;
-      display: flex;
-      flex-direction: column;
-      padding: 3em 0 3em 0;
-    }
-    
-    .foooter-footer a {
-      color: #7eeafb;
-      text-align: center;
-      position: relative;
-      right: 12.2em;
-      top: 0.2em;
-      font-size: 2.2rem;
-    }
-    
-    .foooter-footer h2 {
-      color: #7eeafb;
-      font-size: 2.2rem;
-      text-align: center;
-      position: relative;
-      right: 4.5em;
-      top: -1.9em;
-    }
-    
-    footer p {
-      color: #4C4CE1;
-      text-align: center;
-      font-size: 1.8rem;
-      position: relative;
-      left: -4.9em;
-      top: 1.5em;
-      margin: -2.1em 0 0 9.1em;
-    }
+  .footer-logo {
+    z-index: 5;
+    background-color: #4f9ef3;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 32.5em;
+    width: 50%;
+    border-bottom-left-radius: 2.6em;
+    border-bottom-right-radius: 2.6em;
+  }
+
+  .footer-logo a {
+    width: 6em;
+    height: 6em;
+  }
+
+  .footer-logo img {
+    width: 6em;
+    height: 6em;
+  }
+
+  footer {
+    width: 100%;
+    overflow: auto;
+  }
+
+  footer img {
+    width: 45%;
+    height: 45%;
+    padding-top: 15px;
+  }
+
+  footer ul {
+    font-size: 3.8rem;
+    list-style-type: none;
+  }
+
+  footer h4 {
+    color: #4f9ef3;
+    font-size: 2.5rem;
+    list-style-type: none;
+  }
+
+  footer li a {
+    font-size: 2.1rem;
+    color: #7eeafb;
+  }
+
+  .footer-logo img {
+    position: relative;
+    width: 3em;
+    height: 3.5em;
+    top: -2em;
+    left: -1.7em;
+  }
+
+  .information,
+  .contact {
+    margin: 0 1em 0 0;
+  }
+
+  footer .wrapper-width {
+    background-color: #4c4ce1;
+  }
+
+  .footer-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .footer-funders-sponsers {
+    position: relative;
+    background-color: #4f9ef3;
+    width: 40%;
+    padding: 0 0 0 0;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .footer-funders-sponsers h3 {
+    color: #000c5a;
+    font-size: 2.9rem;
+  }
+
+  .footer-funders-sponsers a {
+    color: #000c5a;
+    font-size: 1.9rem;
+    margin: auto;
+    padding: 3em 0 2em 0;
+  }
+
+  .footer-hyperlinks {
+    z-index: 1;
+    position: relative;
+    right: -25.8em;
+    top: -7em;
+    width: 63%;
+    padding: 3.5em;
+    margin: -40.5em 0 0 3.5em;
+    background-color: #000c5a;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .footer-hyperlinks a {
+    margin: 1.3em 0 1.3em 0;
+  }
+
+  .information,
+  .contact {
+    border-top: 0.3rem solid #4c4ce1;
+    position: relative;
+    right: 1.1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .information {
+    padding-right: 1.3em;
+    border-right: 0.3rem solid #4f9ef3;
+  }
+
+  .location-block h4 {
+    text-align: center;
+  }
+
+  .location-block {
+    background-color: #000c5a;
+    position: relative;
+    right: -15.9em;
+    width: 62%;
+    top: -10em;
+    padding: 1em 4.5em 0.5em 0em;
+    margin: 3.5em 15em 0 13.4em;
+  }
+
+  .footer-funders-sponsers h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 2em 0 2em;
+  }
+
+  .footer-hyperlinks-and-location ul,
+  .footer-hyperlinks-and-location li {
+    text-decoration-style: none;
+  }
+
+  .foooter-footer {
+    margin: -4.1em;
+    background-color: #010626;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 3em 0;
+  }
+
+  .foooter-footer a {
+    color: #7eeafb;
+    text-align: center;
+    position: relative;
+    right: 12.2em;
+    top: 0.2em;
+    font-size: 2.2rem;
+  }
+
+  .foooter-footer h2 {
+    color: #7eeafb;
+    font-size: 2.2rem;
+    text-align: center;
+    position: relative;
+    right: 4.5em;
+    top: -1.9em;
+  }
+
+  footer p {
+    color: #4c4ce1;
+    text-align: center;
+    font-size: 1.8rem;
+    position: relative;
+    left: -4.9em;
+    top: 1.5em;
+    margin: -2.1em 0 0 9.1em;
+  }
 }

@@ -7,6 +7,41 @@
 6. Page-specific (styles specific to individual locations)
 -----------------------------------------------------*/
 
+/*  =============================
+    TRANSITIONS AND ANIMATIONS 
+    ============================= */
+
+.get-involved:hover {
+  transform: scale(1);
+  border: 0.3em solid #7eeafb;
+  transition: all 300ms ease-out;
+}
+
+.get-involved:not(:hover) {
+  transform: scale(0.8);
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 0.2em solid #2a72f7;
+  transition: all 150ms ease-in;
+}
+
+.get-involved a:hover {
+  transform: scale(1.2);
+  border: 0.4em solid #7eeafb;
+  transition: all 350ms ease-in-out;
+}
+
+.get-involved a:not(:hover) {
+  transform: scale(1);
+  border: 0.2em solid #2a72f7;
+  transition: all 150ms ease-in;
+  padding: 0.5em;
+}
+
+/*  ======================
+    GET INVOLVED SECTION
+  ======================== */
+
 .get-involved {
   padding: 1.5em 0 4em 0;
 }
@@ -82,33 +117,6 @@
     width: calc(33.3% - 1em);
     padding: 0.5em;
     margin: 0.5em;
-  }
-
-  .get-involved:hover {
-    transform: scale(1.0);
-    border: 0.3em solid #7eeafb;
-    transition: all 300ms ease-out;
-  }
-
-  .get-involved:not(:hover) {
-    transform: scale(0.8);
-    padding: 0.5em;
-    margin: 0.5em;
-    border: 0.2em solid #2a72f7;
-    transition: all 150ms ease-in;
-  }
-
-  .get-involved a:hover {
-    transform: scale(1.2);
-    border: 0.4em solid #7eeafb;
-    transition: all 350ms ease-in-out;
-  }
-
-  .get-involved a:not(:hover) {
-    transform: scale(1.0);
-    border: 0.2em solid #2a72f7;
-    transition: all 150ms ease-in;
-    padding: 0.5em;
   }
 
   .get-involved h3 {
