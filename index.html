@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.islandmusicfest.com</title>
+    <link rel="stylesheet" href="homepage-style.css" />
+    <link rel="stylesheet" href="base-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/fontawesome.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/1770e3852a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper-width">
+        <nav>
+          <i onclick="showHide()" class="fa-solid fa-bars"></i>
+          <div id="nav-items">
+            <ul class="header-links">
+              <li><a href="index.html">home</a></li>
+              <li class="dropdown">
+                <a href="2023-performers.html">performers</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownPerformers()" class="dropdown-options">
+                  <li id="dropdown1" class="dropdown-content">
+                    <li><a href="apply-to-peform.html">apply to perform</a></li>
+                    <li><a href="past-performances.html">past performances</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="audience-information.html">audience information</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownAudience()" class="dropdown-options">
+                  <li id="dropdown2" class="dropdown-content">
+                    <li><a href="about-us.html">about us</a></li>
+                    <li><a href="camping.html">camping</a></li>
+                    <li><a href="comox-valley-folk-society.html">comox valley folk society</a></li>
+                    <li><a href="contact-us.html">contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="important-fire-information.html">important fire information</a></li>
+                    <li><a href="the-stages-at-musicfest.html">the stages at musicfest</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="get-involved.html">get involved</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownInvolved()" class="dropdown-options">
+                  <li id="dropdown3" class="dropdown-content">
+                    <li><a href="become-a-sponser.html">become a sponser</a></li>
+                    <li><a href="vendors.html">vendors</a></li>
+                    <li><a href="volunteer.html">volunteer</a></li>
+                    <li><a href="sponsers.html">sponsers</a></li>
+                    <li><a href="festival-acess.html">festival acess</a></li>
+                    <li><a href="schedules.html">schedules</a></li>
+                    <li><a href="musicfest-playlist">music fest playlist</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="ticket.html">tickets</a></li>
+            </ul>
+          </div>
+        </nav>
+          <div class="header-logo">
+            <a href="index.html"></a>
+            <img
+              src="images/Header/vancouver-island-music-fest-logo.png"
+              alt="vancouver island's music fest logo"
+              />
+          </div>
+        </div> 
+    </header>
+    <main>
+      <section class="hero">
+        <div class="wrapper-width">
+          <h1>our next festival is: july 12 - 14, 2024</h1>
+          <video class="background-video" autoplay loop muted title="made in 2019: 25+ years of musicfest video." poster="images/poster/musicfest-2019-vid.jpg">
+            <source src="videos/25-years-of-music-fest.mp4" type="video/mp4">
+            <source src="videos/25-years-of-music-fest.ogg" type="video/ogg">
+          </video>
+          <div class="video-filter"></div>
+          <a href="ticket.html">Tickets avalible!</a>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="wrapper-width">
+          <h2>about us</h2>
+          <p>
+            we are the comox valley folk socitey an non-profit organization
+            formed in 1995 to produce vancouver island musicfest. we are working
+            hard to improve who we are and how we do things in regard to
+            quaility of music we present and how everyone is treated at our
+            festival. We remain proud of our ecnomic impact as one of the
+            primary drivers of cultural tourism on vancouver island
+          </p>
+          <a href="volunteer.html">join us!</a>
+        </div>
+      </section>
+      <section class="call-to-action">
+        <div class="wrapper-width">
+          <article class="call-to-article performer">
+            <img
+              src="images/Home/2023-peformers/2023-peformer-awakneners.jpg"
+              alt="the awakneners standing alongside an beach with thier insturments in thier hands"
+            />
+            <h3>2023 performers</h3>
+            <a href="2023-performers.html"
+              >click here for the 2023 performer listings</a
+            >
+          </article>
+          <article class="tickets call-to-article">
+            <img
+              src="images/Home/ticket-qr.jpg"
+              alt="blurred woman showing an qr code on her phone to acess tickets for an festival"
+            />
+            <h3>tickets</h3>
+            <a href="ticket.html">buy tickets now while thier on sale!</a>
+          </article>
+          <article class="audience-information call-to-article">
+            <img src="images/Home/camping.jpg" alt="photo of some pepole camping in the designated camping areas">
+            <h3>audience information</h3>
+            <a href="FAQ.html">FAQ</a>
+            <a href="audience-information.html">audience-information</a>
+          </article>
+          <article class="volunteer-content call-to-article">
+            <img src="images/Home/vimf-volunteers-2.jpg" alt="an photo of our festival host volunteers, they are wearing purple shirts">
+            <h3>get involved</h3>
+            <a href="volunteer.html">want to volunteer</a>
+            <a href="vendors.html">vendor opportunity</a>
+            <a href="become-a-sponser.html">sponsorship opportunity</a>
+          </article>
+          <article class="old-church-upcoming-concerts call-to-article">
+            <img src="images/Home/old-church-theatre.jpg" alt="an photo of the front of the old church theatre">
+            <h3>upcoming concerts</h3>
+            <p>
+              we have a number of concerts celebrating the old church theatre, a
+              wonderful 180 seat venue in downtown courtenay.
+            </p>
+            <a href="https://oldchurchtheatreshows.com/"
+              >for concert info and tickets click here</a
+            >
+          </article>
+        </div>
+      </section>
+      <section class="get-involved">
+        <div class="wrapper-width">
+          <h3>
+            as an non-profit, we rely on volunteers as our main work-force,
+            alongside that we provide many other options to get involved with
+            us, from being an offical sponser, to setting up as an vendor at
+            musicfest, and provide chances to do so:
+          </h3>
+          <section class="get-involved-content volunteer-class">
+            <h4>want to volunteer?</h4>
+            <p>
+              volunteers are the lifeblood of our orginzation, with an wide
+              variety of teams to work on from garbage collecting, cooking,
+              security, first aid, and hosts, we welcome 1100 volunteers to our
+              team and whould love to have you join our crew!
+            </p>
+            <a href="volunteer.html">volunteer</a>
+          </section>
+          <section class="get-involved-content sponsorship-class">
+            <h4>sponsorship opportunity</h4>
+            <p>
+              contact our team directly at tickets@islandmusicfest.com for more
+              information about 2024 event sponsorship.
+            </p>
+            <a
+              href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://islandmusicfest.b-cdn.net/wp-content/uploads/2023/11/2024-Sponsorship-Brochure-website.pdf"
+              >click for the 2024 Musicfest Sponsorship Package</a
+            >
+          </section>
+          <section class="get-involved-content vendorship-class">
+            <h4>vendorship opportunity</h4>
+            <p>
+              to find more information about becoming an vendor please click
+              here
+            </p>
+            <a href="vendors.html">vendorship information</a>
+          </section>
+        </div>
+      </section>
+      <section class="komosos-section">
+        <div class="wrapper-width">
+          <img src="images/Home/150710_6681-Edit-1536x1536.jpg" alt="An picture of an K'omoks festival.">
+          <h5>
+            the vancouver island music festival community respectfully
+            acknowledges the indigenous pepole on whose tarditional territory
+            our festival celebrates celebrates music, friendship and builds
+            community and, we acknowledge the descendants of the Puntledge,
+            E'iksan and K'omoks pepoles whose historical relationships with this
+            land continues today.
+          </h5>
+          <a href="https://komoks.ca/cultures/">komoks.ca/cultures</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrapper-width">
+        <div class="footer-logo">
+          <a href="https://www.facebook.com/vimusicfest/"></a>
+          <img
+            src="images/Footer/606432_facebook_2048x2048.png"
+            alt="transparent with black outline facebook logo"
+          />
+          <a href="https://www.instagram.com/vi.musicfest/?hl=en"></a>
+          <img
+            src="images/Footer/instagram-logo-black-transparent.png"
+            alt="transparent with black outline instagram logo"
+          />
+          <a
+            href="https://www.google.com/maps/place/Comox+Valley+Exhibition+Grounds/@49.7072355,-125.0082295,17z/data=!3m1!4b1!4m6!3m5!1s0x548813fc7b34fdf1:0xc9bb4f963185a3a5!8m2!3d49.7072355!4d-125.0056546!16s%2Fg%2F1vhkk7dl?entry=ttu"
+          ></a>
+          <img
+            src="images/Footer/location-logo.png"
+            alt="transparent with black outline google maps logo "
+          />
+          <a href="https://musicfest.tickit.ca/musicfestdonation#"></a>
+          <img src="images/Footer/donation-icon.png" alt="donation icon" />
+        </div>
+        <section class="footer-funders-sponsers">
+          <h3>
+            vancouver island musicfest thanks our kind funders and sponsers
+          </h3>
+          <a href="https://www2.gov.bc.ca/gov/content/home"></a>
+          <img
+            src="images/Footer/BCID_V_rgb_pos-150x150.png"
+            alt="british columbia logo"
+          />
+          <a href="https://www.socanfoundation.ca/"></a>
+          <img
+            src="images/Footer/SOCAN_Foundation_4C.png"
+            alt="foundation socan's logo"
+          />
+          <a href="https://www.canada.ca/en/canadian-heritage.html"></a>
+          <img
+            src="images/Footer/heritage_canada_logo.png"
+            alt="heritage canada's logo"
+          />
+          <!-- has 85% of the visual wheight as funders combined width and height. -->
+          <a href="sponsers.html">our sponsers</a>
+        </section>
+        <section class="footer-hyperlinks">
+          <ul class="information">
+            <li><h4>information:</h4></li>
+            <li><a href="ticket.html">- tickets</a></li>
+            <li><a href="2023-performers">- performers</a></li>
+            <li><a href="https://oldchurchtheatreshows.com">- old church theatre</a></li>
+            <li><a href="audience-information.html">- audience information</a></li>
+            </ul>
+          <ul class="contact">
+            <li><h4>contact:</h4></li>
+            <li><a href="contact-us.html">- contact-us</a></li>
+            <li><a href="comox-valley-folk-society">- comox valley folk socitey</a></li>
+            <li><a href="FAQ.html">- FAQ</a></li>
+          </ul>
+        </section>
+        <section class="location-block">
+          <div class="location">
+            <h4>location:</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.8714930758824!2d-125.00822668875898!3d49.70683548067526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813fc7b34fdf1%3A0xc9bb4f963185a3a5!2sComox%20Valley%20Exhibition%20Grounds!5e0!3m2!1sen!2sca!4v1700927184366!5m2!1sen!2sca"
+            style="border:0;" width="600" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+        <section class="foooter-footer">
+          <a href="https://www.islandmusicfest.com/privacy-policy/">privacy policy</a>
+          <h2>2023 Vancouver Island MusicFest</h2>
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner.
+          </p>
+        </section>
+      </div>
+    </footer>
+    <script src="global-javascript.js">
+    </script>
+  </body>
+</html>

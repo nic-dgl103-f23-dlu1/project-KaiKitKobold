@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.islandmusicfest.com</title>
+    <link rel="stylesheet" href="ticket-style.css" />
+    <link rel="stylesheet" href="base-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/fontawesome.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/1770e3852a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper-width">
+        <nav>
+          <i onclick="showHide()" class="fa-solid fa-bars"></i>
+          <div id="nav-items">
+            <ul class="header-links">
+              <li><a href="index.html">home</a></li>
+              <li class="dropdown">
+                <a href="2023-performers.html">performers</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownPerformers()" class="dropdown-options">
+                  <li id="dropdown1" class="dropdown-content">
+                    <li><a href="apply-to-peform.html">apply to perform</a></li>
+                    <li><a href="past-performances.html">past performances</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="audience-information.html">audience information</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownAudience()" class="dropdown-options">
+                  <li id="dropdown2" class="dropdown-content">
+                    <li><a href="about-us.html">about us</a></li>
+                    <li><a href="camping.html">camping</a></li>
+                    <li><a href="comox-valley-folk-society.html">comox valley folk society</a></li>
+                    <li><a href="contact-us.html">contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="important-fire-information.html">important fire information</a></li>
+                    <li><a href="the-stages-at-musicfest.html">the stages at musicfest</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="get-involved.html">get involved</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul onmouseover="dropdownInvolved()" class="dropdown-options">
+                  <li id="dropdown3" class="dropdown-content">
+                    <li><a href="become-a-sponser.html">become a sponser</a></li>
+                    <li><a href="vendors.html">vendors</a></li>
+                    <li><a href="volunteer.html">volunteer</a></li>
+                    <li><a href="sponsers.html">sponsers</a></li>
+                    <li><a href="festival-acess.html">festival acess</a></li>
+                    <li><a href="schedules.html">schedules</a></li>
+                    <li><a href="musicfest-playlist">music fest playlist</a></li>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="ticket.html">tickets</a></li>
+            </ul>
+          </div>
+        </nav>
+          <div class="header-logo">
+            <a href="index.html"></a>
+            <img
+              src="images/Header/vancouver-island-music-fest-logo.png"
+              alt="vancouver island's music fest logo"
+              />
+          </div>
+        </div>  
+    </header>
+    <main>
+      <section class="hero">
+        <div class="wrapper-width">
+          <h1>vancouver island musicfest 2024 weekend passes</h1>
+          <h2><strong>Warning! This site is an student mock-up, and this ticket section is intended 
+            for educational purposes, as a way for the student to learn basic forms. do not put any 
+            sensitive information in the form, if you do it will be deleted by the student
+            and you will be notifed of it's deletion, however
+            the information may be succeptiable to outside forces, such as phising.</strong></h2>
+          <p>runs until: july 12, 2024 - july 14, 2024</p>
+          <img
+          src="images/tickets/tickets_price.png"
+          alt="ticket prices for musicfest."
+          />
+          <a href="#music-fest-information">details</a>
+        </div>
+      </section>
+      <div class="ticket-form">
+        <div class="wrapper-width">
+          <h3>ticket prices:</h3>
+          <form method="post" action="ticket-form.php">
+            <label for="pepoleammo"
+              >ammount your'e expecting to bring in: (campsite.)</label
+            >
+            <input
+              type="text"
+              id="pepoleammo"
+              name="pepoleammount"
+              placeholder="Ex: 1-6"
+            />
+
+            <label for="pepolename" class="pepolename"
+              >what are the name of the pepole your bringing? (seperated by
+              commas)</label
+            >
+            <input
+              type="text"
+              id="pepolename"
+              name="pepoleName"
+              placeholder="Ex: Mike smith, Allsia Bryce etc."
+            />
+
+            <label for="email"
+              >Email<span class="label-required">* (required)</span></label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ex: Kolin@hotmail.com"
+              required
+            />
+            <fieldset>
+              <legend>choose your weekend pass:</legend>
+              <label for="adult-weekend-pass"
+                >$215.00 Adult Weekend Pass: </label>
+              <input
+                type="radio"
+                id="adult-weekend-pass"
+                name="weekendpass"
+                value="adult weekend pass"/>
+              <br/>
+              <label for="senior-weekend-pass"
+                >(65+) $205.00 Senior Weekend Pass: </label>
+              <input
+                type="radio"
+                id="senior-weekend-pass"
+                name="weekendpass"
+                value="senior weekend pass"/>
+              <br>
+              <label for="youth-weekend-pass">(13-18) $125.00 Youth Weekend Pass: </label>
+              <input
+                type="radio"
+                id="youth-weekend-pass"
+                name="weekendpass"
+                value="youth weekend pass"
+              />
+              <br>
+              <label for="child-weekend-pass">(0-12) $0.00 Child Weekend Pass: </label>
+              <input
+                type="radio"
+                id="child-weekend-pass"
+                name="weekendpass"
+                value="child weekend pass"
+              /><br />
+            </fieldset>
+            <label for="message" class="message"
+              >accommodations<span class="label-optional"
+                >* (optional)</span
+              ></label
+            >
+            <textarea
+              id="message"
+              name="message"
+              placeholder="please tell us your pottential accommodations"
+            >
+            </textarea>
+            <p id="music-fest-information">
+              July 12,13 & 14th<br />COMOX VALLEY EXHIBITION GROUNDS<br />4839
+              Headquarters Rd, Courtenay BC<br />
+              NO REFUNDS OR EXCHANGES<br />GATES BEGIN: FRIDAY JULY 12th 3:00 pm
+              GATES CLOSE AT 11:00pm NIGHTLY
+            </p>
+            <div class="wrapper-button">
+              <input class="reset" type="reset" value="Reset" />
+              <input class="submit" type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper-width">
+        <div class="footer-logo">
+          <a href="https://www.facebook.com/vimusicfest/"></a>
+          <img
+            src="images/Footer/606432_facebook_2048x2048.png"
+            alt="transparent with black outline facebook logo"
+          />
+          <a href="https://www.instagram.com/vi.musicfest/?hl=en"></a>
+          <img
+            src="images/Footer/instagram-logo-black-transparent.png"
+            alt="transparent with black outline instagram logo"
+          />
+          <a
+            href="https://www.google.com/maps/place/Comox+Valley+Exhibition+Grounds/@49.7072355,-125.0082295,17z/data=!3m1!4b1!4m6!3m5!1s0x548813fc7b34fdf1:0xc9bb4f963185a3a5!8m2!3d49.7072355!4d-125.0056546!16s%2Fg%2F1vhkk7dl?entry=ttu"
+          ></a>
+          <img
+            src="images/Footer/location-logo.png"
+            alt="transparent with black outline google maps logo "
+          />
+          <a href="https://musicfest.tickit.ca/musicfestdonation#"></a>
+          <img src="images/Footer/donation-icon.png" alt="donation icon" />
+        </div>
+        <section class="footer-funders-sponsers">
+          <h3>
+            vancouver island musicfest thanks our kind funders and sponsers
+          </h3>
+          <a href="https://www2.gov.bc.ca/gov/content/home"></a>
+          <img
+            src="images/Footer/BCID_V_rgb_pos-150x150.png"
+            alt="british columbia logo"
+          />
+          <a href="https://www.socanfoundation.ca/"></a>
+          <img
+            src="images/Footer/SOCAN_Foundation_4C.png"
+            alt="foundation socan's logo"
+          />
+          <a href="https://www.canada.ca/en/canadian-heritage.html"></a>
+          <img
+            src="images/Footer/heritage_canada_logo.png"
+            alt="heritage canada's logo"
+          />
+          <!-- has 85% of the visual wheight as funders combined width and height. -->
+          <a href="sponsers.html">our sponsers</a>
+        </section>
+        <section class="footer-hyperlinks">
+          <ul class="information">
+            <li><h4>information:</h4></li>
+            <li><a href="ticket.html">- tickets</a></li>
+            <li><a href="2023-performers">- performers</a></li>
+            <li><a href="https://oldchurchtheatreshows.com">- old church theatre</a></li>
+            <li><a href="audience-information.html">- audience information</a></li>
+            </ul>
+          <ul class="contact">
+            <li><h4>contact:</h4></li>
+            <li><a href="contact-us.html">- contact-us</a></li>
+            <li><a href="comox-valley-folk-society">- comox valley folk socitey</a></li>
+            <li><a href="FAQ.html">- FAQ</a></li>
+          </ul>
+        </section>
+        <section class="location-block">
+          <div class="location">
+            <h4>location:</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.8714930758824!2d-125.00822668875898!3d49.70683548067526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813fc7b34fdf1%3A0xc9bb4f963185a3a5!2sComox%20Valley%20Exhibition%20Grounds!5e0!3m2!1sen!2sca!4v1700927184366!5m2!1sen!2sca"
+            style="border:0;" width="600" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+        <section class="foooter-footer">
+          <a href="https://www.islandmusicfest.com/privacy-policy/">privacy policy</a>
+          <h2>2023 Vancouver Island MusicFest</h2>
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner.
+          </p>
+        </section>
+      </div>
+    </footer>
+    <script src="global-javascript.js">
+    </script>
+  </body>
+</html>
